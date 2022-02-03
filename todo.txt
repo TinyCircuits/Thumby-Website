@@ -1,0 +1,17 @@
+- add google analytics
+- add link to forum / main site / other learn wiki? - all in a header tab
+- get better favicon
+
+
+
+Nav bar:
+- Home landing page
+- IDE docs/tutorials
+- Thumby API docs
+
+
+Add:
+- home page
+- about us
+- media
+- link to product pages

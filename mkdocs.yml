@@ -1,0 +1,94 @@
+site_name: Thumby Docs
+# google_analytics: ['UA-118275183-2', 'learn.tinycircuits.com']
+nav:
+    - Home: index.md
+    - Thumby IDE:
+       - Getting started: IDE\Get-Started.md
+    - Thumby API: 
+       - Getting started: API\Get-Started.md
+       - Display Basics: API\Graphics.md
+       - Text & Font: API\Text-and-Font.md
+       - Get & Set Pixels: API\Pixels.md
+       - Draw Lines: API\Lines.md
+       - Draw Rectangles: API\Rectangles.md
+       - Blit & Draw Sprite??: API\Blit-Draw.md
+      #  - Graphics: API\Graphics.md
+       - Sprites: API\Sprites.md
+       - Button Input: API\Buttons.md
+       - Audio: API\Audio.md
+    - Thumby EDU: 
+       - Getting started: Education\Get-Started.md
+       - Move Sprite Using D-pad: Education\Move-Sprite.md
+       - Sprite Jump: Education\Jump.md
+       - Walk Animation & Scrolling Background: Education\Moving-Walk.md
+       - Blast Target & Keep Score: Education\Shoot-Target-Keep-Score.md
+      #  - : Education\.md
+       - Bounded Sprite: Education\Bounded-ball.md
+
+
+copyright: Copyright &copy; 2022 TinyCircuits
+
+# code highlighting 
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+# all the colors of light/dark mode
+theme:
+  logo: images/favicon.png
+  favicon: images/favicon.png
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette: 
+    - scheme: default
+      primary: light-blue
+      accent: purple
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - scheme: slate 
+      primary: deep-orange
+      accent: yellow
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  features:
+    - header.autohide
+    - navigation.tabs
+  name: material
+
+# social footer icons and links
+extra:
+  homepage: https://thumby.us # TODO - change this link when we get a new home page?
+  social:
+  - icon: fontawesome/brands/github 
+    link: https://github.com/TinyCircuits
+    name: TinyCircuits on GitHub
+  - icon: fontawesome/brands/discord 
+    link: https://discord.gg/nkwR3WBBXD
+    name: TinyCircuits on Discord
+  - icon: fontawesome/brands/twitter 
+    link: https://twitter.com/TinyCircuits
+    name: TinyCircuits on Twitter
+  - icon: fontawesome/brands/instagram 
+    link: https://www.instagram.com/tinycircuits/
+    name: TinyCircuits on Instagram
+  - icon: fontawesome/brands/facebook 
+    link: https://www.facebook.com/TinyCircuits/
+    name: TinyCircuits on Facebook
+  - icon: fontawesome/brands/youtube
+    link: https://www.youtube.com/channel/UCc4SQjmFcgsbvQFuYNgHuVg
+    name: TinyCircuits on YouTube
+  - icon: fontawesome/brands/linkedin 
+    link: https://www.linkedin.com/company/tinycircuits-com/
+    name: TinyCircuits on LinkedIn
+  - icon: fontawesome/brands/tiktok 
+    link: https://www.tiktok.com/@tinycircuits
+    name: TinyCircuits on TikTok
+  # - icon: fontawesome/heading       # there's no logo for this that works
+  #   link: https://www.hackster.io/tinycircuits
+  #   name: TinyCircuits on Hackster
