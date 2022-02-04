@@ -3,27 +3,27 @@ site_name: Thumby Docs
 nav:
     - Home: index.md
     - Thumby IDE:
-       - Getting started: IDE\Get-Started.md
+       - Getting started: IDE/Get-Started.md
     - Thumby API: 
-       - Getting started: API\Get-Started.md
-       - Display Basics: API\Graphics.md
-       - Text & Font: API\Text-and-Font.md
-       - Get & Set Pixels: API\Pixels.md
-       - Draw Lines: API\Lines.md
-       - Draw Rectangles: API\Rectangles.md
-       - Blit & Draw Sprite??: API\Blit-Draw.md
+       - Getting started: API/Get-Started.md
+       - Display Basics: API/Graphics.md
+       - Text & Font: API/Text-and-Font.md
+       - Get & Set Pixels: API/Pixels.md
+       - Draw Lines: API/Lines.md
+       - Draw Rectangles: API/Rectangles.md
+       - Blit & Draw Sprite??: API/Blit-Draw.md
       #  - Graphics: API\Graphics.md
-       - Sprites: API\Sprites.md
-       - Button Input: API\Buttons.md
-       - Audio: API\Audio.md
+       - Sprites: API/Sprites.md
+       - Button Input: API/Buttons.md
+       - Audio: API/Audio.md
     - Thumby EDU: 
-       - Getting started: Education\Get-Started.md
-       - Move Sprite Using D-pad: Education\Move-Sprite.md
-       - Sprite Jump: Education\Jump.md
-       - Walk Animation & Scrolling Background: Education\Moving-Walk.md
-       - Blast Target & Keep Score: Education\Shoot-Target-Keep-Score.md
+       - Getting started: Education/Get-Started.md
+       - Move Sprite Using D-pad: Education/Move-Sprite.md
+       - Sprite Jump: Education/Jump.md
+       - Walk Animation & Scrolling Background: Education/Moving-Walk.md
+       - Blast Target & Keep Score: Education/Shoot-Target-Keep-Score.md
       #  - : Education\.md
-       - Bounded Sprite: Education\Bounded-ball.md
+       - Bounded Sprite: Education/Bounded-ball.md
 
 
 copyright: Copyright &copy; 2022 TinyCircuits

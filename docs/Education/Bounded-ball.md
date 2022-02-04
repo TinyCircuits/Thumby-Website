@@ -3,7 +3,7 @@
 This example shows a modified snippet of the Brick Breaker Thumby game called Brick'd. When run, the ball Sprite in the program will bounce against the bounded walls of the Thumby screen. 
 
 <center>
-![Bouncing ball](\images\bounded-ball.gif)
+![Bouncing ball](/images/bounded-ball.gif)
 </center>
 <center>
 *Bounded Bouncing Ball*

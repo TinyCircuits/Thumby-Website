@@ -13,7 +13,7 @@ This next example will show a spaceship sprite that moves around the screen depe
 Note that the spaceship will move off the screen with this code snippet since there is no bounding logic. Check out the [bounded ball page](Bounded-ball.md) for more information on keeping a sprite within view. 
 
 <center>
-![Bouncing ball](\images\move-ship-sprite.gif)
+![Bouncing ball](/images/move-ship-sprite.gif)
 </center>
 <center>
 *Spaceship moving around using D-pad buttons*
