@@ -1,4 +1,4 @@
-# Walk Animation on Scrolling Background
+# Walk Animation 
 
 A walk cycle animation consists of a few or several different frames of the movements involved in walking. For a 2-legged human, there may be 2 frames of the right leg moving forward as the left leg moves further back. With different sprites that may have more legs or none at all, you may have to get creative with a walking animation! 
 
@@ -8,10 +8,11 @@ Here's an example of a simple cat walking:
 ![Walking cat](/images/walking-cat.gif)
 </center>
 <center>
-*Spaceship moving around using D-pad buttons*
+*Cat Walking Animation*
 </center>
 
 ```py
+# Written by: Laveréna Wienclaw, Feb 2022
 import thumby
 
 # catFeetTogether = bytearray([243,133,135,231,231,128,129,248])
@@ -49,6 +50,80 @@ while(1):
     thumby.display.update()
     thumby.display.drawSprite(catBackFootTailSpr)
     thumby.display.update()
+```
+
+## Moving Background
+
+With just the walking animation, it doesn't look like the cat is actually walking anywhere. With a moving, or scrolling, background we can add more movement to the scene. Here's a scrolling background:
+
+<center>
+![scrolling background](/images/scrolling-background.gif)
+</center>
+<center>
+*Scrolling nighttime background*
+</center>
+
+```py
+# Written by: Laveréna Wienclaw, Feb 2022
+import thumby
+
+# BITMAP: width: 72, height: 30
+bg = bytearray([0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,128,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,128,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,64,0,0,
+            0,0,0,0,0,8,20,8,0,0,0,128,128,128,128,128,128,128,128,128,128,128,128,128,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,1,0,0,0,0,128,192,224,224,240,240,248,248,252,252,252,252,252,252,252,252,248,248,240,
+            224,240,240,248,248,252,252,254,254,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,254,252,248,248,240,224,224,224,192,192,192,192,192,192,192,192,192,192,192,224,224,224,240,248,252,252,254,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,
+            63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63])
+
+bg2 = bytearray([0,0,0,2,0,0,0,16,64,0,0,0,0,128,64,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,16,40,16,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,64,160,64,2,0,
+            240,224,192,128,128,128,0,8,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,8,0,128,128,128,192,224,240,240,248,248,248,252,252,252,254,254,254,255,255,255,255,255,254,254,254,254,252,252,252,248,248,240,240,225,224,192,192,128,128,0,0,0,0,0,32,0,0,0,
+            255,255,255,255,255,255,255,255,254,254,254,254,252,252,252,252,252,252,252,254,254,254,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,254,252,252,248,240,240,224,224,
+            63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63])
+
+# Background sprites & x positions
+bgSpr = thumby.Sprite(72, 30, bg)
+bg2Spr = thumby.Sprite(72, 30, bg2)
+bgSpr.x = 0
+bg2Spr.x = 72
+
+# Set the FPS 
+thumby.display.setFPS(60)
+
+# Used to keep track of loops and timing when the backgrounds should scroll
+scrollCtr = 0
+
+while(1):
+    thumby.display.fill(1) # Fill canvas to white
+    
+    # Scrolling background
+    scrollCtr += 1
+    if(scrollCtr % 8 == 0):
+        bgSpr.x -= 1
+        bg2Spr.x -= 1
+    
+    # Re-place the x coordinate of backgrounds when they're unseen
+    if (bg2Spr.x == 0):
+        bgSpr.x = 72
+    if (bg2Spr.x == -72):
+        bg2Spr.x = 72
+    
+    thumby.display.drawSprite(bgSpr)
+    thumby.display.drawSprite(bg2Spr)
+    thumby.display.update()
+```
+
+
+## Walking Animation On Moving Background
+
+Together, the walking animation on a scrolling background can achieve the full effect of a sprite moving during gameplay:
+
+<center>
+![scrolling background](/images/scrolling-background.gif)
+</center>
+<center>
+*Scrolling nighttime background*
+</center>
+
+```py
+
 ```
 
 
