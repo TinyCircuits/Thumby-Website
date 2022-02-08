@@ -36,32 +36,26 @@ score = 0
 shootBeam = False
 
 while(1):
-    thumby.display.fill(0) # Fill canvas to black
-    
+    # Fill canvas to black
+    thumby.display.fill(0)
+
     if thumby.buttonA.justPressed():
         shootBeam = True
-        
-    while shootBeam == True:
+    if shootBeam == True:
         thumby.display.fill(0)
         beamSpr.x += 1
-        thumby.display.drawText("Score: ", 15, 3, 1)
-        thumby.display.drawText(str(score), 55, 3, 1) # Make the score number a string - str()
-        thumby.display.drawSprite(shipSpr)
-        thumby.display.drawSprite(meteorSpr)
-        thumby.display.drawSprite(beamSpr)
-        thumby.display.update()
-        
-        if(beamSpr.x == meteorSpr.x): # if beam has collided with meteor
-            beamSpr.x = 11 # reload beam after hitting meteor
-            score += 1
+
+        # Check if beam has collided with meteor
+        if(beamSpr.x >= meteorSpr.x):
+            beamSpr.x = 11 # Reload beam after hitting meteor
+            score += 1     # Increase score and change game state
             shootBeam = False
 
-    # Display the bitmap using bitmap data, position, and bitmap dimensions
+    # Draw the score and sprites
     thumby.display.drawText("Score: ", 15, 3, 1)
     thumby.display.drawText(str(score), 55, 3, 1)
     thumby.display.drawSprite(shipSpr)
     thumby.display.drawSprite(meteorSpr)
     thumby.display.drawSprite(beamSpr)
     thumby.display.update()
-
 ```

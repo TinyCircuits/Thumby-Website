@@ -23,13 +23,11 @@ catFrontSplit =bytearray([179,197,135,231,167,192,193,184])
 catFeetBack = bytearray([179,197,135,231,167,192,129,248])
 catBackFootTail = bytearray([179,197,197,167,167,192,129,248])
 
-# Make a sprite object using bytearray 
-catFootForwardSpr = thumby.Sprite(8, 8, catFootForward, 28, 32)
-catFeetForwardSpr = thumby.Sprite(8, 8, catFeetForward, 28, 32)
-catSplitSpr = thumby.Sprite(8, 8, catSplit, 28, 32)
-catFrontSplitSpr = thumby.Sprite(8, 8, catFrontSplit, 28, 32)
-catFeetBackSpr = thumby.Sprite(8, 8, catFeetBack, 28, 32)
-catBackFootTailSpr = thumby.Sprite(8, 8, catBackFootTail, 28, 32)
+# Make a sprite object including all the walking cat frames
+catSpr = thumby.Sprite(8, 8, catFootForward+catFeetForward+catSplit+catFrontSplit+catFeetBack+catBackFootTail, 28, 32)
+
+# Counter that will be used to point to different walking animation frames
+catSprCtr = 0
 
 # Set the FPS (without this call, the default fps is 30)
 thumby.display.setFPS(8)
@@ -37,18 +35,10 @@ thumby.display.setFPS(8)
 while(1):
     thumby.display.fill(1) # Fill canvas to white
     
-    # Display the sprite frames & 
-    thumby.display.drawSprite(catFootForwardSpr)
-    thumby.display.update()
-    thumby.display.drawSprite(catFeetForwardSpr)
-    thumby.display.update()
-    thumby.display.drawSprite(catSplitSpr)
-    thumby.display.update()
-    thumby.display.drawSprite(catFrontSplitSpr)
-    thumby.display.update()
-    thumby.display.drawSprite(catFeetBackSpr)
-    thumby.display.update()
-    thumby.display.drawSprite(catBackFootTailSpr)
+    # Display the sprite frames & increase the frame counter
+    catSpr.setFrame(catSprCtr)
+    thumby.display.drawSprite(catSpr)
+    catSprCtr += 1
     thumby.display.update()
 ```
 
@@ -122,8 +112,6 @@ Together, the walking animation on a scrolling background can achieve the full e
 *Walking cat on a scrolling nighttime background*
 </center>
 
-You may notice some improvements in displaying the cat animation - by using a **list** of the different cat frames, you can more easily cycle through a walking animation later in the program.
-
 ```py
 # Written by: Laveréna Wienclaw, Feb 2022
 import thumby
@@ -149,15 +137,8 @@ bg2 = bytearray([0,0,0,2,0,0,0,16,64,0,0,0,0,128,64,128,0,0,0,0,0,0,0,0,0,0,0,0,
             63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63])
 
 
-# Make a sprite object using bytearray 
-catFootForwardSpr = thumby.Sprite(8, 8, catFootForward, 28, 32)
-catFeetForwardSpr = thumby.Sprite(8, 8, catFeetForward, 28, 32)
-catSplitSpr = thumby.Sprite(8, 8, catSplit, 28, 32)
-catFrontSplitSpr = thumby.Sprite(8, 8, catFrontSplit, 28, 32)
-catFeetBackSpr = thumby.Sprite(8, 8, catFeetBack, 28, 32)
-catBackFootTailSpr = thumby.Sprite(8, 8, catBackFootTail, 28, 32)
-
-catSprList = [catFootForwardSpr, catFeetForwardSpr, catSplitSpr, catFrontSplitSpr, catFeetBackSpr, catBackFootTailSpr]
+# Make a sprite object including all the walking cat frames
+catSpr = thumby.Sprite(8, 8, catFootForward+catFeetForward+catSplit+catFrontSplit+catFeetBack+catBackFootTail, 28, 32)
 
 # Background sprites & initial x positions
 bgSpr = thumby.Sprite(72, 30, bg)
@@ -173,7 +154,7 @@ thumby.display.setFPS(60)
 scrollCtr = 0
 catSprCtr = 0
 
-while(1):
+while(True):
     thumby.display.fill(1) # Fill canvas to white
     
     # Scrolling background
@@ -195,7 +176,8 @@ while(1):
     # Draw sprites and update display
     thumby.display.drawSprite(bgSpr)
     thumby.display.drawSprite(bg2Spr)
-    thumby.display.drawSprite(catSprList[catSprCtr])
+    catSpr.setFrame(catSprCtr)
+    thumby.display.drawSprite(catSpr)
     thumby.display.update()
 ```
 

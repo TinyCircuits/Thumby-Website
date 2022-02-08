@@ -1,6 +1,6 @@
 # Jump a Sprite
 
-To make a sprite jump, you need to change the coordinates of where the sprite is moving durign a jump action, all while clearing and updating the screen to show the full jump movement. The in this example sprite has no other movement than jumping up and landing back in its original spot when using the A action button. 
+To make a sprite jump, you need to change the coordinates of where the sprite is moving during a jump action, all while clearing and updating the screen to show the full jump movement. This example sprite has no other movement than jumping up and landing back in its original spot when using the A action button. 
 
 <center>
 ![Bouncing ball](/images/jump-animation.gif)
