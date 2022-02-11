@@ -36,7 +36,7 @@ moveNum = 1
 thumby.display.setFPS(45) # set frame rate, between 30-60 is usually best
 
 # Begin main game loop that runs for the course of the game
-while(1):
+while(True):
     thumby.display.fill(0) # Fill canvas to black
     
     # Up, down, left, right button movement logic

@@ -32,7 +32,7 @@ catSprCtr = 0
 # Set the FPS (without this call, the default fps is 30)
 thumby.display.setFPS(8)
 
-while(1):
+while(True):
     thumby.display.fill(1) # Fill canvas to white
     
     # Display the sprite frames & increase the frame counter
@@ -80,7 +80,7 @@ thumby.display.setFPS(60)
 # Used to keep track of loops and timing when the backgrounds should scroll
 scrollCtr = 0
 
-while(1):
+while(True):
     thumby.display.fill(1) # Fill canvas to white
     
     # Scrolling background

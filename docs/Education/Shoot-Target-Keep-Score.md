@@ -35,7 +35,7 @@ thumby.display.setFPS(30)
 score = 0
 shootBeam = False
 
-while(1):
+while(True):
     # Fill canvas to black
     thumby.display.fill(0)
 

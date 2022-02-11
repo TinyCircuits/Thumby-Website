@@ -44,7 +44,7 @@ dpadMap = bytearray([224,32,32,32,32,63,1,1,1,1,1,1,1,1,1,63,32,32,32,32,224,
 dpadSpr = thumby.Sprite(21, 21, dpadMap, 10, 10)
 
 # Begin main game loop that runs for the course of the game
-while(1):
+while(True):
     thumby.display.fill(0) # Fill canvas to black
     
     # draw the dpad sprite first so the text is placed over it

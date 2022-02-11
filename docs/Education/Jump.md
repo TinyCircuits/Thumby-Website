@@ -32,7 +32,7 @@ jumpNum = 1
 thumby.display.setFPS(30) 
 
 # Begin main game loop that runs for the course of the game
-while(1):
+while(True):
     thumby.display.fill(0) # Fill canvas to black
     
     if thumby.buttonA.justPressed():
