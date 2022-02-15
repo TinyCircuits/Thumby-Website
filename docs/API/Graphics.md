@@ -48,8 +48,24 @@ Keep in mind - depending on how many Sprites or animations you build into your g
 
 ### Screen Brightness
 
-`thumby.display.brightness(brightness)` | sets screen to `brightness` value. Returns None, all parameters required.
+`thumby.display.brightness(brightness)` | sets screen to `brightness` value. Returns None, all parameters required. Note: brightness does not emulate in the Web IDE
 
 * `brightness`
     * type: int
     * values: 0 (off) ~ 127 (max brightness)
+
+```py
+import thumby
+
+brightness = 0
+thumby.display.setFPS(60)
+
+while(True):
+    thumby.display.fill(1)
+    thumby.display.brightness(brightness)
+
+    thumby.display.update()
+    brightness += 1
+    if brightness >= 127:
+        brightness = 0
+```

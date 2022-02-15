@@ -52,7 +52,6 @@ When drawing Rectangles, it may be helpful to use the `thumby.display.width` and
 </center>
 
 ```py
-# Written by: Laveréna Wienclaw, Feb 2022
 import thumby
 
 thumby.display.fill(0) # Fill canvas to black

@@ -10,7 +10,6 @@ To make a sprite jump, you need to change the coordinates of where the sprite is
 </center>
 
 ```py
-# Written by: Laveréna Wienclaw, Feb 2022
 import thumby
 
 # Stand and Jump bitmaps: width: 13, height: 9

@@ -11,8 +11,8 @@ nav:
        - Get & Set Pixels: API/Pixels.md
        - Draw Lines: API/Lines.md
        - Draw Rectangles: API/Rectangles.md
-       - Blit & Draw Sprite??: API/Blit-Draw.md
-      #  - Graphics: API\Graphics.md
+       - Blit & Draw Sprite: API/Blit-Draw.md
+      #  - Graphics: API/Graphics.md
        - Sprites: API/Sprites.md
        - Link: API/Link.md
        - Button Input: API/Buttons.md
@@ -23,7 +23,7 @@ nav:
        - Sprite Jump: Education/Jump.md
        - Walk Animation & Scrolling Background: Education/Moving-Walk.md
        - Blast Target & Keep Score: Education/Shoot-Target-Keep-Score.md
-      #  - : Education\.md
+      #  - : Education/.md
        - Bounded Sprite: Education/Bounded-ball.md
 
 

@@ -59,7 +59,6 @@ This example uses both the drawText() and setFont() functions to show the appear
 </center>
 
 ```py
-# Written by: Laveréna Wienclaw, Feb 2022
 import thumby
 
 thumby.display.setFPS(1)

@@ -13,7 +13,6 @@ Whether it be a harmless obstacle, or an opponent that needs some laser-ing, kee
 
 
 ```py
-# Written by: Laveréna Wienclaw, Feb 2022
 import thumby
 
 # BITMAP: width: 8, height: 8

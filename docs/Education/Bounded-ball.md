@@ -10,7 +10,6 @@ This example shows a modified snippet of the Brick Breaker Thumby game called Br
 </center>
 
 ```py
-# Written by: Laveréna Wienclaw, Jan 2022
 import thumby
 
 # Bitmaps
