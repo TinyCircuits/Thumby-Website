@@ -6,6 +6,10 @@ To get started using the Thumby API, import the module at the top of your MicroP
 import thumby
 ```
 
+* ### Constants
+    * `__version__`
+        * type: string
+        * values: 1.0 ~ limitless (increased for changes to library)
 
 <center><img src="  INSERT LINK   " /></center>
 <center>*Materials Picture*</center>
