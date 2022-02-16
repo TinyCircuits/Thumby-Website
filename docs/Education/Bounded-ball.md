@@ -9,6 +9,8 @@ This example shows a modified snippet of the Brick Breaker Thumby game called Br
 *Bounded Bouncing Ball*
 </center>
 
+
+
 ```py
 import thumby
 
@@ -65,6 +67,60 @@ while(True):
         ballDir = 3
 
     # DISPLAY SPRITES & UPDATE SCREEN
+    thumby.display.drawSprite(ballSprite)
+    thumby.display.update()
+```
+
+--- 
+
+### Bounce ball with physics
+
+Since this implementation uses fractions rather than whole numbers, the ball appears to jiggle as it moves on the screen.
+
+<center>
+![Bouncing ball](/images/bounded-ball-vel.gif)
+</center>
+<center>
+*Bounded Bouncing Ball using Velocity*
+</center>
+
+ This jiggling appearance can be minimized by increasing the FPS to 60 or above to make movement more smooth.
+
+```py
+import thumby
+
+# Bitmaps
+ballMap = bytearray([6,15,15,6]) # BITMAP: width: 4, height: 4
+
+# Sprite data
+ballSprite = thumby.Sprite(4, 4, ballMap, key=0)
+
+# Initial placement of ball
+ballSprite.x = 33
+ballSprite.y = 17
+
+# Add some velocity attributes
+ballSprite.xVel = 0.65
+ballSprite.yVel = 0.9
+
+# set frame rate, between 30-60 is usually best
+thumby.display.setFPS(45)
+
+# Begin main game loop that runs for the course of the game
+while(1):
+    # Fill canvas to black
+    thumby.display.fill(0)
+
+    ballSprite.x += ballSprite.xVel
+    ballSprite.y += ballSprite.yVel
+    
+    if ballSprite.x < 0 or ballSprite.x > thumby.display.width - 3:
+        ballSprite.xVel = -ballSprite.xVel
+    
+    if ballSprite.y < 0 or ballSprite.y > thumby.display.height - 3:
+        ballSprite.yVel = -ballSprite.yVel
+
+    # Display sprites and update screen
     thumby.display.drawSprite(ballSprite)
     thumby.display.update()
 ```

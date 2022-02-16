@@ -54,16 +54,19 @@ Keep in mind - depending on how many Sprites or animations you build into your g
     * type: int
     * values: 0 (off) ~ 127 (max brightness)
 
+#### Brightness Example
+
+When uploaded on the Thumby hardware, this example will cycle through the full range of the brightness variable values, 0-127. 
+
 ```py
 import thumby
 
 brightness = 0
-thumby.display.setFPS(60)
+thumby.display.setFPS(30)
+thumby.display.fill(1) # fill screen with white pixels
 
 while(True):
-    thumby.display.fill(1)
     thumby.display.brightness(brightness)
-
     thumby.display.update()
     brightness += 1
     if brightness >= 127:
