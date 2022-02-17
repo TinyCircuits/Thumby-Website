@@ -1,7 +1,6 @@
 - add google analytics
 - add link to forum / main site / other learn wiki? - all in a header tab
-
-- add "View on GiHub" link to every tutorial with example code
+- add "View on GitHub" link to every tutorial with example code
 
 Nav bar:
 - Home landing page

@@ -28,7 +28,9 @@ Not every game has audio, but some definitely do! The game **SaurRun** likely ha
 
 **How long does Thumby take to charge? Is there an indicator when it is charged?**
 
-Thumby takes around 1 hour to completely charge. An LED indicator will turn on from inside the Thumby case to show that 
+Thumby takes around 1 hour to completely charge. An indicator LED will turn on from inside the Thumby case to show that the battery is being charged. The LED will turn off when the battery is fully charged. The LED is located to the left of the micro USB connector.
+
+*Note: The charging LED may be difficult to see through opaque plastic cases. Try turning off the lights in the room you are in if you are having difficulty seeing the LED while charging.*
 
 **How long can I play Thumby on a full charge?**
 

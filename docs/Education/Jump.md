@@ -3,10 +3,10 @@
 To make a sprite jump, you need to change the coordinates of where the sprite is moving during a jump action, all while clearing and updating the screen to show the full jump movement. This example sprite has no other movement than jumping up and landing back in its original spot when using the A action button. 
 
 <center>
-![Bouncing ball](/images/jump-animation.gif)
+![Jump gif](/images/jump-animation.gif)
 </center>
 <center>
-*Sprite jumping up and falling down*
+*Sprite jumping up and falling down on Y plane*
 </center>
 
 ```py
@@ -58,10 +58,10 @@ while(True):
 
 
 <center>
-![Bouncing ball](/images/jump-animation.gif)
+![Jump gif](/images/jump-animation.gif)
 </center>
 <center>
-*Sprite jumping *
+*Sprite jumping Y plane using velocity*
 </center> 
 
 ```py
@@ -122,7 +122,7 @@ while(1):
 ### Parabolic Jump with Velocity
 
 <center>
-![Bouncing ball](/images/jump-animation-parabola.gif)
+![Jump gif](/images/jump-animation-parabola.gif)
 </center>
 <center>
 *Parabolic jumping using X and Y planes*

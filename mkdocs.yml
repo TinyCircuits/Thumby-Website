@@ -2,9 +2,10 @@ site_name: Thumby Docs
 # google_analytics: ['UA-118275183-2', 'learn.tinycircuits.com']
 nav:
     - Home: index.md
-    - Thumby IDE:
+    - Web IDE:
        - Getting started: IDE/Get-Started.md
-    - Thumby API: 
+       - Import Sprite(sheet): IDE/Spritesheet.md
+    - Python API: 
        - Getting started: API/Get-Started.md
        - Display Basics: API/Graphics.md
        - Text & Font: API/Text-and-Font.md
@@ -17,7 +18,7 @@ nav:
        - Link: API/Link.md
        - Button Input: API/Buttons.md
        - Audio: API/Audio.md
-    - Thumby EDU: 
+    - Python EDU: 
        - Getting started: Education/Get-Started.md
        - Move Sprite Using D-pad: Education/Move-Sprite.md
        - Sprite Jump: Education/Jump.md
