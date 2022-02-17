@@ -42,7 +42,7 @@ You can play Thumby for up to two hours on a full charge. Games that display mor
 
 **How do I know if my Thumby has the latest firmware/software?**
 
-You can update the Thumby firmware after connecting your Thumby to the Web IDE - the files system panel has an 'Update' button that will turn red when it detects your software is not up-to-date. Press the 'Update' button to load the newest software. The update will overwrite everything on the Thumby, so make sure you have any files you need off the Thumby saved elsewhere.
+You can update the Thumby firmware after connecting your Thumby to the Web IDE - the files system panel has an 'Update' button that will turn red when it detects your software is not up-to-date. Press the 'Update' button to load the newest software. The update will only overwrite a few core Thumby files.
 
 --- 
 
