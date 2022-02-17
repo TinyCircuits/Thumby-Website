@@ -22,6 +22,7 @@ nav:
        - Setting up environment: CC++/EnvironmentSetup.md
        - Uploading sketches: CC++/UploadingSketches.md
        - API Reference: CC++/APIReference.md
+       - Examples: CC++/Examples.md
     - Python EDU: 
        - Getting started: Education/Get-Started.md
        - Move Sprite Using D-pad: Education/Move-Sprite.md
