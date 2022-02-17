@@ -1,8 +1,6 @@
 - add google analytics
 - add link to forum / main site / other learn wiki? - all in a header tab
-- get better favicon
-
-
+- add "View on GitHub" link to every tutorial with example code
 
 Nav bar:
 - Home landing page
@@ -15,3 +13,4 @@ Add:
 - about us
 - media
 - link to product pages
+- faq

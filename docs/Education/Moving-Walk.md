@@ -12,7 +12,6 @@ Here's an example of a simple cat walking:
 </center>
 
 ```py
-# Written by: Laveréna Wienclaw, Feb 2022
 import thumby
 
 # catFeetTogether = bytearray([243,133,135,231,231,128,129,248])
@@ -54,7 +53,6 @@ With just the walking animation, it doesn't look like the cat is actually walkin
 </center>
 
 ```py
-# Written by: Laveréna Wienclaw, Feb 2022
 import thumby
 
 # BITMAP: width: 72, height: 30

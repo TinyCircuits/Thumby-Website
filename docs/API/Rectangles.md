@@ -48,11 +48,10 @@ When drawing Rectangles, it may be helpful to use the `thumby.display.width` and
 ![Bouncing ball](/images/rectangles-example.png)
 </center>
 <center>
-*Three rectangles*
+*Three rectangles - outer edge rectangle only visible in dark mode*
 </center>
 
 ```py
-# Written by: Laveréna Wienclaw, Feb 2022
 import thumby
 
 thumby.display.fill(0) # Fill canvas to black

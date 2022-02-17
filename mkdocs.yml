@@ -2,17 +2,18 @@ site_name: Thumby Docs
 # google_analytics: ['UA-118275183-2', 'learn.tinycircuits.com']
 nav:
     - Home: index.md
-    - Thumby IDE:
+    - Web IDE:
        - Getting started: IDE/Get-Started.md
-    - Thumby API: 
+       - Import Sprite(sheet): IDE/Spritesheet.md
+    - Python API: 
        - Getting started: API/Get-Started.md
        - Display Basics: API/Graphics.md
        - Text & Font: API/Text-and-Font.md
        - Get & Set Pixels: API/Pixels.md
        - Draw Lines: API/Lines.md
        - Draw Rectangles: API/Rectangles.md
-       - Blit & Draw Sprite??: API/Blit-Draw.md
-      #  - Graphics: API\Graphics.md
+       - Blit & Draw Sprite: API/Blit-Draw.md
+      #  - Graphics: API/Graphics.md
        - Sprites: API/Sprites.md
        - Link: API/Link.md
        - Button Input: API/Buttons.md
@@ -20,14 +21,15 @@ nav:
     - Thumby C/C++:
        - Setting up environment: CC++/EnvironmentSetup.md
        - Uploading sketches: CC++/UploadingSketches.md
-    - Thumby EDU: 
+    - Python EDU: 
        - Getting started: Education/Get-Started.md
        - Move Sprite Using D-pad: Education/Move-Sprite.md
        - Sprite Jump: Education/Jump.md
        - Walk Animation & Scrolling Background: Education/Moving-Walk.md
        - Blast Target & Keep Score: Education/Shoot-Target-Keep-Score.md
-      #  - : Education\.md
+      #  - : Education/.md
        - Bounded Sprite: Education/Bounded-ball.md
+    - FAQ: FAQ.md
 
 
 copyright: Copyright &copy; 2022 TinyCircuits
