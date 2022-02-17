@@ -25,14 +25,3 @@ See this <a href="https://docs.arduino.cc/software/ide-v1/tutorials/installing-l
 
 ### Installing the RP2040 Arduino board package
 Follow the instructions <a href="https://github.com/earlephilhower/arduino-pico#installing-via-arduino-boards-manager" target="_blank" alt="View the RP2040 Arduino board package source">**here**</a> to see the installation process in the Arduino IDE boards manager.
-
-## Configuring upload parameters
-* Open the Arduino IDE and ensure the follow parameters are set under `Tools`
-    2. `Board: -> Raspberry Pi Pico`
-    3. `Flash Size: -> 2MB no FS`
-    4. `CPU Speed: -> 125MHz`
-    5. `Debug Port -> Disabled`
-    6. `USB Stack -> Pico SDK`
-    7. `PORT:`
-
-Leave the port blank for the first upload - it will be set later
