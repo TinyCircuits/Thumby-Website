@@ -17,6 +17,9 @@ nav:
        - Link: API/Link.md
        - Button Input: API/Buttons.md
        - Audio: API/Audio.md
+    - Thumby C/C++:
+       - Setting up environment: CC++/EnvironmentSetup.md
+       - Uploading sketches: CC++/UploadingSketches.md
     - Thumby EDU: 
        - Getting started: Education/Get-Started.md
        - Move Sprite Using D-pad: Education/Move-Sprite.md
