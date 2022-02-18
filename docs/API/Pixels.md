@@ -18,9 +18,11 @@ Setting and getting the state of pixels can be useful for effects like snow, rai
 
 `thumby.display.getPixel(x, y)` | gets value of pixel at `x` and `y`. Returns int (0 or 1), all parameters required.
 
-* `x`
-    * type: int
-    * values: 0 (left) ~ 71 (right)
+`x`
+> type: int
+  
+  > values: 0 (left) ~ 71 (right)
+
 * `y`
     * type: int
     * values: 0 (top) ~ 39 (bottom)

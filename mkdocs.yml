@@ -4,6 +4,7 @@ nav:
     - Home: index.md
     - Web IDE:
        - Getting started: IDE/Get-Started.md
+       - Adding Arcade Games to Thumby: IDE/Arcade-games.md
        - Import Sprite(sheet): IDE/Spritesheet.md
     - Python API: 
        - Getting started: API/Get-Started.md
