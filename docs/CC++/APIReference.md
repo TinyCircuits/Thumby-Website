@@ -97,8 +97,8 @@ Class for driving and using Thumby peripheral components.
 ###### Link
 |                   Link                                                                                                                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `bool linkPack(uint8_t* dataBuf, uint8_t* packedBuf)`<br><br>Packs/copies `dataBuf` to `packedBuf` while adding two data size bytes and a checksum byte. Returns `false` if data size larger than 512 or cannot fit into `packedBuf`, `true` otherwise|
-| `bool linkUnpack(uint8_t* packedBuf, uint8_t* dataBuf)`<br><br>Unpacks/copes data from `packedBuf` to `dataBuf` while removing data and checksum bytes. Returns `false` if checksum in `packedBuf` does not match that generated from extracted data or if data from `packedBuf` cannot fit into `dataBuf`, `true` otherwise|
+| `int8_t linkPack(uint8_t* dataBuf, uint16_t dataBufLen, uint8_t* packedBuf, uint16_t packedBufLen)`<br><br>Packs/copies `dataBufLen` number of bytes from `dataBuf` to `packedBuf` up to `packedBufLen`. Adds three additional bytes for size and checksum. Returns -1 if `dataBufLen` > 512 or `dataBufLen+3` > `packedBufLen`. Returns the full packet length if succeeds (`dataBufLen+3`)|
+| `int8_t linkUnpack(uint8_t* packedBuf, uint16_t packedBufLen, uint8_t* dataBuf, uint16_t dataBufLen)`<br><br>Unpacks/copies `dataBufLen` number of bytes from `packedBuf` to `dataBuf` while removing data and checksum bytes. Returns `-1` if checksum in `packedBuf` does not match that generated from extracted data or if data from `packedBuf` cannot fit into `dataBuf`. Returns `dataLength`|
 
 ##### Public member variables
 |  Name                                   | Description                         |
