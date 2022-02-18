@@ -1,3 +1,8 @@
+tables to getting started pages
+any tiana stuff ?
+
+add a link to the forum somewhere
+
 - add google analytics
 - add link to forum / main site / other learn wiki? - all in a header tab
 - add "View on GitHub" link to every tutorial with example code

@@ -2,14 +2,19 @@
 
 This tutorial will show you how to build a basic project, emulate it, and upload it to your Thumby using our online IDE!
 
-_NOTE: The Thumby IDE and accompanying tutorials will update as more features are added and as we grow our software support for Thumby during **[Kickstarter fulfillment](https://www.kickstarter.com/projects/kenburns/thumby-the-tiny-playable-keychain/ "Thumby Kickstarter Page").** If you are interested in hearing software updates as they happen, [**consider joining our Discord**.](https://discord.gg/vzf3wQXVvm "TinyCircuits Discord Invite Link")_ _Thank you for your patience and support!_
+Any code written in the IDE is saved to your local web storage, so refreshing or closing the IDE webpage won't erase your saved work. Use Ctrl+S to save your programs in the Code Editor. These are the only ways you can lose your progress (*avoid doing these!*):
 
-_Tutorial Last updated: February 17th, 2022_
+* Hard resetting the page: Utilities -> Hard Reset Page (the IDE will warn you not to do this)
+* Clearing your local storage: F12 -> Application -> Local Storage -> Clear
+* Exiting the browser tab with code in it without saving (the IDE will warn you if you have not saved your most recent edits to Thumby)
+
+*NOTE: The Thumby IDE and accompanying tutorials will update as more features are added and as we grow our software support for Thumby during [**Kickstarter fulfillment**](https://www.kickstarter.com/projects/kenburns/thumby-the-tiny-playable-keychain/ "Thumby Kickstarter Page"). If you are interested in hearing software updates as they happen, [**consider joining our Discord**.](https://discord.gg/vzf3wQXVvm "TinyCircuits Discord Invite Link") Thank you for your patience and support!*
+
+*Tutorial Last updated: February 17th, 2022*
 
 ---
 
 ## Materials
-
 
 ### Hardware:
 
@@ -20,11 +25,9 @@ _Tutorial Last updated: February 17th, 2022_
 
 *   [**TinyCircuits Thumby Editor IDE website**](https://tinycircuits.github.io/ "Thumby Editor") -  *NOTE: Compatible only with [**Google Chrome**](https://www.google.com/chrome/ "Google Chrome Download") or [**Microsoft Edge**](https://www.microsoft.com/en-us/edge "Microsoft Edge Download") web browsers (other browsers not supported)*
 
-
 ---
 
 ## Using the Thumby IDE
-
 
 Open Google Chrome or Microsoft Edge and open the [**online Thumby IDE**](https://tinycircuits.github.io/ "Thumby IDE"), the below screen will appear:
 
@@ -53,16 +56,15 @@ As you get familiar with the Thumby Web IDE - hover over buttons to get tooltip 
 The below screenshot shows the button locations and order to click them in.  
 
 ![Step 2 of connecting thumby on web browser ide](https://cdn.shopify.com/s/files/1/1125/2198/files/Connect-Thumby-steps-2.png?v=1641501335)
+
 ![Steps 3 and 4 of connecting thumby using the web browser IDE](https://cdn.shopify.com/s/files/1/1125/2198/files/Connect-Thumby-steps-3-4.png?v=1641501377)
 
-<center></center>
-_Steps to connect Thumby_
+<center>*Steps to connect Thumby*</center>
 
-If connection is successful, a green 'Connected' message will be printed to the terminal - you will also see a hardware icon appear at the right side of the browser tab to show that you are connected to a Serial port.
+If connection is successful, a green 'Connected' message will be printed to the terminal - you will also see a hardware icon appear at the right side of the browser tab to show that you are connected to a Serial port. 
 
 ![Thumby Connected Screen](https://cdn.shopify.com/s/files/1/1125/2198/files/Thumby-Connected-Screen.png?v=1641501851)
-<center></center>
-_Thumby Connection Screen_
+<center>*Thumby Connection Screen*</center>
 
 After doing the above connection steps, the Thumby will be paired to the webpage and will auto-connect when 'Connect Thumby' is clicked.
 
@@ -71,7 +73,6 @@ With the Thumby connected it is time to upload some code!
 ---
 
 ## The Code - Thumby Games!
-
 
 Follow the below steps to start a project and then upload it to Thumby.
 
@@ -89,10 +90,9 @@ After exploring any of the library or game files, close those editors by left-cl
 ![Closing thumby editor tabs](https://cdn.shopify.com/s/files/1/1125/2198/files/Thumby-ide-close-out-tabs.png?v=1641502932)
 <center>*Closing any open editor tabs*</center>
 
-
 If you close all of the editors, or close out of any of the other Windows like the **Shell** or **Emulator**, you can reopen these windows by going to 'Utilities' -> 'Widgets' -> and then you can add back any window panel options.
 
-### Writing Your First Thumby Game
+### Writing Your First Thumby Project
 
 Follow the below steps and enter code as you go to program your first Thumby project.
 
@@ -182,13 +182,13 @@ If the above code was used, the below animation will play after selecting 'Hello
 *   Execute a single file on the Thumby at root level '/' using the 'Fast Execute' button in any code editor
 *   Import/export a .py file from/to your computer using the file drop-down in any editor (left-click 'File')
 *   Change the font size of individual editors using the view drop down (left-click 'View')
-*   Delete files or directories on the Thumby by left-clicking in the **Filesystem**panel
+*   Delete files or directories on the Thumby by left-clicking in the **Filesystem** panel
 *   Open files stored in Thumby by right-clicking in **Filesystem** panel
-*   Reset page layout by re-positioning each panel using button under Utilities -> Reset Layout
-*   Reset and erase all page memory using button under Utilities -> Hard Reset Page
-*   Clear and invert buttons in the bitmap builder
+*   Reset page layout by re-positioning each panel using button under 'Utilities' -> 'Reset Layout'
+*   Reset and erase all page memory using button under Utilities -> 'Hard Reset Page'
+*   'Clear' and 'Invert' buttons in the **bitmap builder** panel
 *   Import exported lines to bitmap builder by selecting bitmap array and comment then left-clicking
-*   Download most compatible/tested Thumby MicroPython firmware through Utilities -> Download Firmware button and follow instructions provided when hovering over 'Download Firmware' button
+*   Download most compatible/tested Thumby MicroPython firmware through 'Utilities' -> 'Download Firmware' button and follow instructions provided when hovering over 'Download Firmware' button
 *   All work is automatically saved to the webpage, nothing is lost on a page refresh
 
 ---
