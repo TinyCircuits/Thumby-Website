@@ -43,6 +43,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - tables
 
 # all the colors of light/dark mode
 theme:
