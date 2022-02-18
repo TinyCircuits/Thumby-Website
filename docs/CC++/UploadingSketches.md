@@ -1,3 +1,5 @@
+#Uploading sketches
+
 With the programming environment setup, it's time to upload a sketch.
 
 ## Configuring upload parameters
@@ -18,8 +20,8 @@ Leave the port blank for the first upload - it will be set later
     1. Turn Thumby off
     2. Press and hold the down DPAD direction
     3. Turn Thumby on while continuing to hold the down DPAD direction
-    4. See a black screen on Thumby and a file explorer pop up the computer
+    4. Wait for a file explorer to pop up on the computer or for the "RPI-RP2" volume to automatically mount
     5. Click "Upload" in the top left of the IDE and wait for the "Done uploading" message above the console
     6. Select `Tools -> Port: -> XXX(Raspberry Pi Pico)` (select the port marked as a pico)
 
-If successful, the Thumby will start showing something other than a black screen. The above process only needs to be redone on the first time connecting a Thumby or if an error like "No drive to deploy" occurs.
+If successful, the Thumby will start showing something other than a black screen. The above process only needs to be done on the first time connecting a Thumby or if an error like "No drive to deploy" occurs.
