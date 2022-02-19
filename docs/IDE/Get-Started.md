@@ -23,7 +23,7 @@ Any code written in the IDE is saved to your local web storage, so refreshing or
 
 ### Software:
 
-*   [**TinyCircuits Thumby Editor IDE website**](https://tinycircuits.github.io/ "Thumby Editor") -  *NOTE: Compatible only with [**Google Chrome**](https://www.google.com/chrome/ "Google Chrome Download") or [**Microsoft Edge**](https://www.microsoft.com/en-us/edge "Microsoft Edge Download") web browsers (other browsers not supported)*
+*   <a href="https://tinycircuits.github.io/" target="_blank" alt="TinyCircuits Thumby Web Browser IDE page">**TinyCircuits Thumby Web IDE**</a> -  *NOTE: Compatible only with [**Google Chrome**](https://www.google.com/chrome/ "Google Chrome Download") or [**Microsoft Edge**](https://www.microsoft.com/en-us/edge "Microsoft Edge Download") web browsers (other browsers not supported)*
 
 ---
 

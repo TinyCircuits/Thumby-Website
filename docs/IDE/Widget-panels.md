@@ -26,20 +26,26 @@ main.py: The first script to be run when Thumby powers on. It sets up the Thumby
 menu.py: Displays the Thumby menu. 
 thumby.cfg: A file used by main.py and menu.py to store settings. Users typically should not care about this.
 
-lib folder (directory)
+#### lib folder (directory)
+
 Files required for running Thumby and Thumby’s main program. Most users do not need to touch this. 
-ssd1306.py: The display driver code for the Thumby screen. 
-thumby.py: The main API users use to render code on the Thumby screen and interact with Thumby buttons.
-credits.txt: All our supporters who backed our campaign!
-Games folder
+
+* ssd1306.py: The display driver code for the Thumby screen. 
+* thumby.py: The main API users use to render code on the Thumby screen and interact with Thumby buttons.
+* credits.txt: All our special kit supporters who backed our Kickstarter campaign!
+
+#### Games folder
+
 Where Thumby game files are stored. 
 For every game, there should only be 1 main python script to run. 
 Place your game file in /Games/MyNewGame/MyNewGame.py for it to display on the Thumby main screen. Make sure your python file has the exact same name as the game. Ie. if the game is called TinyBlocks, the source file is named TinyBlocks.py
-Submitting a game for the arcade
-Python file with the same name as the game. Ie. if the game is called TinyBlocks, the source file is named TinyBlocks.py
-.png (image) or .webm (video) file: Image or video of gameplay. Filename does not matter, but file extension is required for either file. If both files are present, the .webm file will be used. Please keep image and video resolution between anything from 8x (576x320px) to 16x (1152x640px).
-.txt file: Description of game that appears when user hovers over the game in the Thumby.
 
+
+#### Submitting a game for the arcade
+
+* Python file with the same name as the game. Ie. if the game is called TinyBlocks, the source file is named TinyBlocks.py
+* .png (image) or .webm (video) file: Image or video of gameplay. Filename does not matter, but file extension is required for either file. If both files are present, the .webm file will be used. Please keep image and video resolution between anything from 8x (576x320px) to 16x (1152x640px).
+* .txt file: Description of game that appears when user hovers over the game in the Thumby.
 
 ---
 ## Bitmap Builder

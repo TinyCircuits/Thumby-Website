@@ -11,9 +11,6 @@ Thumby was funded by <a href="https://www.kickstarter.com/projects/kenburns/thum
 <a href="https://www.indiegogo.com/projects/thumby-the-tiny-playable-keychain/x/28495928#/" target="_blank" alt="TinyCircuits Indiegogo Thumby page">**Pre-order Thumby now on Indiegogo!**</a>
 
 
-
-<a href="" target="_blank" alt="TinyCircuits ">****</a>
-
 ---
 
 ## Play & program using µPython
@@ -23,7 +20,6 @@ Thumby was funded by <a href="https://www.kickstarter.com/projects/kenburns/thum
 We created a [**Thumby MicroPython API**](/API/Get-Started/) (application programming interface), to make programming even easier! Using our all-in-one [**Web Browser IDE**](https://tinycircuits.github.io/) (integrated development environment), you are just a few tutorials away from creating your own Thumby program or game! The IDE also contains the Thumby Arcade where users publish their games for anyone to play and download to their own Thumby. 
 
 Navigate to the [**Web IDE documentation**](/IDE/Get-Started/) to learn more.
-
 
 ---
 
