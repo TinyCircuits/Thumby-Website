@@ -7,7 +7,7 @@ Animations are important for gameplay and aesthethic appearance. One of the best
 To import a spritesheet, press the 'Import Sprite' button. 
 
 <center>
-![Import Sprite image 1](/images/Import-sprite-window-on-open.PNG)
+![Import Sprite image 1](/images/import-sprite-window-on-open.PNG)
 </center>
 <center>
 *Import Sprite window*
@@ -16,7 +16,7 @@ To import a spritesheet, press the 'Import Sprite' button.
 Find or make a spritesheet, and press 'Open Sheet Image' to open it in the Editor window. 
 
 <center>
-![Import Sprite image 2](/images/Import-sprite-sheet.PNG)
+![Import Sprite image 2](/images/import-sprite-sheet.PNG)
 </center>
 <center>
 *Imported Spritesheet*
@@ -26,7 +26,7 @@ To frame the frames you'd like to import, you'll need to edit the number of fram
 
 
 <center>
-![Import Sprite image 3](/images/Import-sprite-x-y-count.PNG)
+![Import Sprite image 3](/images/import-sprite-x-y-count.PNG)
 </center>
 <center>
 *Sprite altered x and y count*
@@ -37,7 +37,7 @@ Then, change the Frame width and height(px) values to match the frames. You can 
 Note: Spritesheets, and therefore sprites that are too big (larger than 72x40) will not fully display on the Thumby screen. Depending on the number and size of frames, you may get a memory error. Resize your image to smaller pixel values to solve this issue.
 
 <center>
-![Import Sprite image 4](/images/Import-sprite-frame-overlay.PNG)
+![Import Sprite image 4](/images/import-sprite-frame-overlay.PNG)
 </center>
 <center>
 *Sprite frame overlay*
@@ -65,7 +65,7 @@ Once you have frames that you like, it's time to display them on the Thumby! Sel
 Here's an example of a short program displaying the butterfly flutter frames after using the 'To Clipboard' option:
 
 <center>
-![Import Sprite animation](/images/Import-sprite-butterfly-flutter.gif)
+![Import Sprite animation](/images/import-sprite-butterfly-flutter.gif)
 </center>
 <center>
 *Butterfly Flutter animation on emulated Thumby screen*
