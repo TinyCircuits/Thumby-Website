@@ -25,7 +25,7 @@
 
 Main library for screen, button, audio, and link cable interaction.
 
-Inherits most functionality from `GraphicsBuffer.h`, `ssd1306.h`, and `font.h` libraries. This section is a summary of what is accessible and useful through the `Thumby.h` library.
+Inherits most functionality from `GraphicsBuffer.h` and `font.h` libraries. This section is a summary of what is accessible and useful through the `Thumby.h` library.
 
 ---
 
