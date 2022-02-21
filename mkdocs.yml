@@ -3,10 +3,12 @@ site_name: Thumby Docs
 nav:
     - Home: index.md
     - Web IDE:
-       - Getting started: IDE/Get-Started.md
-       - Widgets/Panels: IDE/Widget-panels.md
+       - Getting Started - First Program: IDE/Get-Started.md
+       - Widgets / Panels: IDE/Widget-panels.md
        - Adding Arcade Games to Thumby: IDE/Arcade-games.md
        - Import Sprite(sheet): IDE/Spritesheet.md
+       - Submitting a Game to the Arcade: IDE/Submit-Game.md
+       - Making a Game: IDE/Making-a-game.md
     - µPython API: 
        - Getting started: API/Get-Started.md
        - Display Basics: API/Graphics.md

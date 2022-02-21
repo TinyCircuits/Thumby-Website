@@ -16,6 +16,23 @@ If one of the below options doesn't answer your question(s), you can post on the
 
 ---
 
+
+### Multiplayer Link Cable
+
+**Is the Thumby Link cable the same as an OTG cable, or is it different?**
+
+
+The pin wiring of the OTG cable would need to be verified. 
+
+<center>
+![TinyCircuits Thumby Link cable](/images/USB-pinout.png)
+</center>
+<center>
+*Micro USB Pinout diagram*
+</center>
+
+The Thumby Link cable is a custom cable that connects GND to GND (pin 5), and ID pin to ID pin (pin 4) for data transfer.
+
 ### Audio
 
 **How can I test that the audio is working?**
