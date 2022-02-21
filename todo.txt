@@ -12,7 +12,6 @@ Nav bar:
 - IDE docs/tutorials
 - Thumby API docs
 
-
 Add:
 - home page
 - about us

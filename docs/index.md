@@ -14,11 +14,17 @@ Thumby was funded by <a href="https://www.kickstarter.com/projects/kenburns/thum
 
 ## Play & program using µPython
 
-µPython, or <a href="https://micropython.org/" target="_blank" alt="MicroPython documentation and site">**MicroPython**</a>, is an implementation of Python 3 optimized to run on microcontrollers, like the RP2040 in Thumby! MicroPython is a great way to get started with learning how to program, or to just quickly get a new game made on the Thumby. 
+µPython, or <a href="https://micropython.org/" target="_blank" alt="MicroPython documentation and site">**MicroPython**</a>, is an implementation of Python 3 optimized to run on microcontrollers, like the RP2040 in Thumby! MicroPython is a great way to get started with learning how to program, or to quickly make a new game. 
 
 We created a [**Thumby MicroPython API**](/API/Get-Started/) (application programming interface), to make programming even easier! Using our all-in-one [**Web Browser IDE**](https://tinycircuits.github.io/) (integrated development environment), you are just a few tutorials away from creating your own Thumby program or game! The IDE also contains the Thumby Arcade where users publish their games for anyone to play and download to their own Thumby. 
 
 Navigate to the [**Web IDE documentation**](/IDE/Get-Started/) to learn more.
+
+---
+
+## Play & program using C/C++
+
+Check out our [documentation for the Arduino C/C++ library](/CC++/API-Reference.md) created for use with Thumby. 
 
 ---
 
@@ -47,15 +53,6 @@ Join the <a href="https://discord.gg/vzf3wQXVvm" target="_blank" alt="TinyCircui
 ---
 
 ## Thumby in the media
-
-
-
-
-
-
-
-
-
 
 
 * *"Even photos of it can’t prepare you for just how small the Thumby is when you first pick it up"* - <a href="https://gizmodo.com/how-small-is-too-small-for-a-game-boy-the-thumby-might-1847722821" target="_blank" alt="TinyCircuits Thumby Article Blog">**Gizmodo**</a>

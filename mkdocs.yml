@@ -23,9 +23,9 @@ nav:
        - Button Input: API/Buttons.md
        - Audio: API/Audio.md
     - Thumby C/C++:
-       - Setting up environment: CC++/EnvironmentSetup.md
-       - Uploading sketches: CC++/UploadingSketches.md
-       - API Reference: CC++/APIReference.md
+       - Setting up environment: CC++/Environment-Setup.md
+       - Uploading sketches: CC++/Uploading-Sketches.md
+       - API Reference: CC++/API-Reference.md
        - Examples: CC++/Examples.md
     - µPython EDU: 
        - Getting started: Education/Get-Started.md
