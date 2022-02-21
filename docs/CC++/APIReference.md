@@ -92,7 +92,7 @@ Class for driving and using Thumby peripheral components.
 ###### Buttons
 |                   Buttons                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `bool checkPressed(uint8_t mask)`<br><br>Returns `true` if any buttons correlating to the ORed button `mask` (see "Defines" section) are pressed, `false` otherwise|
+| `bool isPressed(uint8_t mask)`<br><br>Returns `true` if any buttons correlating to the ORed button `mask` (see "Defines" section) are pressed, `false` otherwise   |
 
 ###### Link
 |                   Link                                                                                                                                                                                                                                |

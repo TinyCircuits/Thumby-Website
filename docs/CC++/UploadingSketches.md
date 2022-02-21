@@ -15,7 +15,7 @@ Leave the port blank for the first upload - it will be set later
 
 ## Uploading
 1. Open the Arduino IDE
-2. Open an example using `File -> Examples -> TinyCircuits-Thumby-Lib -> ThumbyVoxelExample`
+2. Open an example using `File -> Examples -> Thumby -> ThumbySimpleExample`
 3. Put Thumby into BOOTSEL mode:
     1. Turn Thumby off
     2. Press and hold the down DPAD direction
