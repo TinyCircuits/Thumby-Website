@@ -25,7 +25,7 @@
 
 Main library for screen, button, audio, and link cable interaction.
 
-Inherits most functionality from `GraphicsBuffer.h`, `ssd1306.h`, and `font.h` libraries. This section is a summary of what is accessible and useful through the `Thumby.h` library.
+Inherits most functionality from `GraphicsBuffer.h` and `font.h` libraries. This section is a summary of what is accessible and useful through the `Thumby.h` library.
 
 ---
 
@@ -92,7 +92,7 @@ Class for driving and using Thumby peripheral components.
 ###### Buttons
 |                   Buttons                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `bool checkPressed(uint8_t mask)`<br><br>Returns `true` if any buttons correlating to the ORed button `mask` (see "Defines" section) are pressed, `false` otherwise|
+| `bool isPressed(uint8_t mask)`<br><br>Returns `true` if any buttons correlating to the ORed button `mask` (see "Defines" section) are pressed, `false` otherwise   |
 
 ###### Link
 |                   Link                                                                                                                                                                                                                                |
