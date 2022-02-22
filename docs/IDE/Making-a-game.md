@@ -400,12 +400,13 @@ For Brick'd, I thought a happy noise when a brick is broken and a sad, continuou
 ```py
 # Play a 'happy' sound when brick is deleted, at 440 hz for 300ms 
 thumby.audio.play(440, 300) 
-
-...
-
-thumby.audio.play(260, 250) # losing sound
 ```
 
-With everything working and added, all that's left to do is play-test to make sure everything's working. Then the game can be **[submitted to the Thumby Arcade for everyone to play](https://tinycircuits.com/blogs/learn/thumby-tutorial-submitting-a-game "submitting a thumby game to the IDE arcade via Github tutorial")**! 
+```py
+# Play a losing sound
+thumby.audio.play(260, 250) 
+```
+
+With everything working and added, all that's left to do is play-test to make sure everything's working. Then the game can be **[submitted to the Thumby Arcade for everyone to play](/IDE/Submit-Game/ "submitting a thumby game to the IDE arcade via Github tutorial")**! 
 
 ---

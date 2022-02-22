@@ -37,6 +37,8 @@ The pin wiring of the OTG cable would need to be verified.
 
 The Thumby Link cable is a custom cable that connects GND to GND (pin 5), and ID pin to ID pin (pin 4) for data transfer.
 
+---
+
 ### Audio
 
 **How can I test that the audio is working?**

@@ -84,7 +84,7 @@ Since this implementation uses fractions rather than whole numbers, the ball app
 *Bounded Bouncing Ball using Velocity*
 </center>
 
- This jiggling appearance can be minimized by increasing the FPS to 60 or above to make movement more smooth.
+ This jiggling appearance seen in the above animation can be minimized by increasing the FPS to 60, or above; increased FPS will make movement more smooth.
 
 ```py
 import thumby
