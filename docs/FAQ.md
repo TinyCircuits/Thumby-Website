@@ -14,6 +14,10 @@ If one of the below options doesn't answer your question(s), you can post on the
 * Unplug the device completely and open your 'Device Manager' (windows) -> click on 'Ports' -> plug the device back in to see if anything shows up. For thumby you should see "USB Serial Device (COM##)" where ## can be any number
 * If you still don't see anything showing up, try turning your computer off and restart. It's possible you have some serial device interfering with your ability to communicate with Thumby. Such as a USB hub or other peripheral devices, like a mouse.
 
+**The Thumby hardware freezes when it connects to the IDE, is it broken?**
+
+No! This is natural behavior. The Thumby hardware stops working because it is being 
+
 ---
 
 

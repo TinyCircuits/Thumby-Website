@@ -28,7 +28,6 @@ Play all the games you want - be sure to check back occasionally to see new game
 
 ## Download Games to Thumby Hardware
 
-
 If you are unsure on how to connect your Thumby to the Web IDE, please go through the **[Getting Started tutorial](https://tinycircuits.com/blogs/learn/thumby-getting-started-tutorial "thumby getting started tutorial")** to learn or refresh your memory. 
 
 ![connect thumby to web ide button screenshot](/images/ide-connect-thumby.png)
@@ -48,7 +47,6 @@ Having any troubles or questions? Maybe you have a game idea and aren't sure whe
 ---
 
 ## Contact Us
-
 
 If you have any questions or feedback, feel free to contact **[TinyCircuits support](https://tinycircuits.com/pages/contact-us "TinyCircuits email and contact form")** or make a post on the **[TinyCircuits forum](http://forum.tinycircuits.com/index.php "TinyCircuits Arduino forum")**.
 

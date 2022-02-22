@@ -16,12 +16,12 @@ nav:
        - Get & Set Pixels: API/Pixels.md
        - Draw Lines: API/Lines.md
        - Draw Rectangles: API/Rectangles.md
-       - Blit & Draw Sprite: API/Blit-Draw.md
       #  - Graphics: API/Graphics.md
        - Sprites: API/Sprites.md
-       - Link: API/Link.md
        - Button Input: API/Buttons.md
        - Audio: API/Audio.md
+       - Multiplayer Link: API/Link.md
+       - Blit & Draw Sprite: API/Blit-Draw.md
     - Thumby C/C++:
        - Setting up environment: CC++/Environment-Setup.md
        - Uploading sketches: CC++/Uploading-Sketches.md
