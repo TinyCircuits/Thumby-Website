@@ -31,12 +31,12 @@ Any code written in the IDE is saved to your local web storage, so refreshing or
 
 Open Google Chrome or Microsoft Edge and open the [**online Thumby IDE**](https://tinycircuits.github.io/ "Thumby IDE"), the below screen will appear:
 
-![Thumby web browser ide dark mode screenshot](https://cdn.shopify.com/s/files/1/1125/2198/files/Thumby-Google-Chrome-IDE-Dark.png?v=1641501481)
+![Thumby web browser ide dark mode screenshot](/images/ide-initial-dark.PNG)
 <center>*Figure 1: Screen on opening IDE for the first time*</center>
 
 If you prefer a light theme, hover over the 'Utilities' dropdown in the top bar and left-click 'Invert Theme'.
 
-![Thumby web browser ide light mode screenshot](https://cdn.shopify.com/s/files/1/1125/2198/files/Thumby-Google-Chrome-IDE-Light.png?v=1641501451)
+![Thumby web browser ide light mode screenshot](/images/ide-initial-light.png)
 <center>*Figure 2: Light theme*</center>
 
 As you get familiar with the Thumby Web IDE - hover over buttons to get tooltip information on what menus and buttons will do.
@@ -55,16 +55,16 @@ As you get familiar with the Thumby Web IDE - hover over buttons to get tooltip 
 
 The below screenshot shows the button locations and order to click them in.  
 
-![Step 2 of connecting thumby on web browser ide](https://cdn.shopify.com/s/files/1/1125/2198/files/Connect-Thumby-steps-2.png?v=1641501335)
+![Step 2 of connecting thumby on web browser ide](/images/ide-connect-thumby.png)
+<center>*Steps 2: Press 'Connect Thumby' button*</center>
 
-![Steps 3 and 4 of connecting thumby using the web browser IDE](https://cdn.shopify.com/s/files/1/1125/2198/files/Connect-Thumby-steps-3-4.png?v=1641501377)
-
-<center>*Steps to connect Thumby*</center>
+![Steps 3 and 4 of connecting thumby using the web browser IDE](/images/ide-connect-thumby-serial.png)
+<center>*Steps 3 and 4 to connect Thumby*</center>
 
 If connection is successful, a green 'Connected' message will be printed to the terminal - you will also see a hardware icon appear at the right side of the browser tab to show that you are connected to a Serial port. 
 
-![Thumby Connected Screen](https://cdn.shopify.com/s/files/1/1125/2198/files/Thumby-Connected-Screen.png?v=1641501851)
-<center>*Thumby Connection Screen*</center>
+![Thumby Connected Screen](/images/ide-connected-shell.PNG)
+<center>*Thumby Connection Screen & Filesystem*</center>
 
 After doing the above connection steps, the Thumby will be paired to the webpage and will auto-connect when 'Connect Thumby' is clicked.
 
@@ -78,17 +78,14 @@ Follow the below steps to start a project and then upload it to Thumby.
 
 *   Hover over the 'Utilities' menu and click 'Make New Game ', set the name to anything you like.
 
-![Thumby IDE create a new game](https://cdn.shopify.com/s/files/1/1125/2198/files/Thumby-IDE-new-game.png?v=1641502683)
+![Thumby IDE create a new game](/images/ide-new-game.PNG)
 <center>*New game creation*</center>
 
 *   Click 'OK' after typing in a name, in this case, we used: **HelloWorld**
 
 The Thumby **Filesystem** should be preloaded with a 'Games' and 'lib' folder, each containing files. Double left-click any file to open it in a webpage code editor. 'thumby.py' in 'lib' is the main API that should be used to program your projects.
 
-After exploring any of the library or game files, close those editors by left-clicking the 'X' in the respective tab of the editor, see the pink arrow in the below image.
-
-![Closing thumby editor tabs](https://cdn.shopify.com/s/files/1/1125/2198/files/Thumby-ide-close-out-tabs.png?v=1641502932)
-<center>*Closing any open editor tabs*</center>
+After exploring any of the library or game files, close those editors by left-clicking the 'X' in the respective tab of the editor.
 
 If you close all of the editors, or close out of any of the other Windows like the **Shell** or **Emulator**, you can reopen these windows by going to 'Utilities' -> 'Widgets' -> and then you can add back any window panel options.
 
@@ -111,6 +108,7 @@ import math
 *   _NOTE: The **Bitmap Builder** will be deprecated in future Thumby Web Browser IDE versions._
 
 *   Or you can draw a Sprite/Bitmap using a tool like [**GIMP**](https://www.gimp.org/ "Gimp website") - export btimaps as binary files (.bin) to include in your games.
+
 ```py
 # BITMAP: width: 32, height: 32
 bitmap0 = bytearray([0,0,0,0,0,0,0,0,248,8,232,40,40,40,40,40,40,40,40,40,40,232,8,248,0,0,0,0,0,0,0,
@@ -120,12 +118,14 @@ bitmap0 = bytearray([0,0,0,0,0,0,0,0,248,8,232,40,40,40,40,40,40,40,40,40,40,232
 ```
 
 *   Initialize the sprite object using the width, height, and bytearray object OR binary file location of the sprite:
+
 ```py
 # Make a sprite object using bytearray (a path to binary file from 'IMPORT SPRITE' is also valid)
 thumbySprite = thumby.Sprite(32, 32, bitmap0)
 ```
 
 *   Set the frame rate of the Thumby game to control how fast the screen changes:
+
 ```py
 # Set the FPS (without this call, the default fps is 30)
 thumby.display.setFPS(60)
@@ -134,12 +134,14 @@ thumby.display.setFPS(60)
 ### Adding Game Logic to Move Sprites
 
 *   Create a loop where the sprite will be animated bobbing up and down. The first steps every loop are to store the current time in milliseconds and to clear the screen to black:
+
 ```py
 while(1):
     t0 = time.ticks_ms()   # Get time (ms)
     thumby.display.fill(0) # Fill canvas to black
 ```
 *   As time goes on create a vertical offset using the sin function. The offset will move the sprite up and down 5px.
+
 ```py
     bobRate = 250 # Set arbitrary bob rate (higher is slower)
     bobRange = 5  # How many pixels to move the sprite up/down (-5px ~ 5px)
@@ -148,12 +150,14 @@ while(1):
     bobOffset = math.sin(t0 / bobRate) * bobRange
 ```
 *   Next, use the Thumby screen width and the width of the bitmap to center and calculate the sprite's X and Y location
+
 ```py
     # Center the sprite using screen and bitmap dimensions and apply bob offset
     thumbySprite.x = int((thumby.display.width/2) - (32/2))
     thumbySprite.y = int(round((thumby.display.height/2) - (32/2) + bobOffset))
 ```
 *   The sprite is drawn on the screen, every loop, using the bitmap data array, the sprite X & Y position, and the sprite dimensions
+
 ```py
     # Display the bitmap using bitmap data, position, and bitmap dimensions
     thumby.display.drawSprite(thumbySprite)
@@ -166,7 +170,7 @@ That's it! You can emulate the project in the web browser by selection the red c
 
 For your project to show up on the Thumby game select screen, there needs to be one .py file with the same name as the project. Before clicking upload, the webpage and code should look something like the below image:
 
-![Thumby IDE screenshot of file system and emulation](https://cdn.shopify.com/s/files/1/1125/2198/files/upload-files-thumby-screenshot-emulating.png?v=1642025593)
+![Thumby IDE screenshot of file system and emulation](/images/ide-emulate.PNG)
 <center>*Setup before clicking 'Upload Files'*</center>
 
 Now click the 'Upload Project' button on the top of the page, disconnect Thumby, power cycle it (turn off and on), use down on the Thumby dpad to find your project, click the left button to select and execute your main project file.
