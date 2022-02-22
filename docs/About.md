@@ -1,6 +1,8 @@
 # About Us
 
-We are TinyCircuits and we specialize in making small electronics for makers and hobbyists. 
+We are <a href="https://tinycircuits.com/" target="_blank" alt="TinyCircuits homepage">**TinyCircuits**</a>, and we specialize in making small electronics for makers and hobbyists. 
+
+
 
 <center>
 ![TinyCircuits group photo](/images/team.png)
@@ -15,7 +17,7 @@ TinyCircuits is a supporter of open-source hardware and software and believes co
 
 Our mission is to make cool stuff!
 
-If you want to help us build open source software, feel free to submit pull requests to any of our repositories on GitHub. If you want to update information or add tutorials to this website, you can submit tutorials at the Thumby Documentation site 
+If you want to help us build open source software, feel free to submit pull requests to any of our repositories on GitHub. If you want to update information or add tutorials to this website, you can submit tutorials and changes at the Thumby Documentation site GitHub Repository.
 
 ----
 
