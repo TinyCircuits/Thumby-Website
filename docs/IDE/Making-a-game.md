@@ -170,6 +170,7 @@ ballMove = 1
 lose = False  
 gameScore = 0 # keeps track of the number of bricks collided with
 loopCtr = 0 # used to control the speed of the ball
+thumby.display.setFPS(35) # standardize display speed
 
 # Begin main game loop that runs for the course of the game
 while(1):
