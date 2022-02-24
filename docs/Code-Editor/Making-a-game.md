@@ -1,8 +1,8 @@
 # How to Make a Game using the Thumby MicroPython API
 
- This tutorial will show you how to make a game to the in the [**Thumby Editor IDE**](https://tinycircuits.github.io/ "Thumby Editor")!
+ This tutorial will show you how to make a game to the in the [**Thumby Code Editor**](https://code.thumby.us/ "Thumby Editor")!
 
-To get some background on the features of the Thumby IDE, please go through the **[Thumby Getting Started Tutorial](https://tinycircuits.com/blogs/thumby/building-a-game-with-the-thumby-ide?_pos=3&_sid=e70ee7a2a&_ss=r "Thumby getting started with the ide tutorial")**. The rest of this tutorial assumes you are familiar with the tool!
+To get some background on the features of the Thumby Code Editor, please go through the **[Thumby Getting Started Tutorial](https://tinycircuits.com/blogs/thumby/building-a-game-with-the-thumby-ide?_pos=3&_sid=e70ee7a2a&_ss=r "Thumby getting started with the Code Editor tutorial")**. The rest of this tutorial assumes you are familiar with the tool!
 
 ---
 
@@ -16,7 +16,7 @@ To get some background on the features of the Thumby IDE, please go through the 
 
 ### Software: 
 
-*   [**TinyCircuits Thumby Editor IDE website**](https://tinycircuits.github.io/ "Thumby Editor")
+*   [**TinyCircuits Thumby Code Editor website**](https://code.thumby.us/ "Thumby Editor")
 
 *   **[Google Chrome](https://www.google.com/chrome/ "Google Chrome Download")** or **[Microsoft Edge](https://www.microsoft.com/en-us/edge "Microsoft Edge Download")** web browsers (other browsers not supported)
 
@@ -25,11 +25,11 @@ To get some background on the features of the Thumby IDE, please go through the 
 ## Emulator First, Thumby Hardware Whenever 
 
 
-You do not need the Thumby hardware to be able to make a Thumby game, you can get started right away using our free web browser Integrated Development Environment (IDE). Open a Google Chrome or Microsoft Edge window and navigate to the [**online Thumby IDE**](https://tinycircuits.github.io/ "Thumby IDE").
+You do not need the Thumby hardware to be able to make a Thumby game, you can get started right away using our free web browser Integrated Development Environment (IDE). Open a Google Chrome or Microsoft Edge window and navigate to the [**online Thumby Code Editor**](https://code.thumby.us/ "Thumby Code Editor").
 
 Whenever you are ready to upload your game to a Thumby, simply plug in the Thumby to your computer using a Micro USB cable and flip the power switch ON to the right. 
 
-Connect your Thumby using the "CONNECT THUMBY" button at the top of the IDE, select the port your Thumby is connected to, and upload your game:
+Connect your Thumby using the "CONNECT THUMBY" button at the top of the Code Editor, select the port your Thumby is connected to, and upload your game:
 
 *   **Option 1:** 'Fast Execute' to upload just your game directly to the Thumby 
 *   **Option 2:** Add your game to the list of games in the 'Filesystem' panel to make it playable from the Thumby default game list on the hardware
@@ -49,8 +49,8 @@ Steps:
 2.  Visualize a 72x40 grid for your game when you start creating sample sprites or art - you can use the bitmap builder available from the Thumby IDE to start drafting up some static images of gameplay. 
 
 
-<center>![Thumby IDE bitmap builder of 72x40](https://cdn.shopify.com/s/files/1/1125/2198/files/image_1_af351171-657d-43c0-a525-28c3f2766846.png?v=1640597713)</center>
-<center>_Thumby IDE bitmap builder of 72x40_</center>
+<center>![Thumby Code Editor bitmap builder of 72x40](https://cdn.shopify.com/s/files/1/1125/2198/files/image_1_af351171-657d-43c0-a525-28c3f2766846.png?v=1640597713)</center>
+<center>_Thumby Code Editor bitmap builder of 72x40_</center>
 
 You can make the bitmap builder full screen, zoom in, and draw up some bitmap ideas to help visualize the size and possibilities. Keep in mind that you will eventually want each bitmap, or game element by itself, rather than as a part of a full screen bitmap to keep your game efficient.
 
@@ -100,7 +100,7 @@ These above examples on component interactions & rules are how I think about a b
 
 The Thumby API includes functions and tools for some of the main building blocks to create a game. [**Review the documentation here**](/API/Get-Started "Thumby API documentation").
 
-Luckily, there are also many public Thumby games available to peek through and use as examples when writing your own game. Navigate to the **Thumby Arcade** menu in the Thumby IDE, and open or download the code for any game with similar functionality that might help you write your own game.
+Luckily, there are also many public Thumby games available to peek through and use as examples when writing your own game. Navigate to the **Thumby Arcade** menu in the Thumby Code Editor, and open or download the code for any game with similar functionality that might help you write your own game.
 
 ### Create your game in small building steps and test it along the way!
 
@@ -408,6 +408,6 @@ thumby.audio.play(440, 300)
 thumby.audio.play(260, 250) 
 ```
 
-With everything working and added, all that's left to do is play-test to make sure everything's working. Then the game can be **[submitted to the Thumby Arcade for everyone to play](/IDE/Submit-Game/ "submitting a thumby game to the IDE arcade via Github tutorial")**! 
+With everything working and added, all that's left to do is play-test to make sure everything's working. Then the game can be **[submitted to the Thumby Arcade for everyone to play](/IDE/Submit-Game/ "submitting a thumby game to the Code Editor arcade via Github tutorial")**! 
 
 ---

@@ -1,14 +1,14 @@
-# Thumby IDE Documentation
+# Thumby Code Editor Documentation
 
-This tutorial will show you how to build a basic project, emulate it, and upload it to your Thumby using our online IDE!
+This tutorial will show you how to build a basic project, emulate it, and upload it to your Thumby using our online Code Editor!
 
-Any code written in the IDE is saved to your local web storage, so refreshing or closing the IDE webpage won't erase your saved work. Use Ctrl+S to save your programs in the Code Editor. These are the only ways you can lose your progress (*avoid doing these!*):
+Any code written in the Code Editor is saved to your local web storage, so refreshing or closing the Code Editor webpage won't erase your saved work. Use Ctrl+S to save your programs in the Code Editor. These are the only ways you can lose your progress (*avoid doing these!*):
 
-* Hard resetting the page: Utilities -> Hard Reset Page (the IDE will warn you not to do this)
+* Hard resetting the page: Utilities -> Hard Reset Page (the Code Editor will warn you not to do this)
 * Clearing your local storage: F12 -> Application -> Local Storage -> Clear
-* Exiting the browser tab with code in it without saving (the IDE will warn you if you have not saved your most recent edits to Thumby)
+* Exiting the browser tab with code in it without saving (the Code Editor will warn you if you have not saved your most recent edits to Thumby)
 
-*NOTE: The Thumby IDE and accompanying tutorials will update as more features are added and as we grow our software support for Thumby during [**Kickstarter fulfillment**](https://www.kickstarter.com/projects/kenburns/thumby-the-tiny-playable-keychain/ "Thumby Kickstarter Page"). If you are interested in hearing software updates as they happen, [**consider joining our Discord**.](https://discord.gg/vzf3wQXVvm "TinyCircuits Discord Invite Link") Thank you for your patience and support!*
+*NOTE: The Thumby Code Editor and accompanying tutorials will update as more features are added and as we grow our software support for Thumby during [**Kickstarter fulfillment**](https://www.kickstarter.com/projects/kenburns/thumby-the-tiny-playable-keychain/ "Thumby Kickstarter Page"). If you are interested in hearing software updates as they happen, [**consider joining our Discord**.](https://discord.gg/vzf3wQXVvm "TinyCircuits Discord Invite Link") Thank you for your patience and support!*
 
 *Tutorial Last updated: February 17th, 2022*
 
@@ -23,25 +23,25 @@ Any code written in the IDE is saved to your local web storage, so refreshing or
 
 ### Software:
 
-*   <a href="https://tinycircuits.github.io/" target="_blank" alt="TinyCircuits Thumby Web Browser IDE page">**TinyCircuits Thumby Web IDE**</a> -  *NOTE: Compatible only with [**Google Chrome**](https://www.google.com/chrome/ "Google Chrome Download") or [**Microsoft Edge**](https://www.microsoft.com/en-us/edge "Microsoft Edge Download") web browsers (other browsers not supported)*
+*   <a href="https://code.thumby.us/" target="_blank" alt="TinyCircuits Thumby Web Browser Code Editor page">**TinyCircuits Thumby Web Code Editor**</a> -  *NOTE: Compatible only with [**Google Chrome**](https://www.google.com/chrome/ "Google Chrome Download") or [**Microsoft Edge**](https://www.microsoft.com/en-us/edge "Microsoft Edge Download") web browsers (other browsers not supported)*
 
 ---
 
-## Using the Thumby IDE
+## Using the Thumby Code Editor
 
-Open Google Chrome or Microsoft Edge and open the [**online Thumby IDE**](https://tinycircuits.github.io/ "Thumby IDE"), the below screen will appear:
+Open Google Chrome or Microsoft Edge and open the [**online Thumby Code Editor**](https://code.thumby.us/ "Thumby Code Editor"), the below screen will appear:
 
-![Thumby web browser ide dark mode screenshot](/images/ide-initial-dark.PNG)
-<center>*Figure 1: Screen on opening IDE for the first time*</center>
+![Thumby web browser Code Editor dark mode screenshot](/images/editor-initial-dark.PNG)
+<center>*Figure 1: Screen on opening Thumby Code Editor for the first time*</center>
 
 If you prefer a light theme, hover over the 'Utilities' dropdown in the top bar and left-click 'Invert Theme'.
 
-![Thumby web browser ide light mode screenshot](/images/ide-initial-light.png)
+![Thumby web browser Code Editor light mode screenshot](/images/editor-initial-light.png)
 <center>*Figure 2: Light theme*</center>
 
-As you get familiar with the Thumby Web IDE - hover over buttons to get tooltip information on what menus and buttons will do.
+As you get familiar with the Thumby Code Editor - hover over buttons to get tooltip information on what menus and buttons will do.
 
-### Connecting Thumby to the Web IDE:
+### Connecting Thumby to the Code Editor:
 
 1\. Turn your Thumby on (switch the top power switch to the right when looking at the screen), and connect it to your PC using a Micro USB Cable
 
@@ -55,15 +55,15 @@ As you get familiar with the Thumby Web IDE - hover over buttons to get tooltip 
 
 The below screenshot shows the button locations and order to click them in.  
 
-![Step 2 of connecting thumby on web browser ide](/images/ide-connect-thumby.png)
+![Step 2 of connecting thumby on web browser Code Editor](/images/editor-connect-thumby.png)
 <center>*Steps 2: Press 'Connect Thumby' button*</center>
 
-![Steps 3 and 4 of connecting thumby using the web browser IDE](/images/ide-connect-thumby-serial.png)
+![Steps 3 and 4 of connecting thumby using the web browser Code Editor](/images/editor-connect-thumby-serial.png)
 <center>*Steps 3 and 4 to connect Thumby*</center>
 
 If connection is successful, a green 'Connected' message will be printed to the terminal - you will also see a hardware icon appear at the right side of the browser tab to show that you are connected to a Serial port. 
 
-![Thumby Connected Screen](/images/ide-connected-shell.PNG)
+![Thumby Connected Screen](/images/editor-connected-shell.PNG)
 <center>*Thumby Connection Screen & Filesystem*</center>
 
 After doing the above connection steps, the Thumby will be paired to the webpage and will auto-connect when 'Connect Thumby' is clicked.
@@ -78,7 +78,7 @@ Follow the below steps to start a project and then upload it to Thumby.
 
 *   Hover over the 'Utilities' menu and click 'Make New Game ', set the name to anything you like.
 
-![Thumby IDE create a new game](/images/ide-new-game.PNG)
+![Thumby Code Editor create a new game](/images/editor-new-game.PNG)
 <center>*New game creation*</center>
 
 *   Click 'OK' after typing in a name, in this case, we used: **HelloWorld**
@@ -105,7 +105,7 @@ import math
 *   Using the **Bitmap Builder** panel:
 *   First, set the width and height to 32px by clicking the 'Size' button in the **Bitmap Builder**. Left-click bitmap squares to set pixels to black, and right-click squares to set them white
 *   Once the sprite is drawn, select a line in the code editor added earlier, then click the 'Export Lines' button in the 'Bitmap Builder' panel - see the below image for the result.
-*   _NOTE: The **Bitmap Builder** will be deprecated in future Thumby Web Browser IDE versions._
+*   _NOTE: The **Bitmap Builder** will be deprecated in future Thumby Web Browser Code Editor versions._
 
 *   Or you can draw a Sprite/Bitmap using a tool like [**GIMP**](https://www.gimp.org/ "Gimp website") - export btimaps as binary files (.bin) to include in your games.
 
@@ -164,13 +164,13 @@ while(1):
     thumby.display.update()
 ```
 
-That's it! You can emulate the project in the web browser by selection the red checkbox of the 'Emulation:' option in the **Editor**. Then press the 'Start' button in the **Emulator** window.
+That's it! You can emulate the project in the web browser by selection the red checkbox of the 'Emulation:' option in the **Text Editor**. Then press the 'Start' button in the **Emulator** window.
 
 ### Adding Your Game to Thumby
 
 For your project to show up on the Thumby game select screen, there needs to be one .py file with the same name as the project. Before clicking upload, the webpage and code should look something like the below image:
 
-![Thumby IDE screenshot of file system and emulation](/images/ide-emulate.PNG)
+![Thumby Code Editor screenshot of file system and emulation](/images/editor-emulate.PNG)
 <center>*Setup before clicking 'Upload Files'*</center>
 
 Now click the 'Upload Project' button on the top of the page, disconnect Thumby, power cycle it (turn off and on), use down on the Thumby dpad to find your project, click the left button to select and execute your main project file.
@@ -181,7 +181,7 @@ If the above code was used, the below animation will play after selecting 'Hello
 
 ---
 
-## Other Web IDE Features
+## Other Web Code Editor Features
 
 *   Execute a single file on the Thumby at root level '/' using the 'Fast Execute' button in any code editor
 *   Import/export a .py file from/to your computer using the file drop-down in any editor (left-click 'File')

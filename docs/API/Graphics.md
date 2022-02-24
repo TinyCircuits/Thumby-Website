@@ -58,7 +58,7 @@ while(True):
 
 #### Fill Screen Example
 
-Using this example, the hardware or IDE emulator display will alternate between a white or black screen every second.
+Using this example, the hardware or emulator display will alternate between a white or black screen every second.
 
 ```py
 import thumby
@@ -77,7 +77,7 @@ while(True):
 
 ### Screen Brightness
 
-`thumby.display.brightness(brightness)` | sets screen to `brightness` value. Returns None, all parameters required. Note: brightness does not emulate in the Web IDE
+`thumby.display.brightness(brightness)` | sets screen to `brightness` value. Returns None, all parameters required. Note: brightness does not emulate in the Code Editor
 
 * `brightness`
     * type: int

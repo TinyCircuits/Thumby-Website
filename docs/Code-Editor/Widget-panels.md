@@ -1,8 +1,8 @@
-# IDE Widgets and Panels
+# Thumby Code Editor Widgets and Panels
 
 There are a few different widgets, or panels, to assist with programming Thumby. From left to right: 
 
-* **Filesystem** - Displays all the files on the Thumby when a Thumby is connected to the IDE
+* **Filesystem** - Displays all the files on the Thumby when a Thumby is connected to the Code Editor
 * **Bitmap Builder** - A bitmap editor for simple, small graphics. Other drawing tools with more features, like GIMP, are recommended for more complex animating. 
 * **Code Editor** - This is where the magic (code) happens!
 * **Shell** - This terminal will print errors, and other helpful messages as you program and debug with Thumby.

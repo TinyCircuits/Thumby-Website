@@ -4,17 +4,17 @@ If one of the below options doesn't answer your question(s), you can post on the
 
 ---
 
-### IDE Connection
+### Code Editor Connection
 
-**Why is my Thumby not connecting to the Web IDE?**
+**Why is my Thumby not connecting to the Web Code Editor?**
 
-* Make sure you only have one IDE tab open - sometimes an older tab can be connected to Thumby and interfere with your current attempt to connect
+* Make sure you only have one Code Editor tab open - sometimes an older tab can be connected to Thumby and interfere with your current attempt to connect
 * Make sure the Thumby device is ON - power switch should be to the right when looking at the screen
 * Try a different cable - Since no port is coming up at all when the Thumby is turned on - it's possible that the cable you are using does not have the necessary data lines for communicating with the Thumby. Many Micro USB cables have just the power and ground wires to charge or power electronics. Try another cable, or test that you are able to transfer data with that cable in a different way - possibly by transferring files or pictures from a different device.
 * Unplug the device completely and open your 'Device Manager' (windows) -> click on 'Ports' -> plug the device back in to see if anything shows up. For thumby you should see "USB Serial Device (COM##)" where ## can be any number
 * If you still don't see anything showing up, try turning your computer off and restart. It's possible you have some serial device interfering with your ability to communicate with Thumby. Such as a USB hub or other peripheral devices, like a mouse.
 
-**The Thumby hardware freezes when it connects to the IDE, is it broken?**
+**The Thumby hardware freezes when it connects to the Code Editor, is it broken?**
 
 No! This is natural behavior. The Thumby hardware stops working because it is being 
 
@@ -65,7 +65,7 @@ You can play Thumby for up to two hours on a full charge. Games that display mor
 
 **How do I know if my Thumby has the latest firmware/software?**
 
-You can update the Thumby firmware after connecting your Thumby to the Web IDE - the files system panel has an 'Update' button that will turn red when it detects your software is not up-to-date. Press the 'Update' button to load the newest software. The update will only overwrite a few core Thumby files.
+You can update the Thumby firmware after connecting your Thumby to the Web Code Editor - the files system panel has an 'Update' button that will turn red when it detects your software is not up-to-date. Press the 'Update' button to load the newest software. The update will only overwrite a few core Thumby files.
 
 --- 
 

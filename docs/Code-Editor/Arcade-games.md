@@ -1,15 +1,15 @@
 # Download Arcade Games to Thumby
 
-This tutorial will show you how to download and add games to your Thumby hardware from the Arcade in the [**Thumby Editor IDE**](https://tinycircuits.github.io/ "Thumby Editor")! 
+This tutorial will show you how to download and add games to your Thumby hardware from the Arcade in the [**Thumby Editor Code Editor**](https://code.thumby.us/ "Thumby Editor")! 
 
-*Go through the [**Getting Started with Thumby Tutorial**](https://tinycircuits.com/blogs/learn/thumby-getting-started-tutorial "Thumby getting started tutorial") before continuing with this tutorial so that you are familiar with how to emulate games and how to connect your Thumby to the IDE.*
+*Go through the [**Getting Started with Thumby Tutorial**](https://tinycircuits.com/blogs/learn/thumby-getting-started-tutorial "Thumby getting started tutorial") before continuing with this tutorial so that you are familiar with how to emulate games and how to connect your Thumby to the Code Editor.*
 
 
 ---
 
 ## Playing Thumby Games
 
-Before you download games to your Thumby, you can play test them in the Web IDE using the **Emulator**. You can directly click the Thumby buttons in the Emulator with your mouse to play games, or you can use the 'w', 'a', 's'. 'd' keys for the d-pad, and the ',', '.' (command and period) keys for the A and B action buttons.
+Before you download games to your Thumby, you can play test them in the Web Code Editor using the **Emulator**. You can directly click the Thumby buttons in the Emulator with your mouse to play games, or you can use the 'w', 'a', 's'. 'd' keys for the d-pad, and the ',', '.' (command and period) keys for the A and B action buttons.
 
 Thumby games are added to the Arcade by wonderful & cool Thumby users that wanted to share the games they made. (Thank you game developers!!)
 
@@ -28,13 +28,13 @@ Play all the games you want - be sure to check back occasionally to see new game
 
 ## Download Games to Thumby Hardware
 
-If you are unsure on how to connect your Thumby to the Web IDE, please go through the **[Getting Started tutorial](https://tinycircuits.com/blogs/learn/thumby-getting-started-tutorial "thumby getting started tutorial")** to learn or refresh your memory. 
+If you are unsure on how to connect your Thumby to the Web Code Editor, please go through the **[Getting Started tutorial](https://tinycircuits.com/blogs/learn/thumby-getting-started-tutorial "thumby getting started tutorial")** to learn or refresh your memory. 
 
-![connect thumby to web ide button screenshot](/images/ide-connect-thumby.png)
+![connect thumby to web code editor button screenshot](/images/editor-connect-thumby.png)
 
-Once you have found games you like and your Thumby is connected to the Web IDE, all you need to do is download the games to your hardware. Open the Arcade and press 'Download':
+Once you have found games you like and your Thumby is connected to the Web Code Editor, all you need to do is download the games to your hardware. Open the Arcade and press 'Download':
 
-![Thumby IDE Arcade screenshot of Download button](/images/ide-arcade.png)
+![Thumby Arcade screenshot of Download button](/images/editor-arcade.png)
 
 After a few seconds, you should see the downloaded game in your **Filesystem** panel. The new game is ready to play on the Thumby!
 

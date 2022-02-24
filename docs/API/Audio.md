@@ -1,6 +1,6 @@
 # Audio
 
-*Note: Audio is not implemented on Web IDE Emulator*
+*Note: Audio is not implemented on Thumby Web Code Editor Emulator*
 
 ### Functions
 

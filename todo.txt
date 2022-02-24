@@ -9,7 +9,7 @@ add a link to the forum somewhere
 
 Nav bar:
 - Home landing page
-- IDE docs/tutorials
+- Code Editor docs/tutorials
 - Thumby API docs
 
 Add:

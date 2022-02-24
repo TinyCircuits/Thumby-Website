@@ -1,6 +1,6 @@
 # Submitting a Game to the Thumby Arcade
 
-This tutorial will show you how to add a game to the Thumby Arcade in the <a href="https://tinycircuits.github.io/" target="_blank" alt="TinyCircuits Thumby Editor">**Thumby Editor IDE**</a> using <a href="https://github.com/ " target="_blank" alt="Github main website link">**GitHub**</a>!
+This tutorial will show you how to add a game to the Thumby Arcade in the <a href="https://code.thumby.us/" target="_blank" alt="TinyCircuits Thumby Editor">**Thumby Code Editor**</a> using <a href="https://github.com/ " target="_blank" alt="Github main website link">**GitHub**</a>!
 
 Consider going through the [**Getting Started with Thumby tutorial**](/IDE/Get-Started/ "Thumby getting started tutorial") before continuing with this one!
 
@@ -10,7 +10,7 @@ Consider going through the [**Getting Started with Thumby tutorial**](/IDE/Get-S
 
 *   **Your Thumby game**
 *   A <a href="https://github.com/ " target="_blank" alt="Github main website link">**GitHub**</a> account
-*   <a href="https://tinycircuits.github.io/" target="_blank" alt="TinyCircuits Thumby Editor">**Thumby Editor IDE**</a> - *NOTE: Only Google Chrome and Microsoft Edge support running the TinyCircuits Thumby Editor IDE webpage*
+*   <a href="https://code.thumby.us/" target="_blank" alt="TinyCircuits Thumby Editor">**Thumby Code Editor**</a> - *NOTE: Only Google Chrome and Microsoft Edge support running the TinyCircuits Thumby Code Editor webpage*
 
 ---
 
@@ -34,8 +34,8 @@ Once your game is in a state where you are ready to share it with everyone and p
 
 
 * *GameName/GameName.py* - The main file of your game that references any other files, like a .bin or .raw image you use in the game - include all files needed for your main game file to work!
-* *GameName/arcade_description.txt* - Include the title of your game, a short description, your name, and the version of your game. Add any instructions important to play your game. This text is displayed when hovering over your game in the IDE Arcade.
-* *GameName/arcade_title_video.webm* - A .webm video of gameplay. Use the video camera 🎥 button in the Emulator panel of the IDE to record a .webm of gameplay. Zoom in to at least 8x to provide a good quality video. The zoom factor displays in the bottom left of the Emulator.
+* *GameName/arcade_description.txt* - Include the title of your game, a short description, your name, and the version of your game. Add any instructions important to play your game. This text is displayed when hovering over your game in the Thumby Arcade.
+* *GameName/arcade_title_video.webm* - A .webm video of gameplay. Use the video camera 🎥 button in the Emulator panel of the Thumby Code Editor Website to record a .webm of gameplay. Zoom in to at least 8x to provide a good quality video. The zoom factor displays in the bottom left of the Emulator.
 
 ---
 
