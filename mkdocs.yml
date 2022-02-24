@@ -62,13 +62,13 @@ theme:
       primary: light-blue
       accent: purple
       toggle:
-        icon: material/lightbulb-outline
+        icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - scheme: slate 
       primary: deep-orange
       accent: yellow
       toggle:
-        icon: material/lightbulb
+        icon: material/toggle-switch
         name: Switch to light mode
   features:
     - header.autohide
