@@ -16,7 +16,7 @@ If one of the below options doesn't answer your question(s), you can post on the
 
 **The Thumby hardware freezes when it connects to the Code Editor, is it broken?**
 
-No! This is natural behavior. The Thumby hardware stops working because it is being 
+Not at all! This is natural behavior. The Thumby hardware appears to stop working, or 'freezes' when you connect it to the Thumby Code Editor. To test changes you upload to the Thumby, you will need to disconnect the unit and power cycle it (turn it off and back on).
 
 ---
 
