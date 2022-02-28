@@ -2,7 +2,7 @@ site_name: Thumby Docs
 # google_analytics: ['UA-118275183-2', 'learn.tinycircuits.com']
 nav:
     - Home: index.md
-    - Code Editor:
+    - Code Editor Docs:
        - Getting Started - First Program: Code-Editor/Get-Started.md
        - Widgets / Panels: Code-Editor/Widget-panels.md
        - Adding Arcade Games to Thumby: Code-Editor/Arcade-games.md
@@ -74,6 +74,15 @@ theme:
     - header.autohide
     - navigation.tabs
   name: material
+  # icon repo for 'GitHub' repo - but it's actually the Thumby Code Editor
+  icon:
+    repo: fontawesome/solid/laptop-code
+
+# Let's see if we can use the github repo feature to link to the Thumby Code Editor
+repo_url: https://code.thumby.us/
+repo_name: Thumby Code Editor ↗
+
+
 
 # social footer icons and links
 extra:

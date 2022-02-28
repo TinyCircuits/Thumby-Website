@@ -25,7 +25,7 @@
 When drawing lines, it may be helpful to use the `thumby.display.width` and `thumby.display.height` member variables for the screen width (72), and the height (40). Otherwise, you can do the math yourself. This example uses both methods to draw three different lines:
 
 <center>
-![Bouncing ball](/images/lines-example.png)
+![Bouncing ball](/images/lines-example.jpg)
 </center>
 <center>
 *Three lines across the screen horizontally, vertically, and diagonally*

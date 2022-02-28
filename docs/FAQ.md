@@ -29,7 +29,7 @@ Not at all! This is natural behavior. The Thumby hardware appears to stop workin
 The pin wiring of the OTG cable would need to be verified. 
 
 <center>
-![TinyCircuits Thumby Link cable](/images/USB-pinout.png)
+![TinyCircuits Thumby Link cable](/images/USB-pinout.jpg)
 </center>
 <center>
 *Micro USB Pinout diagram*

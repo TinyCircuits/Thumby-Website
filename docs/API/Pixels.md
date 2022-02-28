@@ -30,7 +30,7 @@ Setting and getting the state of pixels can be useful for effects like snow, rai
 ## Example
 
 <center>
-![pixel display](/images/pixels.png)
+![pixel display](/images/pixels.jpg)
 </center>
 <center>
 *Five pixels located in the 4 corners and the center of the screen*

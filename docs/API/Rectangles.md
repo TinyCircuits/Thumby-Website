@@ -45,7 +45,7 @@
 When drawing Rectangles, it may be helpful to use the `thumby.display.width` and `thumby.display.height` member variables for the screen width (72), and the height (40). Otherwise, you can do the math yourself. This example uses both methods to draw three different rectangles:
 
 <center>
-![Bouncing ball](/images/rectangles-example.png)
+![Bouncing ball](/images/rectangles-example.jpg)
 </center>
 <center>
 *Three rectangles - outer edge rectangle only visible in dark mode*

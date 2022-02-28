@@ -31,12 +31,12 @@ Any code written in the Code Editor is saved to your local web storage, so refre
 
 Open Google Chrome or Microsoft Edge and open the [**online Thumby Code Editor**](https://code.thumby.us/ "Thumby Code Editor"), the below screen will appear:
 
-![Thumby web browser Code Editor dark mode screenshot](/images/editor-initial-dark.PNG)
+![Thumby web browser Code Editor dark mode screenshot](/images/editor-initial-dark.jpg)
 <center>*Figure 1: Screen on opening Thumby Code Editor for the first time*</center>
 
 If you prefer a light theme, hover over the 'Utilities' dropdown in the top bar and left-click 'Invert Theme'.
 
-![Thumby web browser Code Editor light mode screenshot](/images/editor-initial-light.png)
+![Thumby web browser Code Editor light mode screenshot](/images/editor-initial-light.jpg)
 <center>*Figure 2: Light theme*</center>
 
 As you get familiar with the Thumby Code Editor - hover over buttons to get tooltip information on what menus and buttons will do.
@@ -55,15 +55,15 @@ As you get familiar with the Thumby Code Editor - hover over buttons to get tool
 
 The below screenshot shows the button locations and order to click them in.  
 
-![Step 2 of connecting thumby on web browser Code Editor](/images/editor-connect-thumby.png)
+![Step 2 of connecting thumby on web browser Code Editor](/images/editor-connect-thumby.jpg)
 <center>*Steps 2: Press 'Connect Thumby' button*</center>
 
-![Steps 3 and 4 of connecting thumby using the web browser Code Editor](/images/editor-connect-thumby-serial.png)
+![Steps 3 and 4 of connecting thumby using the web browser Code Editor](/images/editor-connect-thumby-serial.jpg)
 <center>*Steps 3 and 4 to connect Thumby*</center>
 
 If connection is successful, a green 'Connected' message will be printed to the terminal - you will also see a hardware icon appear at the right side of the browser tab to show that you are connected to a Serial port. 
 
-![Thumby Connected Screen](/images/editor-connected-shell.PNG)
+![Thumby Connected Screen](/images/editor-connected-shell.jpg)
 <center>*Thumby Connection Screen & Filesystem*</center>
 
 After doing the above connection steps, the Thumby will be paired to the webpage and will auto-connect when 'Connect Thumby' is clicked.
@@ -78,7 +78,7 @@ Follow the below steps to start a project and then upload it to Thumby.
 
 *   Hover over the 'Utilities' menu and click 'Make New Game ', set the name to anything you like.
 
-![Thumby Code Editor create a new game](/images/editor-new-game.PNG)
+![Thumby Code Editor create a new game](/images/editor-new-game.jpg)
 <center>*New game creation*</center>
 
 *   Click 'OK' after typing in a name, in this case, we used: **HelloWorld**
@@ -170,7 +170,7 @@ That's it! You can emulate the project in the web browser by selection the red c
 
 For your project to show up on the Thumby game select screen, there needs to be one .py file with the same name as the project. Before clicking upload, the webpage and code should look something like the below image:
 
-![Thumby Code Editor screenshot of file system and emulation](/images/editor-emulate.PNG)
+![Thumby Code Editor screenshot of file system and emulation](/images/editor-emulate.jpg)
 <center>*Setup before clicking 'Upload Files'*</center>
 
 Now click the 'Upload Project' button on the top of the page, disconnect Thumby, power cycle it (turn off and on), use down on the Thumby dpad to find your project, click the left button to select and execute your main project file.

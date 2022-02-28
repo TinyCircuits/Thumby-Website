@@ -1,7 +1,7 @@
 # Thumby, a Tiny Playable Keychain by <a href="https://tinycircuits.com/" target="_blank" alt="TinyCircuits main website page">**TinyCircuits**</a>
 
 <center>
-![Thumby hardware component animation](/images/Thumby-handful.png)
+![Thumby hardware component animation](/images/Thumby-handful.jpg)
 </center>
 
 Thumby™ is an itty-bitty game system at the tips of your thumbs, a best friend for your keys, and an easy learning tool all-in-one. Start playing right away with preloaded games, download more games from our website and learn to program your own using our <a href="https://code.thumby.us/" target="_blank" alt="TinyCircuits Thumby Web Browser code editor page">**Thumby Code Editor**</a> Website!
@@ -71,43 +71,82 @@ Join the <a href="https://discord.gg/vzf3wQXVvm" target="_blank" alt="TinyCircui
 <center>*"Bzzz, Bzzz, Bzzz"* - Fred, the Carpenter Bee at The University of Akron Blackledge Lab</center>
 
 
-### The Retro Future Unboxing
+## Reviews from YouTube
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/E01VPCe4U-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+<style>
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
-### Adam Savage's Tested Review
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/1S8InR9V6xU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
 
-### LGR Blerbs - "SO SMALL."
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/Fa7OxjpXLjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
-### LowSpecGamer made a Thumby Game!
-
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/dEVXW3sdPtM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-<center>*Caution: This video has some mature language that may not be suited for all ages*</center>
-
-### MK V's Adorable Unboxing
-
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/wwPwlYxOb8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
-### Retro Game Corps Review
-
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/s1EU-Ib1cVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
-
-### 3DSage's 3D Thumby Game
-
-
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/3JsQ5FkIWRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
-### Pokémon on Thumby!
-
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/4MuQfzmPXts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+.container:hover .image {
+  /* opacity: 0.2; */
+  box-shadow: 0 0 2px 8px #ff6e42;
+}
 
 
+</style>
+
+
+<div class="row"> 
+  <div class="column">
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=Fa7OxjpXLjQ" target="_blank" alt="Thumby YouTube video"><img src="/images/youtube-LGR-Blerbs.jpg" style="width:100%" class="image"></a>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=E01VPCe4U-c" target="_blank" alt="Thumby YouTube video"><img src="/images/youtube-The-Retro-Future.jpg" style="width:100%" class="image"></a>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=3JsQ5FkIWRI" target="_blank" alt="Thumby YouTube video"><img src="/images/youtube-3DSage.jpg" style="width:100%" class="image"></a>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=dEVXW3sdPtM" target="_blank" alt="Thumby YouTube video"><img src="/images/youtube-LowSpecGamer.jpg" style="width:100%" class="image"></a>
+    </div>
+    
+  </div>
+  <div class="column">
+  <div class="container">
+      <a href="https://www.youtube.com/watch?v=1S8InR9V6xU" target="_blank" alt="Thumby YouTube video">
+    <img src="/images/youtube-Adam-Savage-Tested.jpg" style="width:100%" class="image"></a>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=wwPwlYxOb8k" target="_blank" alt="Thumby YouTube video">
+    <img src="/images/youtube-MK-V.jpg" style="width:100%" class="image"></a>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=s1EU-Ib1cVs" target="_blank" alt="Thumby YouTube video">
+    <img src="/images/youtube-Retro-Game-Corps.jpg" style="width:100%" class="image"></a>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=4MuQfzmPXts" target="_blank" alt="Thumby YouTube video">
+    <img src="/images/youtube-Inkbox.jpg" style="width:100%" class="image"></a>
+    </div>
+  </div>  
+</div>
 
 --- 
 

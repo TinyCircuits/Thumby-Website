@@ -47,7 +47,7 @@
 The Thumby API has a builtin function for drawing rectangles, but there's nothing built in for other shapes. To draw other shapes like triangles or circles, you can use the Sprite class! You can draw any shape or object or even scenery using the Sprite class.
 
 <center>
-![Bouncing ball](/images/lots-of-Sprites.png)
+![Bouncing ball](/images/lots-of-Sprites.jpg)
 </center>
 <center>
 *Background, and small Sprite examples!*

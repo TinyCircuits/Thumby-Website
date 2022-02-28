@@ -30,11 +30,11 @@ Play all the games you want - be sure to check back occasionally to see new game
 
 If you are unsure on how to connect your Thumby to the Web Code Editor, please go through the **[Getting Started tutorial](https://tinycircuits.com/blogs/learn/thumby-getting-started-tutorial "thumby getting started tutorial")** to learn or refresh your memory. 
 
-![connect thumby to web code editor button screenshot](/images/editor-connect-thumby.png)
+![connect thumby to web code editor button screenshot](/images/editor-connect-thumby.jpg)
 
 Once you have found games you like and your Thumby is connected to the Web Code Editor, all you need to do is download the games to your hardware. Open the Arcade and press 'Download':
 
-![Thumby Arcade screenshot of Download button](/images/editor-arcade.png)
+![Thumby Arcade screenshot of Download button](/images/editor-arcade.jpg)
 
 After a few seconds, you should see the downloaded game in your **Filesystem** panel. The new game is ready to play on the Thumby!
 

@@ -7,7 +7,7 @@ Animations are important for gameplay and aesthethic appearance. One of the best
 To import a spritesheet, press the 'Import Sprite' button. 
 
 <center>
-![Import Sprite image 1](/images/import-sprite-window-on-open.PNG)
+![Import Sprite image 1](/images/import-sprite-window-on-open.jpg)
 </center>
 <center>
 *Import Sprite window*
@@ -16,7 +16,7 @@ To import a spritesheet, press the 'Import Sprite' button.
 Find or make a spritesheet, and press 'Open Sheet Image' to open it in the Editor window. 
 
 <center>
-![Import Sprite image 2](/images/import-sprite-sheet.PNG)
+![Import Sprite image 2](/images/import-sprite-sheet.jpg)
 </center>
 <center>
 *Imported Spritesheet*
@@ -26,7 +26,7 @@ To frame the frames you'd like to import, you'll need to edit the number of fram
 
 
 <center>
-![Import Sprite image 3](/images/import-sprite-x-y-count.PNG)
+![Import Sprite image 3](/images/import-sprite-x-y-count.jpg)
 </center>
 <center>
 *Sprite altered x and y count*
@@ -37,7 +37,7 @@ Then, change the Frame width and height(px) values to match the frames. You can 
 Note: Spritesheets, and therefore sprites that are too big (larger than 72x40) will not fully display on the Thumby screen. Depending on the number and size of frames, you may get a memory error. Resize your image to smaller pixel values to solve this issue.
 
 <center>
-![Import Sprite image 4](/images/import-sprite-frame-overlay.PNG)
+![Import Sprite image 4](/images/import-sprite-frame-overlay.jpg)
 </center>
 <center>
 *Sprite frame overlay*
@@ -47,7 +47,7 @@ Note: Spritesheets, and therefore sprites that are too big (larger than 72x40) w
 If the spritesheet you find isn't exactly monochrome, or the colors aren't very dark, it may help to toggle the 'Black/White Threshold' slider to alter what pixels are in the sprites. If it's not coming out the way you would like, try editing the image in a program like Photoshop or Microsoft Paint before coming back to the 'Import Sprite' tool.
 
 <center>
-![Import Sprite image 5](/images/Import-sprite-window.PNG)
+![Import Sprite image 5](/images/Import-sprite-window.jpg)
 </center>
 <center>
 *Imported butterfly flutter spritesheet*

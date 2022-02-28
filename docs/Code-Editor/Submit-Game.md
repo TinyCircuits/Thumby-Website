@@ -54,7 +54,7 @@ Log in to your GitHub account and navigate to the <a href="https://github.com/Ti
 
 
 <center>
-![Submit Game - fork](/images/submit-game-fork.png)
+![Submit Game - fork](/images/submit-game-fork.jpg)
 </center>
 <center>
 *Fork? That's a weird name - [**what does forking a repository mean**](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)*?
@@ -69,14 +69,14 @@ The game files you put together in a folder of the same main game .py file are w
 Click the 'Add file' button to access the drop down for the 'Upload files' option.
 
 <center>
-![Submit Game - add files](/images/submit-game-add-files.png)
+![Submit Game - add files](/images/submit-game-add-files.jpg)
 </center>
 <center>
 *Zoomed in look at the buttons*
 </center>
 
 <center>
-![Submit Game - drag files](/images/submit-game-drag-files.png)
+![Submit Game - drag files](/images/submit-game-drag-files.jpg)
 </center>
 <center>
 *The page that appears after selecting 'Upload files'*
@@ -89,7 +89,7 @@ Drag and drop your [GameName] folder to the above window where directed.
 Now that you have added the folder of all the files needed to play your game, you will need to 'Commit' them to finalize your selections. Consider adding a description for these changes, such as "Add a game called [GameName]". Once you're happy with the description, press the 'Commit changes' button:
 
 <center>
-![Submit Game - commit files](/images/submit-game-commit.png)
+![Submit Game - commit files](/images/submit-game-commit.jpg)
 </center>
 <center>
 *Notice the file path says Brickd/Brickd.py - this is how you will want to see your files added, in the right folder!*
@@ -102,25 +102,25 @@ Now that you have added the folder of all the files needed to play your game, yo
 Go back to the main Thumby Games repository and click on the **'Pull Requests'** tab. On this page, press the 'New pull request' button:
 
 <center>
-![Submit Game - pull request](/images/submit-game-new-pull-request.png)
+![Submit Game - pull request](/images/submit-game-new-pull-request.jpg)
 </center>
 
 Select your local, forked repository to compare changes. Once selected, check that you can see all the files you want to submit. If everything looks good, press the 'Create pull request' button:
 
 <center>
-![Submit Game - commit files](/images/submit-game-compare-changes.png)
+![Submit Game - commit files](/images/submit-game-compare-changes.jpg)
 </center>
 
 On the next page, you get the chance to add more information on what exactly is in your pull request. Add some description on the status of your game, and then press the 'Create pull request' button:
 
 <center>
-![Submit Game - commit files](/images/submit-game-create-pr.png)
+![Submit Game - commit files](/images/submit-game-create-pr.jpg)
 </center>
 
 That's all! You should see a successful message that your branch has no conflicts with the base branch. 
 
 <center>
-![Submit Game - commit files](/images/submit-game-pr-final.png)
+![Submit Game - commit files](/images/submit-game-pr-final.jpg)
 </center>
 
 Now that you have submitted a successful pull request, you just need to wait on the TinyCircuits team to accept your game before it's added to the Thumby Arcade. If there are any issues with the PR, a TinyCircuits team member will comment and let you know!
