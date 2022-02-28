@@ -5,7 +5,7 @@ We are <a href="https://tinycircuits.com/" target="_blank" alt="TinyCircuits hom
 
 
 <center>
-![TinyCircuits group photo](/images/team.png)
+![TinyCircuits group photo](/images/team.jpg)
 </center>
 <center>
 *TinyCircuits' tiny & mighty team*
