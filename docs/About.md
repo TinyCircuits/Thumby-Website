@@ -17,7 +17,9 @@ TinyCircuits is a supporter of open-source hardware and software and believes co
 
 Our mission is to make cool stuff!
 
-If you want to help us build open source software, feel free to submit pull requests to any of our repositories on GitHub. If you want to update information or add tutorials to this website, you can submit tutorials and changes at the Thumby Documentation site GitHub Repository.
+<a href="https://www.youtube.com/watch?v=-kd26o7dds8" target="_blank" alt="TinyCircuits Thumby Article Blog"><b>*Learn more about our company and space with this short video tour of our office by the YouTube channel HackMakeMod.*</b></a>
+
+<!-- If you want to help us build open source software, feel free to submit pull requests to any of our repositories on GitHub. If you want to update information or add tutorials to this website, you can submit tutorials and changes at the Thumby Documentation site GitHub Repository. -->
 
 ----
 

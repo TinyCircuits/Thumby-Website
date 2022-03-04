@@ -1,4 +1,4 @@
-site_name: Thumby Docs
+site_name: by TinyCircuits
 # google_analytics: ['UA-118275183-2', 'learn.tinycircuits.com']
 nav:
     - Home: index.md
@@ -52,20 +52,20 @@ markdown_extensions:
 
 # all the colors of light/dark mode
 theme:
-  logo: images/favicon.png
+  logo: images/Thumby_Logo_Wte.png
   favicon: images/favicon.png
   font:
     text: Roboto
     code: Roboto Mono
   palette: 
     - scheme: default
-      primary: light-blue
+      # primary: 
       accent: purple
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - scheme: slate 
-      primary: deep-orange
+      # primary: 
       accent: yellow
       toggle:
         icon: material/toggle-switch
@@ -76,11 +76,15 @@ theme:
   name: material
   # icon repo for 'GitHub' repo - but it's actually the Thumby Code Editor
   icon:
-    repo: fontawesome/solid/laptop-code
+    repo: octicons/link-external-16
+
+extra_css:
+  - stylesheets/extra.css
+
 
 # Let's see if we can use the github repo feature to link to the Thumby Code Editor
 repo_url: https://code.thumby.us/
-repo_name: Thumby Code Editor ↗
+repo_name: Thumby Code Editor
 
 
 
