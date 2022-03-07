@@ -7,7 +7,7 @@ This website holds all of the documentation on the MicroPython API, and the Ardu
 # Contributing to this project
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
-- Reporting a bug
+- Reporting a bug, typo, incorrect, or unclear information
 - Discussing the current state of the documentation
 - Submitting a fix
 - Proposing new features
