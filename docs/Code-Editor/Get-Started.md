@@ -10,7 +10,7 @@ Any code written in the Code Editor is saved to your local web storage, so refre
 
 *NOTE: The Thumby Code Editor and accompanying tutorials will update as more features are added and as we grow our software support for Thumby during [**Kickstarter fulfillment**](https://www.kickstarter.com/projects/kenburns/thumby-the-tiny-playable-keychain/ "Thumby Kickstarter Page"). If you are interested in hearing software updates as they happen, [**consider joining our Discord**.](https://discord.gg/vzf3wQXVvm "TinyCircuits Discord Invite Link") Thank you for your patience and support!*
 
-*Tutorial Last updated: February 17th, 2022*
+*Tutorial Last updated: March 7th, 2022*
 
 ---
 
@@ -93,7 +93,7 @@ If you close all of the editors, or close out of any of the other Windows like t
 
 Follow the below steps and enter code as you go to program your first Thumby project.
 
-*   import the time and math modules that will be used for animating a sprite with respect to time. Also import the thumby module which implements the main API for interacting with buttons and the screen
+*   Import the *time* and *math* modules that will be used for animating a sprite with respect to time. Also import the thumby module that implements the main API for interacting with the buttons and the screen
 
 ```py
 import time
@@ -101,13 +101,14 @@ import thumby
 import math
 ```
 
-*   Draw a Sprite:
-*   Using the **Bitmap Builder** panel:
-*   First, set the width and height to 32px by clicking the 'Size' button in the **Bitmap Builder**. Left-click bitmap squares to set pixels to black, and right-click squares to set them white
-*   Once the sprite is drawn, select a line in the code editor added earlier, then click the 'Export Lines' button in the 'Bitmap Builder' panel - see the below image for the result.
-*   _NOTE: The **Bitmap Builder** will be deprecated in future Thumby Web Browser Code Editor versions._
+*   Draw a Sprite using the **Bitmap Builder** panel:
 
-*   Or you can draw a Sprite/Bitmap using a tool like [**GIMP**](https://www.gimp.org/ "Gimp website") - export btimaps as binary files (.bin) to include in your games.
+![Thumby Code Editor screenshot of file system and emulation](/images/editor-bitmap-builder.jpg)
+<center>*The **Bitmap Builder** panel*</center>
+
+*   First, set the width and height to 32px by clicking the 'Size' button in the **Bitmap Builder**. Left-click bitmap squares to set pixels to black, and right-click squares to set them white
+*   Once the sprite is drawn, select a line in the code editor, then click the 'Export Lines' button in the 'Bitmap Builder' panel - see the below code snippet for the result.
+*   Or you can draw a Sprite/Bitmap using a tool like [**GIMP**](https://www.gimp.org/ "Gimp website") - export bitmaps as binary files (.bin) to include in your games.
 
 ```py
 # BITMAP: width: 32, height: 32
@@ -170,10 +171,10 @@ That's it! You can emulate the project in the web browser by selection the red c
 
 For your project to show up on the Thumby game select screen, there needs to be one .py file with the same name as the project. Before clicking upload, the webpage and code should look something like the below image:
 
-![Thumby Code Editor screenshot of file system and emulation](/images/editor-emulate.jpg)
-<center>*Setup before clicking 'Upload Files'*</center>
+![Thumby Code Editor screenshot of file system and emulation](/images/editor-upload.jpg)
+<center>*Setup before clicking 'Upload'*</center>
 
-Now click the 'Upload Project' button on the top of the page, disconnect Thumby, power cycle it (turn off and on), use down on the Thumby dpad to find your project, click the left button to select and execute your main project file.
+Now click the 'Upload' button on the bottom of the Filesystem panel, disconnect Thumby, power cycle it (turn off and on), use down on the Thumby dpad to find your project, click the left button to select and execute your main project file.
 
 If the above code was used, the below animation will play after selecting 'HelloWorld' in the Thumby select screen:
 
@@ -197,11 +198,3 @@ If the above code was used, the below animation will play after selecting 'Hello
 
 ---
 
-## Contact Us
-
-
-If you have any questions or feedback, feel free to contact **[TinyCircuits support](https://tinycircuits.com/pages/contact-us "TinyCircuits email and contact form")** or make a post on the **[TinyCircuits forum](http://forum.tinycircuits.com/index.php "TinyCircuits Arduino forum")**.
-
-Show us what you make by tagging @TinyCircuits on **[Instagram](https://www.instagram.com/tinycircuits/)**, [**Twitter**](https://twitter.com/tinycircuits), or [**Facebook**](https://www.facebook.com/TinyCircuits/) so we can feature it!
-
-Thanks for making with us!

@@ -32,7 +32,7 @@ If you are unsure on how to connect your Thumby to the Web Code Editor, please g
 
 ![connect thumby to web code editor button screenshot](/images/editor-connect-thumby.jpg)
 
-Once you have found games you like and your Thumby is connected to the Web Code Editor, all you need to do is download the games to your hardware. Open the Arcade and press 'Download':
+Once you have found games you like and your Thumby is connected to the Web Code Editor, all you need to do is download the games to your hardware. Open the Arcade and press 'Add to Thumby':
 
 ![Thumby Arcade screenshot of Download button](/images/editor-arcade.jpg)
 

@@ -1,7 +1,5 @@
 # Audio
 
-*Note: Audio is not implemented on Thumby Web Code Editor Emulator*
-
 ### Functions
 
 `thumby.audio.play(freq, duration, duty)` | plays audio at sound frequency `freq` and duty cycle `duty` for `duration` in milliseconds without blocking code execution. For now, try searching 'music notes to frequency chart' to relate these parameters to musical notes. `freq` can technically range from 7Hz ~ 125MHz, but human hearing is in the 20 ~ 20000Hz range. Returns None

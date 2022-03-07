@@ -77,7 +77,7 @@ while(True):
 
 ### Screen Brightness
 
-`thumby.display.brightness(brightness)` | sets screen to `brightness` value. Returns None, all parameters required. Note: brightness does not emulate in the Code Editor
+`thumby.display.brightness(brightness)` | sets screen to `brightness` value. Returns None, all parameters required.
 
 * `brightness`
     * type: int
