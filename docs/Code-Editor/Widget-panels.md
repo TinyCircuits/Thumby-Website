@@ -96,8 +96,6 @@ To upload a file to the emulator, check the white and red checkboxes in the Code
 
 *Speed Note: Your code will run faster on the Thumby hardware than on the Emulator. To standardize game speed, make sure to set the [**FPS**](/API/Graphics.md) value in your program.*
 
-*Sound Note: Audio is not currently implemented in the Emulator, so audio can only be used and tested on the actual hardware.*
-
 ---
 ## Resizing Widgets
 

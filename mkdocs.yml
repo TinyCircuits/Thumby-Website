@@ -1,5 +1,4 @@
 site_name: by TinyCircuits
-# google_analytics: ['UA-118275183-2', 'learn.tinycircuits.com']
 nav:
     - Home: index.md
     - Code Editor Docs:
@@ -16,7 +15,6 @@ nav:
        - Get & Set Pixels: API/Pixels.md
        - Draw Lines: API/Lines.md
        - Draw Rectangles: API/Rectangles.md
-      #  - Graphics: API/Graphics.md
        - Sprites: API/Sprites.md
        - Button Input: API/Buttons.md
        - Audio: API/Audio.md
@@ -33,7 +31,6 @@ nav:
        - Sprite Jump: Education/Jump.md
        - Walk Animation & Scrolling Background: Education/Moving-Walk.md
        - Blast Target & Keep Score: Education/Shoot-Target-Keep-Score.md
-      #  - : Education/.md
        - Bounded Sprite: Education/Bounded-ball.md
     - FAQ: FAQ.md
     - About/Contact: About.md
@@ -78,19 +75,18 @@ theme:
   icon:
     repo: octicons/link-external-16
 
+# This sheet just has color changes
 extra_css:
   - stylesheets/extra.css
 
-
-# Let's see if we can use the github repo feature to link to the Thumby Code Editor
+# Use the github repo feature to link to the Thumby Code Editor
 repo_url: https://code.thumby.us/
 repo_name: Thumby Code Editor
 
 
-
 # social footer icons and links
 extra:
-  homepage: https://thumby.us # TODO - change this link when we get a new home page?
+  homepage: https://thumby.us 
   social:
   - icon: fontawesome/brands/github 
     link: https://github.com/TinyCircuits
@@ -116,6 +112,6 @@ extra:
   - icon: fontawesome/brands/tiktok 
     link: https://www.tiktok.com/@tinycircuits
     name: TinyCircuits on TikTok
-  # - icon: fontawesome/heading       # there's no logo for this that works
+  # - icon: fontawesome/heading       # there's no logo for this that works well, so I'm leaving it off
   #   link: https://www.hackster.io/tinycircuits
   #   name: TinyCircuits on Hackster
