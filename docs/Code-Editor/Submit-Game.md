@@ -48,11 +48,6 @@ The following instructions (with pictures!) will guide you through submitting yo
 Log in to your GitHub account and navigate to the <a href="https://github.com/TinyCircuits/TinyCircuits-Thumby-Games" target="_blank" alt="Thumby Game Repo & Submission Instructions">**Thumby Games Repository**</a> page. Press the 'Fork' button in the top right of the page to fork your own copy of the repository:
 
 
-<a href="" target="_blank" alt="TinyCircuits ">****</a>
-<a href="" target="_blank" alt="TinyCircuits ">****</a>
-<a href="" target="_blank" alt="TinyCircuits ">****</a>
-
-
 <center>
 ![Submit Game - fork](/images/submit-game-fork.jpg)
 </center>

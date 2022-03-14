@@ -48,11 +48,13 @@ To add your game to Thumby, place the game file in */Games/MyNewGame/MyNewGame.p
 
 A simple drawing interface to create and edit code bitmaps. Left click to draw black pixels. Right click to draw white pixels.
 
+* SIZE: Change the SIZE (width and height) of the bitmap. Bitmaps and sprites can be as large as the user wants. However, the bitmap builder can only handle images up to 144px x 80px. The larger the bitmap, the slower it will be rendered to the Thumby display.
+* +/-: Zoom in/out of the Bitmap Builder using the +/- buttons.
 * EXPORT: Put your mouse cursor at the location in your Code Editor you want to export your drawing data to, then click the EXPORT button. A comment with size dimensions and a bitmap will be printed in the Code Editor.
 * IMPORT: Highlight a bitmap and the exported dimensions comment in your code and click IMPORT to view the drawing in the Bitmap Builder.
 * IMAGE: Import your own IMAGE to be converted into a bitmap. Most image formats will work, but the maximum image size is 2x Thumby display dimensions,  144px x 80px. An error will appear if the image exceeds maximum size. 
-* SIZE: Change the SIZE (width and height) of the bitmap. Bitmaps and sprites can be as large as the user wants. However, the bitmap builder can only handle images up to 144px x 80px. The larger the bitmap, the slower it will be rendered to the Thumby display.
-* +/-: Zoom in/out of the Bitmap Builder using the +/- buttons.
+* INVERT: Inverts black and white pixels to white and black pixels, respectively. 
+* CLEAR: Clears the bitmap editor to white pixels.
 
 ---
 ## Code Editor
@@ -88,8 +90,9 @@ To upload a file to the emulator, check the white and red checkboxes in the Code
 
 * STOP: Stop emulation.
 * START: Start emulation of the checked files in the Code Editor. 
-* Zoom in/out using +/-. The circle on the left corner shows how many times the image is zoomed.
+* +/-: Zoom in/out using. The circle in the left corner shows how many times the image has been zoomed.
 * ↻: Rotate the virtual Thumby 
+* MUTE/UNMUTE: Toggle the emulated volume off or on.
 * FILES: see the file(s) being run in the Emulator.
 * 📷: Captures a snapshot of the emulation screen to your computer. 
 * 🎥: Captures a .webm video of the emulation screen to your computer. Press the button to start recording - the button will turn red. Press again to stop. 
@@ -101,4 +104,17 @@ To upload a file to the emulator, check the white and red checkboxes in the Code
 
 Click and drag the left/right edges of the widgets to resize the windows. Click on the tab name and drag to reorganize the layout. Click the top right to minimize/maximize the window. Click x to close the widget. Add a widget to your layout using 'Utilities' -> 'Widgets'. 
 
+---
+## Other tabs
 
+* Tutorial: Redirects to the Getting Started Thumby Code Editor tutorial.
+* Thumby API: Redirects to the MicroPython API documentation with examples.
+* Add Game To Arcade: Redirects to the relevant tutorial.
+* Other Links:
+    * Thumby Website: Redirects to the Thumby Documentation Website (this website).
+    * Report a Bug: Redirected to GitHub issues for reporting any bugs with the Editor.
+    * Changelog: The documentation on changes that have been made and features that have been added to the Code Editor.
+    * Forums: Redirects to the TinyCircuits forum that includes a 
+    * Store: Redirects to the TinyCircuits store where Thumby will be purchasable. 
+    * Contact Us: Redirects to our contact form for customer support. 
+* Version XX.XX.XXXX_X: The last day the Code Editor was updated.
