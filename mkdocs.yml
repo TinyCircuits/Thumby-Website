@@ -1,6 +1,5 @@
 site_name: by TinyCircuits
 
-
 nav:
     - Home: index.md
     - Code Editor Docs:
@@ -36,7 +35,6 @@ nav:
        - Bounded Sprite: Education/Bounded-ball.md
     - FAQ: FAQ.md
     - About/Contact: About.md
-
 
 copyright: Copyright &copy; 2022 TinyCircuits
 
