@@ -13,8 +13,12 @@ There are a few different widgets, or panels, to assist with programming Thumby.
 
 Thumby’s Filesystem. Manage all files on Thumby. Left click a file to delete. Right click a file to rename and open it in the editor. See **Thumby Filesystem structure** to learn more about properly organizing your code files to display correctly on Thumby.
 
+* The storage available on the connected Thumby in MB is shown in a green storage bar at the top of the Filesystem.
 * FORMAT: Delete all files on your Thumby and replace with default Thumby files and folders. Reboot your Thumby filesystem to a clean slate. 
+* UPDATE: Update the firmware on the connected Thumby to the latest version. Will appear in pink if the firmware version detected on the connected Thumby is out of date.
 * UPLOAD: Upload multiple files from your computer to Thumby fast. Similar to SAVE TO THUMBY and SAVE AS TO THUMBY buttons in the Editor without needing to open files one at a time. 
+* ↻: Refresh the filesystem.
+
 
 ### Thumby Filesystem Structure
 

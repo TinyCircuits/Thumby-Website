@@ -87,7 +87,7 @@ repo_name: Thumby Code Editor
 extra:
   analytics:
     provider: google
-    property: G-2V2HVGTZ48
+    property: UA-118275183-3
     # feedback: # this feature is not available yet 
     #   title: Was this page helpful?
     #   ratings:
