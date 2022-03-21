@@ -171,7 +171,7 @@ That's it! You can emulate the project in the web browser by selection the red c
 
 For your project to show up on the Thumby game select screen, there needs to be one .py file with the same name as the project. Before clicking upload, the webpage and code should look something like the below image:
 
-![Thumby Code Editor screenshot of file system and emulation](/images/editor-upload.jpg)
+![Thumby Code Editor screenshot of file system and emulation](/images/Editor-upload.jpg)
 <center>*Setup before clicking 'Upload'*</center>
 
 Now click the 'Upload' button on the bottom of the Filesystem panel, disconnect Thumby, power cycle it (turn off and on), use down on the Thumby dpad to find your project, click the left button to select and execute your main project file.

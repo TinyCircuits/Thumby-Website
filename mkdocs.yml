@@ -21,18 +21,19 @@ nav:
        - Audio: API/Audio.md
        - Multiplayer Link: API/Link.md
        - Blit & Draw Sprite: API/Blit-Draw.md
-    - Thumby Arduino C/C++:
-       - Setting up environment: CCPP/Environment-Setup.md
-       - Uploading sketches: CCPP/Uploading-Sketches.md
-       - API Reference: CCPP/API-Reference.md
-       - Examples: CCPP/Examples.md
-    - MicroPython EDU: 
+    - MicroPython Examples: 
        - Getting started: Education/Get-Started.md
        - Move Sprite Using D-pad: Education/Move-Sprite.md
        - Sprite Jump: Education/Jump.md
        - Walk Animation & Scrolling Background: Education/Moving-Walk.md
        - Blast Target & Keep Score: Education/Shoot-Target-Keep-Score.md
        - Bounded Sprite: Education/Bounded-ball.md
+      #  - Video Animation: Education/Play-Video.md
+    - Thumby Arduino C/C++:
+       - Setting up environment: CCPP/Environment-Setup.md
+       - Uploading sketches: CCPP/Uploading-Sketches.md
+       - API Reference: CCPP/API-Reference.md
+       - Examples: CCPP/Examples.md
     - FAQ: FAQ.md
     - About/Contact: About.md
 
@@ -84,6 +85,27 @@ repo_url: https://code.thumby.us/
 repo_name: Thumby Code Editor
 
 # analytics
+# extra:
+#   analytics:
+#     provider: google
+#     property: UA-118275183-3
+#     # feedback: # this feature is not available yet 
+#     #   title: Was this page helpful?
+#     #   ratings:
+#     #     - icon: material/emoticon-happy-outline
+#     #       name: This page was helpful
+#     #       data: 1
+#     #       note: >-
+#     #         Thanks for your feedback!
+#     #     - icon: material/emoticon-sad-outline
+#     #       name: This page could be improved
+#     #       data: 0
+#     #       note: >- 
+#     #         Thanks for your feedback! Help us improve this page by
+#     #         using our <a href="https://tinycircuits.com/pages/contact-us" target=_blank>feedback form</a>.
+
+
+# social footer icons and links
 extra:
   analytics:
     provider: google
@@ -102,10 +124,6 @@ extra:
     #       note: >- 
     #         Thanks for your feedback! Help us improve this page by
     #         using our <a href="https://tinycircuits.com/pages/contact-us" target=_blank>feedback form</a>.
-
-
-# social footer icons and links
-extra:
   homepage: https://thumby.us 
   social:
   - icon: fontawesome/brands/github 
