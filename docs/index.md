@@ -102,7 +102,7 @@ Navigate to the [**Code Editor documentation**](/Code-Editor/Get-Started/) to le
 
 ## Play & program using Arduino C/C++
 
-Check out our [**documentation for the Arduino C/C++ library**](/CC++/API-Reference.md) created for use with Thumby. 
+Check out our [**documentation for the Arduino C/C++ library**](/CCPP/API-Reference/) created for use with Thumby. 
 
 ---
 

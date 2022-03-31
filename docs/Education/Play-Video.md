@@ -27,6 +27,33 @@ Adjust the saturation, lightness, and hue to create a black and white animation.
 ### Rotate the video and scale it
 
 
+
+
+
+
+<center>
+![Shotcut filters screenshot](/images/Shotcut-filters.JPG)
+</center>
+
+<center>
+![Shotcut filters list screenshot](/images/Shotcut-filters-list.JPG)
+</center>
+
+<center>
+![Shotcut filters list hue/lightness/saturation screenshot](/images/Shotcut-filters-sat-light-hue.JPG)
+</center>
+
+<center>
+![Shotcut filters lightness before screenshot](/images/Shotcut-lightness-before.JPG)
+</center>
+
+<center>
+![Shotcut filters lightness after screenshot](/images/Shotcut-lightness-after.JPG)
+</center>
+
+
+
+
 ---
 
 ### 
