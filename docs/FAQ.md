@@ -43,7 +43,9 @@ The Thumby Link cable is a custom cable that connects GND to GND (pin 5), and ID
 
 **How can I test that the audio is working?**
 
-Not every game has audio, but some definitely do! The game **SaurRun** likely has the loudest audio of the games loaded onto Thumby. You can try playing this game and holding the Thumby closer to your ear to hear the tiny piezo sounds while jumping the running Dinosaur. It may also help to check that the Audio is turned on in the settings menu (Turn Thumby on -> scroll down once -> scroll to the right once -> check that the 'Audio' setting is 'ON')
+Check that the Audio is turned on in the settings menu: Turn Thumby on -> scroll down once -> scroll to the right once -> check that the 'Audio' setting is 'ON'.
+
+Not every game has sound effects, but some of the preloaded games do. You can test audio with the game **SaurRun** - try playing this game and holding the Thumby closer to your ear to hear the tiny piezo sounds while jumping the running Dinosaur. Or play the **TinyBlocks** game to hear tiny ticking sounds as the play blocks fall down the screen.
 
 ---
 

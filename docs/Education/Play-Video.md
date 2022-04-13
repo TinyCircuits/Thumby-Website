@@ -6,11 +6,9 @@ This tutorial details how to display an animation on Thumby from how to edit the
 
 This tutorial will involve some video editing and programming.
 
+---
 
-
-<a href="" target="_blank" alt="">****</a>
-<a href="" target="_blank" alt="">****</a>
-
+## Download Shotcut
 
 Download the video editing software <a href="https://shotcut.org/" target="_blank" alt="Download shotcut">**Shotcut**</a>. Once downloaded, open the app and create a project file.
 
