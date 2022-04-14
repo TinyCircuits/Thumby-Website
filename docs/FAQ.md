@@ -20,6 +20,43 @@ Not at all! This is natural behavior. The Thumby hardware appears to stop workin
 
 ---
 
+### Thumby Settings menu
+
+**Can I change the audio and brightness?**
+
+Yes! Turn on the Thumby, scroll down once to the 'GAMES' menu and right once to view the 'SETTINGS'. Here you can press the DPAD down button to the setting you want to alter and press either red action button to change the setting mode:
+
+* Audio: On/Off
+* Brightness: Mid/Hi/Low     *-- Note: we couldn't fit the whole word Brightness on the screen, so it reads as just Brite*
+
+The changes automatically save after being changed. 
+
+---
+
+### Thumby Credits
+
+**Where is the credits menu and whose names are on it?**
+
+To view the credits menu on the Thumby, turn Thumby on, scroll down once to the 'GAMES' menu and press the DPAD button right twice to scroll past the 'SETTINGS' menu to see the credits roll 4 names at a time.
+
+Kickstarter backers that selected a Special Edition Thumby were able to submit one 16 character name (or something) on the credits list per Special Edition Thumby purchased. To view the full credits list, you can connect Thumby to the <a href="https://code.thumby.us/" target="_blank" alt="TinyCircuits Thumby Web Browser Code Editor page">**Thumby Code Editor**</a> and view the credits.txt file from the 'filesystem' directory.
+
+---
+
+### Playing and Adding More Games
+
+***How do I play the games on the Thumby?***
+
+Turn on the Thumby and once the "Start" text displays below the Thumby logo, you can scroll down to see the list of games downloaded to the Thumby. There are 5+ games preloaded onto the Thumby.
+
+Select any game with a red action button to start playing. When you want to stop playing or play a different game, turn the Thumby off and back on with the power switch. Thumby will remember the last game you played. When the Thumby is first powered on and the 'Start' text is selected, you can press a red action button to start playing the last game played.
+
+**How do I add more games?**
+
+There are plenty of free games made by the community that you can play on your Thumby. <a href="https://thumby.us/Code-Editor/Arcade-games/" target="_blank" alt="TinyCircuits Thumby add games tutorial">**Check out this tutorial to learn how to add games to Thumby**</a>. 
+
+---
+
 
 ### Multiplayer Link Cable
 
@@ -70,6 +107,20 @@ You can play Thumby for up to two hours on a full charge. Games that display mor
 You can update the Thumby firmware after connecting your Thumby to the Web Code Editor - the files system panel has an 'Update' button that will turn red when it detects your software is not up-to-date. Press the 'Update' button to load the newest software. The update will only overwrite a few core Thumby files.
 
 --- 
+
+### Linux with Thumby
+
+**How do I connect Thumby to a Linux system?**
+
+If you have already tried to connect Thumby to your Linux machine and failed, it's likely you have encountered an error message like: "Could not open serial port /dev/ttyUSB0"
+
+You will need to add your user to the ```dialout``` group to have access to the USB device. Use the command: 
+
+```sudo adduser $USER dialout```
+
+The $USER keyword will fetch your username, so there is no need to alter the command. Then, log out and restart your machine for the changes to take effect.
+
+---
 
 ### Distributing Thumby
 

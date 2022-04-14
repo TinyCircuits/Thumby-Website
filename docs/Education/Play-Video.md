@@ -30,17 +30,17 @@ To accomplish this, we will use the Shotcut filter *Hue/Lightness/Saturation* to
 Navigate to the filters list to locate *Hue/Lightness/Saturation*: 
 
 <center>
-![Shotcut filters screenshot](/images/Shotcut-filters.JPG)
+![Shotcut filters screenshot](/images/Shotcut-filters.jpg)
 </center>
 <center>*Click Filters*</center>
 
 <center>
-![Shotcut filters list screenshot](/images/Shotcut-filters-list.JPG)
+![Shotcut filters list screenshot](/images/Shotcut-filters-list.jpg)
 </center>
 <center>*Scroll or search for Hue/Lightness/Saturation filter*</center>
 
 <center>
-![Shotcut filters list hue/lightness/saturation screenshot](/images/Shotcut-filters-sat-light-hue.JPG)
+![Shotcut filters list hue/lightness/saturation screenshot](/images/Shotcut-filters-sat-light-hue.jpg)
 </center>
 
 <center>
@@ -74,7 +74,7 @@ Select the color black and press *OK* to add it:
 From there, you can move the black track to a separate *Output* and extend it to match the length of the animation. Move the black footage to *Output V1* and the animation to *Output V2* so that the animation is layered on top of the black footage: 
 
 <center>
-![Shotcut add color black](/images/Shotcut-black-track-background.jpg)
+![Shotcut add black color](/images/Shotcut-black-track-background.jpg)
 </center>
 
 
