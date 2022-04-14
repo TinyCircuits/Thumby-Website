@@ -70,6 +70,8 @@ After doing the above connection steps, the Thumby will be paired to the webpage
 
 With the Thumby connected it is time to upload some code!
 
+If you're on Linux, your user needs to be added to the `dialout` group. Use this command `sudo adduser $USER dialout` and restart your machine.
+
 ---
 
 ## The Code - Thumby Games!
