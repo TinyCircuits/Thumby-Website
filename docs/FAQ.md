@@ -118,7 +118,7 @@ You will need to add your user to the ```dialout``` group to have access to the 
 
 ```sudo adduser $USER dialout```
 
-The $USER keyword will fetch your username, so there is no need to alter the command. Then, log out and restart your machine for the changes to take effect.
+The $USER keyword will fetch your username, so there is no need to alter the command. Then, log out of your user account or restart your machine for the changes to take effect.
 
 ---
 
