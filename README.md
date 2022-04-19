@@ -4,6 +4,32 @@ This website holds all of the documentation on the MicroPython API, and the Ardu
 
 ---
 
+# Building the site locally
+
+Pre-requisites: You will need [Python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installation/), the Python package manager, installed on your machine.
+
+[Install MkDocs](https://www.mkdocs.org/getting-started/), the wonderful static site generator, along with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/), the nice theme that helps bring dark mode and other fun styles to the website.
+
+Once installed, fork this repository to create your local copy. To run the website locally, navigate a command prompt or terminal to the directory of the project that has the mkdocs.yml file and execute:
+
+```
+mkdocs serve
+```
+
+If everything is correctly installed, your terminal should print a message like:
+
+```
+INFO     -  [13:32:01] Serving on http://127.0.0.1:8000/
+```
+
+Open a web browser, like Google Chrome, to the web address [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to see your local changes as you save your edited files. 
+
+To exit the serve mode, select the terminal and press the keys Ctrl+C on Windows or Command+C on Mac to exit the local build.
+
+Once everything looks good on your local build, move on to the next step to contribute your documentation to this repository to help others work on Thumby projects! :sparkling_heart:
+
+---
+
 # Contributing to this project
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
