@@ -2,7 +2,7 @@
 
 This tutorial will show you how to add a game to the Thumby Arcade in the <a href="https://code.thumby.us/" target="_blank" alt="TinyCircuits Thumby Editor">**Thumby Code Editor**</a> using <a href="https://github.com/ " target="_blank" alt="Github main website link">**GitHub**</a>!
 
-Consider going through the [**Getting Started with Thumby tutorial**](/IDE/Get-Started/ "Thumby getting started tutorial") before continuing with this one!
+Consider going through the [**Getting Started with Thumby tutorial**](/Code-Editor/Get-Started/ "Thumby getting started tutorial") before continuing with this one!
 
 ---
 

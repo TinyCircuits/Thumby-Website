@@ -45,7 +45,7 @@ For every game folder, there should be a main python script to run that is the s
 
 To add your game to Thumby, place the game file in */Games/MyNewGame/MyNewGame.py* to add it to the playable Thumby 'GAMES' list. Make sure your python file has the exact same name as the game. Ie. if the game is called *TinyBlocks*, the source file is named *TinyBlocks.py*. The title is case sensitive, so *tinyblocks.py* would not work.
 
-> For more information, check out this page: [**Submitting a Game to the Thumby Arcade**](/IDE/Submit-Game.md)
+> For more information, check out this page: [**Submitting a Game to the Thumby Arcade**](/Code-Editor/Submit-Game.md)
 
 ---
 ## Bitmap Builder
