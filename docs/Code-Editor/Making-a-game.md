@@ -46,7 +46,7 @@ The Thumby screen is a monochrome OLED with 72x40 drawable pixels. With this in 
 Steps:
 
 1.  Create sample art of what gameplay might look like (if possible) - this will help you get started with creating game elements in the right size that you will need later on - keep in mind that the actual thumby screen is only 0.42" 
-2.  Visualize a 72x40 grid for your game when you start creating sample sprites or art - you can use the bitmap builder available from the Thumby IDE to start drafting up some static images of gameplay. 
+2.  Visualize a 72x40 grid for your game when you start creating sample sprites or art - you can use the bitmap builder available from the Thumby Code Editor to start drafting up some static images of gameplay. 
 
 
 <center>![Thumby Code Editor bitmap builder of 72x40](https://cdn.shopify.com/s/files/1/1125/2198/files/image_1_af351171-657d-43c0-a525-28c3f2766846.png?v=1640597713)</center>

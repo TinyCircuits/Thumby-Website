@@ -74,9 +74,8 @@ Select the color black and press *OK* to add it:
 From there, you can move the black track to a separate *Output* and extend it to match the length of the animation. Move the black footage to *Output V1* and the animation to *Output V2* so that the animation is layered on top of the black footage: 
 
 <center>
-![Shotcut add black color](/images/Shotcut-black-track-background.jpg)
+![Shotcut add black color](/images/Shotcut-black-track-background.JPG)
 </center>
-
 
 The last filter to add would be *Crop: Source* to remove the YouTube watermark and resize the video to better fit the Thumby screen dimensions of 72x40 pixels: 
 
