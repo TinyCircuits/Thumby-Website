@@ -408,6 +408,6 @@ thumby.audio.play(440, 300)
 thumby.audio.play(260, 250) 
 ```
 
-With everything working and added, all that's left to do is play-test to make sure everything's working. Then the game can be **[submitted to the Thumby Arcade for everyone to play](/IDE/Submit-Game/ "submitting a thumby game to the Code Editor arcade via Github tutorial")**! 
+With everything working and added, all that's left to do is play-test to make sure everything's working. Then the game can be **[submitted to the Thumby Arcade for everyone to play](/Code-Editor/Submit-Game/ "submitting a thumby game to the Code Editor arcade via Github tutorial")**!
 
 ---
