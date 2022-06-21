@@ -73,7 +73,7 @@ section {
 
 <p>Thumby™ is an itty-bitty game system at the tips of your thumbs, a best friend for your keys, and an easy learning tool all-in-one. Start playing right away with preloaded games. Download more games and learn to program your own using the <a href="https://code.thumby.us/" target="_blank" alt="TinyCircuits Thumby Web Browser code editor page"><b>Thumby Code Editor</b></a> Website!</p>
 
-<center><button class="buy-btn"><a href="https://www.indiegogo.com/projects/thumby-the-tiny-playable-keychain/x/28495928#/"  style="color: white" target="_blank" alt="TinyCircuits Indiegogo Thumby page"><b>Order Now</b></a></button></center>
+<center><button class="buy-btn"><a href="https://tinycircuits.com/thumby"  style="color: white" target="_blank" alt="TinyCircuits Thumby product page on tinycircuits website"><b>Order Now</b></a></button></center>
 
 <p></p>
 
