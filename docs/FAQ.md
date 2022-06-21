@@ -12,7 +12,9 @@ If one of the below options doesn't answer your question(s), you can post on the
 * Make sure the Thumby device is ON - power switch should be to the right when looking at the screen
 * Try a different cable - Since no port is coming up at all when the Thumby is turned on - it's possible that the cable you are using does not have the necessary data lines for communicating with the Thumby. Many Micro USB cables have just the power and ground wires to charge or power electronics. Try another cable, or test that you are able to transfer data with that cable in a different way - possibly by transferring files or pictures from a different device.
 * Unplug the device completely and open your 'Device Manager' (windows) -> click on 'Ports' -> plug the device back in to see if anything shows up. For thumby you should see "USB Serial Device (COM##)" where ## can be any number
-* If you still don't see anything showing up, try turning your computer off and restart. It's possible you have some serial device interfering with your ability to communicate with Thumby. Such as a USB hub or other peripheral devices, like a mouse.
+* Try a Code Editor Hard Reset: Save any unsaved files that are open in any Code Editor tabs, (as they will be lost after the hard reset) then choose Utilties Tab > Hard Rest.
+* If you still don't see anything showing up, try a 'full reboot' on your PC. It's possible you have some serial device interfering with your ability to communicate with Thumby, such as a USB hub or other peripheral devices, like a mouse. 
+  -If you are on a Windows OS, Save any open documents, then click on the Windows Start Button, select the power icon, and then choose Restart option. (not Shut Down).   -IF Linux or Mac, Save any open documents, then hold the computers' power button down for +3 seconds to turn off, then again to turn it back on.  
 
 **The Thumby hardware freezes when it connects to the Code Editor, is it broken?**
 
