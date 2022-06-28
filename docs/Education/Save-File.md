@@ -102,6 +102,8 @@ Both examples below function using the same button actions, and produce the same
 
 When these examples are loaded onto the Thumby hardware as is, the save files will be generated in the main directory. To change the save file's location, edit the file path. For example, change every mention of `"saveFile.txt"` or `"saveFile.json"` to `"Games/GameFolderName/saveFile.txt"` or `"Games/GameFolderName/saveFile.json"`, respectively.
 
+---
+
 ### Save to a .txt file
 
 Works just like the high score example above, but adds a few more data types:
