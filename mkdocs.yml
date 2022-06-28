@@ -28,6 +28,7 @@ nav:
        - Walk Animation & Scrolling Background: Education/Moving-Walk.md
        - Blast Target & Keep Score: Education/Shoot-Target-Keep-Score.md
        - Bounded Sprite: Education/Bounded-ball.md
+       - Saving Game Data: Education/Save-File.md
        - Video Animation: Education/Play-Video.md
     - Thumby Arduino C/C++:
        - Setting up environment: CCPP/Environment-Setup.md

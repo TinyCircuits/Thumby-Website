@@ -11,8 +11,8 @@ If one of the below options doesn't answer your question(s), you can post on the
 * Make sure you only have one Code Editor tab open - sometimes an older tab can be connected to Thumby and interfere with your current attempt to connect
 * Make sure the Thumby device is ON - power switch should be to the right when looking at the screen
 * Try a different cable - Since no port is coming up at all when the Thumby is turned on - it's possible that the cable you are using does not have the necessary data lines for communicating with the Thumby. Many Micro USB cables have just the power and ground wires to charge or power electronics. Try another cable, or test that you are able to transfer data with that cable in a different way - possibly by transferring files or pictures from a different device.
-* Unplug the device completely and open your 'Device Manager' (windows) -> click on 'Ports' -> plug the device back in to see if anything shows up. For thumby you should see "USB Serial Device (COM##)" where ## can be any number
-* Try a Code Editor Hard Reset: Save any unsaved files that are open in any Code Editor tabs, (as they will be lost after the hard reset) then choose Utilities Tab > Hard Rest.
+* Unplug the device completely and open your 'Device Manager' (windows) -> click on 'Ports' -> plug the device back in to see if anything shows up. For Thumby you should see "USB Serial Device (COM##)" where ## can be any number
+* Try a Code Editor Hard Reset: Save any unsaved files that are open in any Code Editor tabs, (as they will be lost after the hard reset) then choose Utilities Tab > Hard Reset.
 * Try a 'full reboot' on your PC. It's possible you have some serial device interfering with your ability to communicate with Thumby, such as a USB hub or other peripheral devices, like a mouse. 
     * If you are on a Windows OS, Save any open documents, then click on the Windows Start Button, select the power icon, and then choose the Restart option. (not Shut Down).   
     * If Linux or Mac, Save any open documents, then hold the computers' power button down for +3 seconds to turn off, then again to turn it back on.  
@@ -28,7 +28,9 @@ If one of the below options doesn't answer your question(s), you can post on the
 
 **The Thumby hardware freezes when it connects to the Code Editor, is it broken?**
 
-Not at all! This is natural behavior. The Thumby hardware appears to stop working, or 'freezes' when you connect it to the Thumby Code Editor. To test changes you upload to the Thumby, you will need to disconnect the unit and power cycle it (turn it off and back on).
+Not at all! This is natural behavior. The Thumby hardware appears to stop working when you connect it since you can no longer access the game menu, but everything is fine! The screen should display "Thumby Code Editor" when connected as of March 9th, 2022.
+
+To test games or changes you upload to the Thumby, you will need to disconnect the unit and power cycle it (turn it off and back on). Otherwise, you can use "Fast Execute" to upload just the game you are currently reviewing or working on. 
 
 ---
 
