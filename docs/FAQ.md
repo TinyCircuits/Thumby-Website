@@ -20,7 +20,7 @@ If one of the below options doesn't answer your question(s), you can post on the
 
     1.  Plug Thumby into a computer
     2.	Turn Thumby off
-    3.	Turn Thumby on while holding the B button (left red button)
+    3.	Turn Thumby on while holding the down D-Pad button (*Note: Earlier revisions of Thumby may require pressing one of the red action buttons instead of the down D-Pad button*)
     4.	Wait for a file explorer to pop up or for the 'RPI-RP2' device to mount 
     5.	<a href="https://github.com/TinyCircuits/TinyCircuits-Thumby-Code-Editor/raw/master/ThumbyFirmware.uf2" alt="tinycircuits thumby code editor repository">**Download the ThumbyFirmware.uf2 file**</a>
     6.	Drag and drop the **ThumbyFirmware.uf2** file to the 'RPI-RP2' device (WARNING: this will delete all Thumby files)
