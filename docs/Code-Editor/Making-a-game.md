@@ -113,6 +113,7 @@ To write the code, start with some of the easier components by themselves instea
 import time
 import thumby
 import math
+import machine
 
 padMap = bytearray([1,3,7,7,7,7,7,7,3,1]) # BITMAP: width: 10, height: 3
 padSprite = thumby.Sprite(10, 3, padMap, key=0) # w, h, bitmapData, key
@@ -149,6 +150,7 @@ Then you can add other game elements, like the ability to lose the game, and the
 import time
 import thumby
 import math
+import machine
 
 # Bitmaps
 ballMap = bytearray([6,15,15,6]) # BITMAP: width: 4, height: 4
@@ -245,7 +247,7 @@ At this point, you have a moving Game Paddle that can bounce the Ball, the Ball 
 
 The code is getting pretty long, so let's just add the remaining components separately! You can comfortably fit around 3 rows of 10 bricks on the screen with the brick size 6x3. So we need to display all the bricks and make them able to store the data of being collided or not per each of the 30 bricks. I chose to implement this with a **Brick class** that holds a collision variable, and a function that will delete, or move the **Brick** off the screen when collision is detected.
 
-With **Bricks** added to the game, we can keep score of how many are broken to Win the game! We can also add some more functionality to the Game Over menu to restart the game, or take the user back to the main Thumby menu using _machine.reset()._ These components:
+With **Bricks** added to the game, we can keep score of how many are broken to Win the game! We can also add some more functionality to the Game Over menu to restart the game, or take the user back to the main Thumby menu using _machine.reset()_ - the "import machine" at the beginning of the program is necessary to make this command work. These components:
 
 ```py
     # NOTE: library imports, ball, and pad variables should be here

@@ -21,6 +21,7 @@ nav:
        - Audio: API/Audio.md
        - Multiplayer Link: API/Link.md
        - Blit & Draw Sprite: API/Blit-Draw.md
+       - Save Game Data: API/Save-Files.md
     - MicroPython Examples: 
        - Getting started: Education/Get-Started.md
        - Move Sprite Using D-pad: Education/Move-Sprite.md
