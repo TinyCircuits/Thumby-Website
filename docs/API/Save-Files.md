@@ -4,12 +4,48 @@ So you want to keep track of your high score in a Thumby game, or you want to sa
 
 The save methods available from the thumby API: 
 
-* `thumby.saveData.setName(subdirName)` | creates a persistent.json file for save data to Saves/`subdirName`/persistent.json
-* `thumby.saveData.setItem(key, value)` | set a save entry under the `key` string name with `value` variable
-* `thumby.saveData.getItem(key)` | get a save entry under `key` string name, returns variable value saved at `key`
-* `thumby.saveData.hasItem(key)` | check if save entry under `key` string name exists, returns true if `key` exists, returns false otherwise 
-* `thumby.saveData.save()` | write all set save data to persistent.json save file
-* `thumby.saveData.getName()` | returns the current save path
+`thumby.saveData.setName(subdirectoryName)` | creates a persistent.json file for save data to Saves/`subdirectoryName`/persistent.json
+
+* `subdirectoryName`
+    * type: string
+    * value: use the name of your .py game file to keep the Saves/ directory clearly organized per game. 
+
+*Note: The /persistent.json save file created under the `subdirectoryName` will persist in the Saves/ directory when updating the game, or removing the game from the Thumby. So, you can feel safe removing games and trying out different games from the Thumby Arcade while maintaining saved game data.*
+
+---
+
+`thumby.saveData.setItem(key, value)` | set a save entry under the `key` string name with `value` variable
+
+* `key`
+    * type: string
+    * value: name of the game data or variable you wish to save in Saves/`subdirectoryName`/persistent.json
+
+* `value`
+    * type: bytearray, bytes, float, integer, list (all elements need to be the same type and in this list), string, tuple (all elements need to be the same type and be in this list)
+    * value: save data you wish to keep throughout different game plays 
+
+---
+
+`thumby.saveData.getItem(key)` | get a save entry under `key` string name. Returns `value` saved at `key`.
+
+* `key`
+    * type: string
+    * value: name of the game data or variable you wish to retrieve data from in Saves/`subdirectoryName`/persistent.json
+
+---
+
+`thumby.saveData.hasItem(key)` | check if save entry under `key` string name exists. Returns true if `key` exists, returns false otherwise.
+
+* `key`
+    * type: string
+    * value: match the string value of the data entry previously set
+
+---
+
+`thumby.saveData.save()` | write all set save data to persistent.json save file
+
+
+`thumby.saveData.getName()` | returns the current save path
 
 ---
 
