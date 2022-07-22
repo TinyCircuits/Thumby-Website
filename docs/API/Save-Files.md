@@ -23,7 +23,6 @@ For this short program, we'll use two buttons:
 ```python
 import thumby
 import time    # added for delay at end of program
-import machine # added to exit program to main thumby menu
 
 # Create a save file titled HighScore to match game .py name
 # This will save a persistent.json file with save data to Saves\HighScore\persisten.json
