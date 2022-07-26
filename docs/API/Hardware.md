@@ -24,4 +24,4 @@ while(True):
     thumby.display.update()
 ```
 
-You can use the reset method by either importing the entire Thumby API using `import thumby` and then type `thumby.reset()` in your code where you want to return to the main menu, or you can import a submodule of the Thumby API `import thumbyHardware` and `thumbyHardware.reset()`. Submodules are available in Thumby API version 1.7 and later.
+You can use the reset method by either importing the entire Thumby API using `import thumby` and then type `thumby.reset()` in your code where you want to return to the main menu, or you can import a submodule of the Thumby API `import thumbyHardware` and `thumbyHardware.reset()`. [**Submodule**](/API/Get-Started/#submodules)  are available in Thumby API version 1.7 and later.
