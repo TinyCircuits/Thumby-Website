@@ -12,6 +12,7 @@ nav:
     - MicroPython API: 
        - Getting started: API/Get-Started.md
        - Display Basics: API/Graphics.md
+       - Reset Game: API/Hardware.md
        - Text & Font: API/Text-and-Font.md
        - Get & Set Pixels: API/Pixels.md
        - Draw Lines: API/Lines.md

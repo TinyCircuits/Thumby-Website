@@ -11,14 +11,28 @@ There are 6 total individual buttons available to use as input for Thumby. 4 dir
 * `thumby.buttonL` | for accessing left direction on DPAD
 * `thumby.buttonR` | for accessing right direction on DPAD
 
-### Functions
+### Methods
 * `thumby.buttonX.pressed()` 
     * Returns True if `thumby.buttonX` is currently pressed
     * Returns False otherwise (replace `buttonX` by any of the above button objects)
 * `thumby.buttonX.justPressed()`
     * Returns True if the last button pressed was `thumby.buttonX`
     * Returns False otherwise (replace `buttonX` by any of the above button objects)
+* `inputPressed()`
+    * Returns true if any buttons are currently pressed on the thumby.
+* `inputJustPressed()`
+    * Returns true if any buttons were just pressed on the thumby.
+* `dpadPressed()`
+    * Returns true if any dpad buttons are currently pressed on the thumby.
+* `dpadJustPressed()`
+    * Returns true if any dpad buttons were just pressed on the thumby.
+* `actionPressed()`
+    * Returns true if either action button is pressed on the thumby.
+* `actionJustPressed()`
+    * Returns true if either action button was just pressed on the thumby.
 
+
+---
 
 ### Example with Graphics
 
