@@ -42,6 +42,14 @@ The save methods available from the thumby API:
 
 ---
 
+`thumby.saveData.delItem(key)` | delete save entry under `key` string name. Returns none.
+
+* `key`
+    * type: string
+    * value: match the string value of the data entry previously set
+
+---
+
 `thumby.saveData.save()` | write all set save data to persistent.json save file
 
 
