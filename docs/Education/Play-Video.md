@@ -16,8 +16,7 @@ Download the video editing software <a href="https://shotcut.org/" target="_blan
 ![Opening shotcut screenshot](/images/Shotcut-opening-screen.JPG)
 </center>
 
-Import the video you want to see on Thumby. If you want to follow along with this tutorial, you can <a href="https://github.com/TinyCircuits/Thumby-Website/raw/main/docs/images/DancingAnimation.mp4" target="_blank" alt="">**download the video we used**</a>. 
-
+Import the video you want to see on Thumby. If you want to follow along with this tutorial, you can <a href="https://github.com/TinyCircuits/Thumby-Website/raw/main/docs/images/DancingAnimation.mp4" target="_blank" alt="">**download the video we used**</a>.
 
 ---
 
@@ -25,9 +24,9 @@ Import the video you want to see on Thumby. If you want to follow along with thi
 
 For this, we will need to add some filters to achieve a fully black and white video. Keep in mind that this process will require more steps if your video contains a lot of colors or doesn't have a solid color background.
 
-To accomplish this, we will use the Shotcut filter *Hue/Lightness/Saturation* to adjust the saturation, lightness, and hue values. When edited correctly, the video video should appear so saturated and brightened that you only see two colors. 
+To accomplish this, we will use the Shotcut filter _Hue/Lightness/Saturation_ to adjust the saturation, lightness, and hue values. When edited correctly, the video video should appear so saturated and brightened that you only see two colors.
 
-Navigate to the filters list to locate *Hue/Lightness/Saturation*: 
+Navigate to the filters list to locate _Hue/Lightness/Saturation_:
 
 <center>
 ![Shotcut filters screenshot](/images/Shotcut-filters.jpg)
@@ -48,36 +47,35 @@ Navigate to the filters list to locate *Hue/Lightness/Saturation*:
 </center>
 <center>*The default Hue/Lightness/Saturation values are on sliders you can toggle*</center>
 
-
 For this video, the orange background became a very light yellow so it may be difficult to distinguish that there are two colors after applying the following settings:
 
-* Hue: -21
-* Lightness: 200 (max)
-* Saturation: 100
+- Hue: -21
+- Lightness: 200 (max)
+- Saturation: 100
 
 <center>
 ![Shotcut filter hue/lightness/saturation applied screenshot](/images/Shotcut-saturated-before-chroma-key.JPG)
 </center>
 
-Now we need to make the video appear as just black and white. To do this, we will first key out the light-yellow background color and then add a black video to replace the background. Search for the *Chroma Key: Simple* filter. Once open, take the color dropper tool and select the background, in this case the light yellow. Nothing will visually change here until we layer in  some black footage. To do this, select the *Open Other* dropdown in the top left, and press *Color*:
+Now we need to make the video appear as just black and white. To do this, we will first key out the light-yellow background color and then add a black video to replace the background. Search for the _Chroma Key: Simple_ filter. Once open, take the color dropper tool and select the background, in this case the light yellow. Nothing will visually change here until we layer in some black footage. To do this, select the _Open Other_ dropdown in the top left, and press _Color_:
 
 <center>
 ![Shotcut add color](/images/Shotcut-open-color.jpg)
 </center>
 
-Select the color black and press *OK* to add it:
+Select the color black and press _OK_ to add it:
 
 <center>
 ![Shotcut add color black](/images/Shotcut-open-color-black.jpg)
 </center>
 
-From there, you can move the black track to a separate *Output* and extend it to match the length of the animation. Move the black footage to *Output V1* and the animation to *Output V2* so that the animation is layered on top of the black footage: 
+From there, you can move the black track to a separate _Output_ and extend it to match the length of the animation. Move the black footage to _Output V1_ and the animation to _Output V2_ so that the animation is layered on top of the black footage:
 
 <center>
 ![Shotcut add black color](/images/Shotcut-black-track-background.JPG)
 </center>
 
-The last filter to add would be *Crop: Source* to remove the YouTube watermark and resize the video to better fit the Thumby screen dimensions of 72x40 pixels: 
+The last filter to add would be _Crop: Source_ to remove the YouTube watermark and resize the video to better fit the Thumby screen dimensions of 72x40 pixels:
 
 <center>
 ![Shotcut crop source filter applied](/images/Shotcut-crop-filter.jpg)
@@ -87,25 +85,27 @@ The last filter to add would be *Crop: Source* to remove the YouTube watermark a
 
 ### Rotate the video and scale it
 
-The Thumby screen is a typical wide rectangle, so to make this tall phone-style video fit onto the screen better, we will need to rotate and scale it before exporting it. Click on *View* and select *Export*:
+The Thumby screen is a typical wide rectangle, so to make this tall phone-style video fit onto the screen better, we will need to rotate and scale it before exporting it. Click on _View_ and select _Export_:
 
 <center>
 ![Shotcut export](/images/Shotcut-export.jpg)
 </center>
 
-Once the settings are open, change the *Aspect ratio* values to 72 and 40 and set the *Rotation* to 90. Click on *Convert* and then press *OK* on the window that opens to export the modified video: 
+Once the settings are open, change the _Aspect ratio_ values to 72 and 40 and set the _Rotation_ to 90. Click on _Convert_ and then press _OK_ on the window that opens to export the modified video:
 
 <center>
 ![Shotcut export settings](/images/Shotcut-export-settings.jpg)
 </center>
 
-Name the edited video *DancingAnimation-edited.mp4* so that it will be compatible with the program used in the next step.
+Name the edited video _DancingAnimation-edited.mp4_ so that it will be compatible with the program used in the next step.
 
 ---
 
 ## Convert MP4 to Bitmap
 
-To make the animation compatible with Thumby, we will want the video in terms of bitmaps. Use the following program *ConvertMP4ToMPBitmaps.py* to generate *video.raw* that will be used in the next, final step to get the video onto Thumby.
+To make the animation compatible with Thumby, we will want the video in terms of bitmaps. Use the following program [**_ConvertMP4ToMPBitmaps.py_**](https://github.com/TinyCircuits/Thumby-Website/raw/main/docs/Education/ConvertMP4ToMPBitmaps.zip) to generate the _video.raw_ file that will be used in the next, final step to get the video onto Thumby.
+
+To use this program, you will need [**python**](https://www.python.org/downloads/) installed on your computer. [**Download the python file**](https://github.com/TinyCircuits/Thumby-Website/raw/main/docs/Education/ConvertMP4ToMPBitmaps.zip) to your computer, put the _DancingAnimation-edited.mp4_ file in the same folder as the python file. Once the python file and _DancingAnimation-edited.mp4_ are in the same folder, you should be able to double click the python file and it will run the following script to convert the _DancingAnimation-edited.mp4_ file to _video.raw_:
 
 ```py
 import cv2
@@ -156,6 +156,30 @@ print("Data output to: video.raw")
 print("")
 ```
 
+If the python file doesn't produce a video.raw file, you may need to download the python module _cv2_ - to do this, first download [**pip**](https://pip.pypa.io/en/stable/installation/) and then open a command prompt and type one of the following install commands that will work for your python version and machine:
+
+```shell
+# 👇️ in a virtual environment or using Python 2
+pip install opencv-python
+
+# 👇️ for python 3 (could also be pip3.10 depending on your version)
+pip3 install opencv-python
+
+# 👇️ if you get permissions error
+sudo pip3 install opencv-python
+
+# 👇️ if you don't have pip in your PATH environment variable
+python -m pip install opencv-python
+
+# 👇️ for python 3 (could also be pip3.10 depending on your version)
+python3 -m pip install opencv-python
+
+# 👇️ for Anaconda
+conda install -c conda-forge opencv
+
+# Above install options sourced from: https://bobbyhadz.com/blog/python-no-module-named-cv2
+```
+
 ---
 
 ## Upload the .raw video to Thumby
@@ -183,17 +207,15 @@ while(1):
     video.seek(0)
 ```
 
-
 <center>
-![Shotcut code editor](/images/Shotcut-code-editor.jpg)
+![Shotcut code editor](/images/Shotcut-code-editor.JPG)
 </center>
 
-Then select *File* and *Import from PC* to import the video.raw file:
+Then select _File_ and _Import from PC_ to import the video.raw file:
 
 <center>
 ![Shotcut code editor import](/images/Shotcut-code-editor-import.jpg)
 </center>
-
 
 Make sure the file path on line 6 or 7 is pointing to the correct location, whether you have the video.raw file just in the emulator, or if you later add it to a folder on the Thumby hardware.
 

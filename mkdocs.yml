@@ -1,47 +1,48 @@
 site_name: by TinyCircuits
 
 nav:
-    - Home: index.md
-    - Code Editor Docs:
-       - Getting Started - First Program: Code-Editor/Get-Started.md
-       - Widgets / Panels: Code-Editor/Widget-panels.md
-       - Adding Arcade Games to Thumby: Code-Editor/Arcade-games.md
-       - Import Sprite(sheet): Code-Editor/Spritesheet.md
-       - Making a Game: Code-Editor/Making-a-game.md
-       - Submitting a Game to the Arcade: Code-Editor/Submit-Game.md
-    - MicroPython API: 
-       - Getting started: API/Get-Started.md
-       - Display Basics: API/Graphics.md
-       - Reset Game: API/Hardware.md
-       - Text & Font: API/Text-and-Font.md
-       - Get & Set Pixels: API/Pixels.md
-       - Draw Lines: API/Lines.md
-       - Draw Rectangles: API/Rectangles.md
-       - Sprites: API/Sprites.md
-       - Button Input: API/Buttons.md
-       - Audio: API/Audio.md
-       - Multiplayer Link: API/Link.md
-       - Blit & Draw Sprite: API/Blit-Draw.md
-       - Save Game Data: API/Save-Files.md
-    - MicroPython Examples: 
-       - Getting started: Education/Get-Started.md
-       - Move Sprite Using D-pad: Education/Move-Sprite.md
-       - Sprite Jump: Education/Jump.md
-       - Walk Animation & Scrolling Background: Education/Moving-Walk.md
-       - Blast Target & Keep Score: Education/Shoot-Target-Keep-Score.md
-       - Bounded Sprite: Education/Bounded-ball.md
-       - Video Animation: Education/Play-Video.md
-    - Thumby Arduino C/C++:
-       - Setting up environment: CCPP/Environment-Setup.md
-       - Uploading sketches: CCPP/Uploading-Sketches.md
-       - API Reference: CCPP/API-Reference.md
-       - Examples: CCPP/Examples.md
-    - FAQ: FAQ.md
-    - About/Contact: About.md
+  - Home: index.md
+  - Code Editor Docs:
+      - Getting Started - First Program: Code-Editor/Get-Started.md
+      - Widgets / Panels: Code-Editor/Widget-panels.md
+      - Adding Arcade Games to Thumby: Code-Editor/Arcade-games.md
+      - Import Sprite(sheet): Code-Editor/Spritesheet.md
+      - Making a Game: Code-Editor/Making-a-game.md
+      - Submitting a Game to the Arcade: Code-Editor/Submit-Game.md
+  - MicroPython API:
+      - Getting started: API/Get-Started.md
+      - Display Basics: API/Graphics.md
+      - Reset Game: API/Hardware.md
+      - Text & Font: API/Text-and-Font.md
+      - Get & Set Pixels: API/Pixels.md
+      - Draw Lines: API/Lines.md
+      - Draw Rectangles: API/Rectangles.md
+      - Sprites: API/Sprites.md
+      - Button Input: API/Buttons.md
+      - Audio: API/Audio.md
+      - Multiplayer Link: API/Link.md
+      - Blit & Draw Sprite: API/Blit-Draw.md
+      - Save Game Data: API/Save-Files.md
+  - MicroPython Examples:
+      - Getting started: Education/Get-Started.md
+      - Move Sprite Using D-pad: Education/Move-Sprite.md
+      - Sprite Jump: Education/Jump.md
+      - Walk Animation & Scrolling Background: Education/Moving-Walk.md
+      - Blast Target & Keep Score: Education/Shoot-Target-Keep-Score.md
+      - Bounded Sprite: Education/Bounded-ball.md
+      - Customize Thumby Logos: Education/Change-Thumby-Start-Logo.md
+      - Video Animation: Education/Play-Video.md
+  - Thumby Arduino C/C++:
+      - Setting up environment: CCPP/Environment-Setup.md
+      - Uploading sketches: CCPP/Uploading-Sketches.md
+      - API Reference: CCPP/API-Reference.md
+      - Examples: CCPP/Examples.md
+  - FAQ: FAQ.md
+  - About/Contact: About.md
 
 copyright: Copyright &copy; 2022 TinyCircuits
 
-# code highlighting 
+# code highlighting
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -57,15 +58,15 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  palette: 
+  palette:
     - scheme: default
-      # primary: 
+      # primary:
       accent: purple
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-    - scheme: slate 
-      # primary: 
+    - scheme: slate
+      # primary:
       accent: yellow
       toggle:
         icon: material/toggle-switch
@@ -91,7 +92,7 @@ repo_name: Thumby Code Editor
 #   analytics:
 #     provider: google
 #     property: UA-118275183-3
-#     # feedback: # this feature is not available yet 
+#     # feedback: # this feature is not available yet
 #     #   title: Was this page helpful?
 #     #   ratings:
 #     #     - icon: material/emoticon-happy-outline
@@ -102,17 +103,16 @@ repo_name: Thumby Code Editor
 #     #     - icon: material/emoticon-sad-outline
 #     #       name: This page could be improved
 #     #       data: 0
-#     #       note: >- 
+#     #       note: >-
 #     #         Thanks for your feedback! Help us improve this page by
 #     #         using our <a href="https://tinycircuits.com/pages/contact-us" target=_blank>feedback form</a>.
-
 
 # social footer icons and links
 extra:
   analytics:
     provider: google
     property: UA-118275183-3
-    # feedback: # this feature is not available yet 
+    # feedback: # this feature is not available yet
     #   title: Was this page helpful?
     #   ratings:
     #     - icon: material/emoticon-happy-outline
@@ -123,38 +123,35 @@ extra:
     #     - icon: material/emoticon-sad-outline
     #       name: This page could be improved
     #       data: 0
-    #       note: >- 
+    #       note: >-
     #         Thanks for your feedback! Help us improve this page by
     #         using our <a href="https://tinycircuits.com/pages/contact-us" target=_blank>feedback form</a>.
-  homepage: https://thumby.us 
+  homepage: https://thumby.us
   social:
-  - icon: fontawesome/brands/github 
-    link: https://github.com/TinyCircuits
-    name: TinyCircuits on GitHub
-  - icon: fontawesome/brands/discord 
-    link: https://discord.gg/nkwR3WBBXD
-    name: TinyCircuits on Discord
-  - icon: fontawesome/brands/twitter 
-    link: https://twitter.com/TinyCircuits
-    name: TinyCircuits on Twitter
-  - icon: fontawesome/brands/instagram 
-    link: https://www.instagram.com/tinycircuits/
-    name: TinyCircuits on Instagram
-  - icon: fontawesome/brands/facebook 
-    link: https://www.facebook.com/TinyCircuits/
-    name: TinyCircuits on Facebook
-  - icon: fontawesome/brands/youtube
-    link: https://www.youtube.com/channel/UCc4SQjmFcgsbvQFuYNgHuVg
-    name: TinyCircuits on YouTube
-  - icon: fontawesome/brands/linkedin 
-    link: https://www.linkedin.com/company/tinycircuits-com/
-    name: TinyCircuits on LinkedIn
-  - icon: fontawesome/brands/tiktok 
-    link: https://www.tiktok.com/@tinycircuits
-    name: TinyCircuits on TikTok
+    - icon: fontawesome/brands/github
+      link: https://github.com/TinyCircuits
+      name: TinyCircuits on GitHub
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/nkwR3WBBXD
+      name: TinyCircuits on Discord
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/TinyCircuits
+      name: TinyCircuits on Twitter
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/tinycircuits/
+      name: TinyCircuits on Instagram
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/TinyCircuits/
+      name: TinyCircuits on Facebook
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCc4SQjmFcgsbvQFuYNgHuVg
+      name: TinyCircuits on YouTube
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/tinycircuits-com/
+      name: TinyCircuits on LinkedIn
+    - icon: fontawesome/brands/tiktok
+      link: https://www.tiktok.com/@tinycircuits
+      name: TinyCircuits on TikTok
   # - icon: fontawesome/heading       # there's no logo for this that works well, so I'm leaving it off
   #   link: https://www.hackster.io/tinycircuits
   #   name: TinyCircuits on Hackster
-
-
-    
