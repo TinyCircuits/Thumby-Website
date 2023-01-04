@@ -43,7 +43,7 @@ Where Thumby game files are stored.
 
 For every game folder, there should be a main python script to run that is the same name of the folder. 
 
-To add your game to Thumby, place the game file in */Games/MyNewGame/MyNewGame.py* to add it to the playable Thumby 'GAMES' list. Make sure your python file has the exact same name as the game. Ie. if the game is called *TinyBlocks*, the source file is named *TinyBlocks.py*. The title is case sensitive, so *tinyblocks.py* would not work.
+To add your game to Thumby, place the game file in */Games/MyNewGame/MyNewGame.py* to add it to the playable Thumby 'GAMES' list. Make sure your python file has the exact same name as the game: i.e. if the game is called *TinyBlocks*, the source file is named *TinyBlocks.py*. The title is case sensitive, so *tinyblocks.py* would not work.
 
 > For more information, check out this page: [**Submitting a Game to the Thumby Arcade**](/Code-Editor/Submit-Game.md)
 
@@ -52,11 +52,11 @@ To add your game to Thumby, place the game file in */Games/MyNewGame/MyNewGame.p
 
 A simple drawing interface to create and edit code bitmaps. Left click to draw black pixels. Right click to draw white pixels.
 
-* SIZE: Change the SIZE (width and height) of the bitmap. Bitmaps and sprites can be as large as the user wants. However, the bitmap builder can only handle images up to 144px x 80px. The larger the bitmap, the slower it will be rendered to the Thumby display.
+* SIZE: Change the SIZE (width and height) of the bitmap. Bitmaps and sprites can be as large as the user wants. However, the bitmap builder can only handle images up to 144 × 80 px. The larger the bitmap, the slower it will be rendered to the Thumby display.
 * +/-: Zoom in/out of the Bitmap Builder using the +/- buttons.
 * EXPORT: Put your mouse cursor at the location in your Code Editor you want to export your drawing data to, then click the EXPORT button. A comment with size dimensions and a bitmap will be printed in the Code Editor.
 * IMPORT: Highlight a bitmap and the exported dimensions comment in your code and click IMPORT to view the drawing in the Bitmap Builder.
-* IMAGE: Import your own IMAGE to be converted into a bitmap. Most image formats will work, but the maximum image size is 2x Thumby display dimensions,  144px x 80px. An error will appear if the image exceeds maximum size. 
+* IMAGE: Import your own IMAGE to be converted into a bitmap. Most image formats will work, but the maximum image size is 2× Thumby display dimensions,  144 × 80 px. An error will appear if the image exceeds maximum size. 
 * INVERT: Inverts black and white pixels to white and black pixels, respectively. 
 * CLEAR: Clears the bitmap editor to white pixels.
 
@@ -76,7 +76,7 @@ Where code is written and displayed. By default, the editor will have a Thumby s
 
 * VIEW: Change display of Editor. Adjust and reset font size. Toggle live autocomplete.
 * FAST EXECUTE: When pressed, will execute a single file at the root level of a connected Thumby device. 
-* EMULATION: Click both the white and red checkbox to test the file in the Emulator. The white box uploads the file (script) to the emulator’s filesystem. The red box designates a script as the main script to run. Because of how Thumby works, only 1 file (main script, red checkbox) can be executed at a time. However, users may want to include other files that are not the main script during emulation (ie. binary sprite files or other modules). Check the white box for those supplementary files. 
+* EMULATION: Click both the white and red checkbox to test the file in the Emulator. The white box uploads the file (script) to the emulator’s filesystem. The red box designates a script as the main script to run. Because of how Thumby works, only 1 file (main script, red checkbox) can be executed at a time. However, users may want to include other files that are not the main script during emulation (e.g. binary sprite files or other modules). Check the white box for those supplementary files. 
 
 ---
 ## Shell
@@ -90,7 +90,7 @@ This panel with a virtual Thumby emulates what your code will look like on the h
 
 The emulator will not display the main game menu seen on the Thumby hardware, it will only emulate files in the Code Editor that are selected for emulation.
 
-To upload a file to the emulator, check the white and red checkboxes in the Code Editor panel with the file you want to emulate. The white box uploads the file (script) to the emulator’s filesystem. The red box designates a script as the main script to run. Because of how Thumby works, only 1 file (main script, red checkbox) can be executed at a time on the device. However, users may want to include other files that are not the main script during emulation (ie. binary sprite files or other modules). Check the white box for those supplementary files.
+To upload a file to the emulator, check the white and red checkboxes in the Code Editor panel with the file you want to emulate. The white box uploads the file (script) to the emulator’s filesystem. The red box designates a script as the main script to run. Because of how Thumby works, only 1 file (main script, red checkbox) can be executed at a time on the device. However, users may want to include other files that are not the main script during emulation (e.g. binary sprite files or other modules). Check the white box for those supplementary files.
 
 * STOP: Stop emulation.
 * START: Start emulation of the checked files in the Code Editor. 

@@ -22,7 +22,7 @@ A few mentions of awesome game developers:
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/dEVXW3sdPtM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 <center>*Caution: This one has some mature language that may not be suited for all ages*</center>
 
-Play all the games you want - be sure to check back occasionally to see new games that get added to the Arcade! [_**Learn how to submit your own**_](https://tinycircuits.com/blogs/learn/thumby-tutorial-submitting-a-game "How to submit thumby games using github tutorial").
+Play all the games you want - be sure to check back occasionally to see new games that get added to the Arcade! [_**Learn how to submit your own**_](https://tinycircuits.com/blogs/learn/thumby-tutorial-submitting-a-game "How to submit thumby games using GitHub tutorial").
 
 ---
 

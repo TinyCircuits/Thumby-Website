@@ -20,7 +20,7 @@ If one of the below options doesn't answer your question(s), you can post on the
 
     1.  Plug Thumby into a computer
     2.	Turn Thumby off
-    3.	Turn Thumby on while holding the down D-Pad button (*Note: Earlier revisions of Thumby may require pressing one of the red action buttons instead of the down D-Pad button*)
+    3.	Turn Thumby on while holding the down d-pad button (*Note: Earlier revisions of Thumby may require pressing one of the red action buttons instead of the down d-pad button*)
     4.	Wait for a file explorer to pop up or for the 'RPI-RP2' device to mount 
     5.	<a href="https://github.com/TinyCircuits/TinyCircuits-Thumby-Code-Editor/raw/master/ThumbyFirmware.uf2" alt="tinycircuits thumby code editor repository">**Download the ThumbyFirmware.uf2 file**</a>
     6.	Drag and drop the **ThumbyFirmware.uf2** file to the 'RPI-RP2' device (WARNING: this will delete all Thumby files)
@@ -38,7 +38,7 @@ To test games or changes you upload to the Thumby, you will need to disconnect t
 
 **Can I change the audio and brightness?**
 
-Yes! Turn on the Thumby, scroll down once to the 'GAMES' menu and right once to view the 'SETTINGS'. Here you can press the DPAD down button to the setting you want to alter and press either red action button to change the setting mode:
+Yes! Turn on the Thumby, scroll down once to the 'GAMES' menu and right once to view the 'SETTINGS'. Here you can press the d-pad down button to the setting you want to alter and press either red action button to change the setting mode:
 
 * Audio: On/Off
 * Brightness: Mid/Hi/Low     *-- Note: we couldn't fit the whole word Brightness on the screen, so it reads as just Brite*
@@ -51,7 +51,7 @@ The changes automatically save after being changed.
 
 **Where is the credits menu and whose names are on it?**
 
-To view the credits menu on the Thumby, turn Thumby on, scroll down once to the 'GAMES' menu and press the DPAD button right twice to scroll past the 'SETTINGS' menu to see the credits roll 4 names at a time.
+To view the credits menu on the Thumby, turn Thumby on, scroll down once to the 'GAMES' menu and press the d-pad button right twice to scroll past the 'SETTINGS' menu to see the credits roll 4 names at a time.
 
 Kickstarter backers that selected a Special Edition Thumby were able to submit one 16 character name (or something) on the credits list per Special Edition Thumby purchased. To view the full credits list, you can connect Thumby to the <a href="https://code.thumby.us/" target="_blank" alt="TinyCircuits Thumby Web Browser Code Editor page">**Thumby Code Editor**</a> and view the credits.txt file from the 'filesystem' directory.
 

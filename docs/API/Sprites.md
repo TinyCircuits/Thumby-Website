@@ -34,7 +34,7 @@
 
 ---
 
-`Sprite.setFrame(frame)` | sets the current `frame` index of the sprite animation. Needs to be used manually to progress animation, framerate handled by `thumby.display.update()`. Returns none, all parameters required.
+`Sprite.setFrame(frame)` | sets the current `frame` index of the sprite animation. Needs to be used manually to progress animation, frame rate handled by `thumby.display.update()`. Returns none, all parameters required.
 
 * `frame`
     * type: int

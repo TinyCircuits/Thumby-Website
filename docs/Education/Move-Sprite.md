@@ -8,7 +8,7 @@ thumby.display.fill(0) # Fill canvas with black pixels to 'clear' the screen
 thumby.display.update()
 ```
 
-This next example will show a spaceship sprite that moves around the screen depending on which buttons on the D-pad are pressed, up, down, left, and right. A combination of 2 buttons being pressed will move the sprite between the two directions - so your sprite can move 8 directions using just 4 buttons!
+This next example will show a spaceship sprite that moves around the screen depending on which buttons on the d-pad are pressed, up, down, left, and right. A combination of 2 buttons being pressed will move the sprite between the two directions - so your sprite can move 8 directions using just 4 buttons!
 
 Note that the spaceship will move off the screen with this code snippet since there is no bounding logic. Check out the [bounded ball page](Bounded-ball.md) for more information on keeping a sprite within view. 
 
@@ -16,7 +16,7 @@ Note that the spaceship will move off the screen with this code snippet since th
 ![Bouncing ball](/images/move-ship-sprite.gif)
 </center>
 <center>
-*Spaceship moving around using D-pad buttons*
+*Spaceship moving around using d-pad buttons*
 </center>
 
 ```py

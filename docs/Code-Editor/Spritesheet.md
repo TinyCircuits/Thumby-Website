@@ -1,6 +1,6 @@
 # Import Spritesheet
 
-Animations are important for gameplay and aesthethic appearance. One of the best ways to animate a Sprite or graphic is to use a spritesheet with all the different frames of animation in one place.
+Animations are important for gameplay and aesthetic appearance. One of the best ways to animate a Sprite or graphic is to use a spritesheet with all the different frames of animation in one place.
 
 ---
 
@@ -32,7 +32,7 @@ To frame the frames you'd like to import, you'll need to edit the number of fram
 *Sprite altered x and y count*
 </center>
 
-Then, change the Frame width and height(px) values to match the frames. You can divide the total width of pixels, in this case 250, by 'X frame count' 5 to get the correct 'Frame width (px)', and do the same for the height - 90 / 2 = 45 for the 'Frame height (px)'. If your frames are offset or aren't fitting using this method - use the arrows for the 'X and Y grid offset' or the 'X and Y grid gap' values to get the frame values that work for you.
+Then, change the Frame width and height (px) values to match the frames. You can divide the total width of pixels, in this case 250, by 'X frame count' 5 to get the correct 'Frame width (px)', and do the same for the height - 90 / 2 = 45 for the 'Frame height (px)'. If your frames are offset or aren't fitting using this method - use the arrows for the 'X and Y grid offset' or the 'X and Y grid gap' values to get the frame values that work for you.
 
 Note: Spritesheets, and therefore sprites that are too big (larger than 72x40) will not fully display on the Thumby screen. Depending on the number and size of frames, you may get a memory error. Resize your image to smaller pixel values to solve this issue.
 

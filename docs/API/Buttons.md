@@ -1,15 +1,15 @@
 # Button Input
 
-There are 6 total individual buttons available to use as input for Thumby. 4 directional buttions for up, down, left, and right, and there are two action buttons. Multiple buttons can be combined to add more button actions to gameplay.
+There are 6 total individual buttons available to use as input for Thumby. 4 directional buttons for up, down, left, and right, and there are two action buttons. Multiple buttons can be combined to add more button actions to gameplay.
 
 ### Objects
 
 * `thumby.buttonA` | for accessing A button (right red button)
 * `thumby.buttonB` | for accessing B button (left red button)
-* `thumby.buttonU` | for accessing up direction on DPAD
-* `thumby.buttonD` | for accessing down direction on DPAD
-* `thumby.buttonL` | for accessing left direction on DPAD
-* `thumby.buttonR` | for accessing right direction on DPAD
+* `thumby.buttonU` | for accessing Up direction on d-pad
+* `thumby.buttonD` | for accessing Down direction on d-pad
+* `thumby.buttonL` | for accessing Left direction on d-pad
+* `thumby.buttonR` | for accessing Right direction on d-pad
 
 ### Methods
 * `thumby.buttonX.pressed()` 
@@ -23,9 +23,9 @@ There are 6 total individual buttons available to use as input for Thumby. 4 dir
 * `inputJustPressed()`
     * Returns true if any buttons were just pressed on the thumby.
 * `dpadPressed()`
-    * Returns true if any dpad buttons are currently pressed on the thumby.
+    * Returns true if any d-pad buttons are currently pressed on the thumby.
 * `dpadJustPressed()`
-    * Returns true if any dpad buttons were just pressed on the thumby.
+    * Returns true if any d-pad buttons were just pressed on the thumby.
 * `actionPressed()`
     * Returns true if either action button is pressed on the thumby.
 * `actionJustPressed()`

@@ -18,8 +18,8 @@ Leave the port blank for the first upload - it will be set later
 2. Open an example using `File -> Examples -> Thumby -> ThumbySimpleExample`
 3. Put Thumby into BOOTSEL mode:
     1. Turn Thumby off
-    2. Press and hold the down DPAD direction
-    3. Turn Thumby on while continuing to hold the down DPAD direction
+    2. Press and hold the down d-pad direction
+    3. Turn Thumby on while continuing to hold the down d-pad direction
     4. Wait for a file explorer to pop up on the computer or for the "RPI-RP2" volume to automatically mount
     5. Click "Upload" in the top left of the IDE and wait for the "Done uploading" message above the console
     6. Select `Tools -> Port: -> XXX(Raspberry Pi Pico)` (select the port marked as a pico)
