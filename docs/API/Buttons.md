@@ -61,7 +61,7 @@ dpadSpr = thumby.Sprite(21, 21, dpadMap, 10, 10)
 while(True):
     thumby.display.fill(0) # Fill canvas to black
     
-    # draw the dpad sprite first so the text is placed over it
+    # draw the d-pad sprite first so the text is placed over it
     thumby.display.drawSprite(dpadSpr) 
     
     # Up, down, left, right, and action a, and b button movement logic

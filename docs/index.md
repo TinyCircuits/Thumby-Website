@@ -113,10 +113,10 @@ Check out our [**documentation for the Arduino C/C++ library**](/CCPP/API-Refere
   <li><b>Processor</b>: Raspberry Pi Pico RP2040 Processor</li>
   <li><b>Memory</b> 2MB total storage</li>
   <li><b>Connectivity</b> micro USB for programming & multiplayer using <b>Thumby Link cable</b></li>
-  <li><b>Outputs</b> 72x40 Monochrome OLED Display, Piezo Speaker</li>
+  <li><b>Outputs</b> 72×40 px Monochrome OLED Display, Piezo Speaker</li>
   <li><b>Inputs</b> 6 tactile buttons (4-way d-pad, 2 action buttons)</li>
   <li><b>Power</b> Power switch, 40mAh Rechargeable LiPo Battery, ~2 hours of gameplay</li>
-  <li><b>Dimensions</b> 1.2" X 0.7" X 0.3" (29.5mm x 18mm x 8.5mm) - Sturdy polycarbonate plastic case with a built-in rechargeable battery and buzzer</li>
+  <li><b>Dimensions</b> 1.2 × 0.7 × 0.3" (29.5 × 18 × 8.5mm) - Sturdy polycarbonate plastic case with a built-in rechargeable battery and buzzer</li>
   <li><b>Programming</b> MicroPython using the Thumby Code Editor or Arduino Code Editor - create your own games! </li>
   <li>Multiplayer support via <b>Thumby Link cable</b></li>
 </ul>

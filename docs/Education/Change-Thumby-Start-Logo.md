@@ -4,7 +4,7 @@ To change the start up logos, you will need an image to replace the TinyCircuits
 
 - **TClogo.bin**
 
-      - The TinyCircuits logo flashes momentarily on the screen when turning the Thumby on. There is nothing else on the screen at this point, so you can use the full screen dimensions for a replacement: 72x40 pixels
+      - The TinyCircuits logo flashes momentarily on the screen when turning the Thumby on. There is nothing else on the screen at this point, so you can use the full screen dimensions for a replacement: 72×40 pixels
 
 - **thumbyLogo.bin**
 
@@ -62,7 +62,7 @@ Save your image file to the lib/ directory and whatever you name it in this step
 
 ## Replace Thumby Logo
 
-Since the image we made earlier is 72x40 pixels, it will work best as the start up logo, or the _TClogo.bin_. Rename the _TCLogo.bin_ to something like _orig-TCLogo.bin_ to signify that it is the original logo. Rename the .bin image file you saved in the previous step to _TClogo.bin_:
+Since the image we made earlier is 72×40 pixels, it will work best as the start up logo, or the _TClogo.bin_. Rename the _TCLogo.bin_ to something like _orig-TCLogo.bin_ to signify that it is the original logo. Rename the .bin image file you saved in the previous step to _TClogo.bin_:
 
 <center>
 ![Rename sprite sheet](/images/logo-sprite-sheet-rename.jpg)
