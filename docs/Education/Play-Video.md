@@ -75,7 +75,7 @@ From there, you can move the black track to a separate _Output_ and extend it to
 ![Shotcut add black color](/images/Shotcut-black-track-background.JPG)
 </center>
 
-The last filter to add would be _Crop: Source_ to remove the YouTube watermark and resize the video to better fit the Thumby screen dimensions of 72x40 pixels:
+The last filter to add would be _Crop: Source_ to remove the YouTube watermark and resize the video to better fit the Thumby screen dimensions of 72×40 pixels:
 
 <center>
 ![Shotcut crop source filter applied](/images/Shotcut-crop-filter.jpg)

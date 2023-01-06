@@ -35,7 +35,7 @@ Once your game is in a state where you are ready to share it with everyone and p
 
 * *GameName/GameName.py* - The main file of your game that references any other files, like a .bin or .raw image you use in the game - include all files needed for your main game file to work!
 * *GameName/arcade_description.txt* - Include the title of your game, a short description, your name, and the version of your game. Add any instructions important to play your game. This text is displayed when hovering over your game in the Thumby Arcade.
-* *GameName/arcade_title_video.webm* - A .webm video of gameplay. Use the video camera 🎥 button in the Emulator panel of the Thumby Code Editor Website to record a .webm of gameplay. Zoom in to at least 8x to provide a good quality video. The zoom factor displays in the bottom left of the Emulator.
+* *GameName/arcade_title_video.webm* - A .webm video of gameplay. Use the video camera 🎥 button in the Emulator panel of the Thumby Code Editor Website to record a .webm of gameplay. Zoom in to at least 8× to provide a good quality video. The zoom factor displays in the bottom left of the Emulator.
 
 ---
 

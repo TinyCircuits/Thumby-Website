@@ -21,7 +21,7 @@ Use these screen dimension constants in place of the actual pixel dimensions of 
 
 `thumby.display.update()` | updates screen at frames-per-second (FPS) specified by 
 
-`thumby.display.setFPS(...)`. This function will block updates to maintain the set FPS setting. Default framerate 0 (non-limited). Returns `None`
+`thumby.display.setFPS(...)`. This function will block updates to maintain the set FPS setting. Default frame rate 0 (non-limited). Returns `None`
 
 --- 
 

@@ -39,18 +39,18 @@ Connect your Thumby using the "CONNECT THUMBY" button at the top of the Code Edi
 ## Game Design Basics
 
 
-The Thumby screen is a monochrome OLED with 72x40 drawable pixels. With this in mind, complex game graphics like those seen in modern games are not very possible with the limitations of the screen. Creating smaller game sprites and limiting text are some of the strategies that make simple games on Thumby work best. The Thumby API font implements a 5x7 character size, which leads to around 12 displayable characters per row, and 5 per column. So a story game with a lot of text may not be right type of game for the Thumby's screen size. 
+The Thumby screen is a monochrome OLED with 72×40 drawable pixels. With this in mind, complex game graphics like those seen in modern games are not very possible with the limitations of the screen. Creating smaller game sprites and limiting text are some of the strategies that make simple games on Thumby work best. The Thumby API font implements a 5×7 character size, which leads to around 12 displayable characters per row, and 5 per column. So a story game with a lot of text may not be right type of game for the Thumby's screen size. 
 
 ### Conceptualizing and Visualizing Your Game
 
 Steps:
 
 1.  Create sample art of what gameplay might look like (if possible) - this will help you get started with creating game elements in the right size that you will need later on - keep in mind that the actual thumby screen is only 0.42" 
-2.  Visualize a 72x40 grid for your game when you start creating sample sprites or art - you can use the bitmap builder available from the Thumby Code Editor to start drafting up some static images of gameplay. 
+2.  Visualize a 72×40 grid for your game when you start creating sample sprites or art - you can use the bitmap builder available from the Thumby Code Editor to start drafting up some static images of gameplay. 
 
 
-<center>![Thumby Code Editor bitmap builder of 72x40](https://cdn.shopify.com/s/files/1/1125/2198/files/image_1_af351171-657d-43c0-a525-28c3f2766846.png?v=1640597713)</center>
-<center>_Thumby Code Editor bitmap builder of 72x40_</center>
+<center>![Thumby Code Editor bitmap builder of 72×40](https://cdn.shopify.com/s/files/1/1125/2198/files/image_1_af351171-657d-43c0-a525-28c3f2766846.png?v=1640597713)</center>
+<center>_Thumby Code Editor bitmap builder of 72×40_</center>
 
 You can make the bitmap builder full screen, zoom in, and draw up some bitmap ideas to help visualize the size and possibilities. Keep in mind that you will eventually want each bitmap, or game element by itself, rather than as a part of a full screen bitmap to keep your game efficient.
 
@@ -243,7 +243,7 @@ while(1):
 
 At this point, you have a moving Game Paddle that can bounce the Ball, the Ball can bounce against all the bounds of the game screen except the bottom of the screen which triggers the "Game Over" screen.
 
-The code is getting pretty long, so let's just add the remaining components separately! You can comfortably fit around 3 rows of 10 bricks on the screen with the brick size 6x3. So we need to display all the bricks and make them able to store the data of being collided or not per each of the 30 bricks. I chose to implement this with a **Brick class** that holds a collision variable, and a function that will delete, or move the **Brick** off the screen when collision is detected.
+The code is getting pretty long, so let's just add the remaining components separately! You can comfortably fit around 3 rows of 10 bricks on the screen with the brick size 6×3. So we need to display all the bricks and make them able to store the data of being collided or not per each of the 30 bricks. I chose to implement this with a **Brick class** that holds a collision variable, and a function that will delete, or move the **Brick** off the screen when collision is detected.
 
 With **Bricks** added to the game, we can keep score of how many are broken to Win the game! We can also add some more functionality to the Game Over menu to restart the game, or take the user back to the main Thumby menu using _thumby.reset()_. These components:
 

@@ -176,7 +176,7 @@ For your project to show up on the Thumby game select screen, there needs to be 
 ![Thumby Code Editor screenshot of file system and emulation](/images/Editor-upload.jpg)
 <center>*Setup before clicking 'Upload'*</center>
 
-Now click the 'Upload' button on the bottom of the Filesystem panel, disconnect Thumby, power cycle it (turn off and on), use down on the Thumby dpad to find your project, click the left button to select and execute your main project file.
+Now click the 'Upload' button on the bottom of the Filesystem panel, disconnect Thumby, power cycle it (turn off and on), use down on the Thumby d-pad to find your project, click the left button to select and execute your main project file.
 
 If the above code was used, the below animation will play after selecting 'HelloWorld' in the Thumby select screen:
 

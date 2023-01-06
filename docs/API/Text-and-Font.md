@@ -28,7 +28,7 @@ Text is important for communication, scores, and displaying the title of a game.
 ## Setting Font
 
 
-You can use any font you would like with the Thumby. The default font on the Thumby is 5x7, but there is also an 8x8 font included with the Thumby software under the lib/ folder. 
+You can use any font you would like with the Thumby. The default font on the Thumby is 5×7, but there is also an 8×8 font included with the Thumby software under the lib/ folder. 
 
 `thumby.display.setFont(fontFilePath, width, height, space)` | sets the `fontFilePath` pointing to binary font file with character `width`, `height`, and `space` between characters for use by `thumby.display.drawText(...)`. Returns None, all parameters required.
 
