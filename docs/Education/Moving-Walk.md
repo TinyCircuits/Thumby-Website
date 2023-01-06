@@ -1,6 +1,6 @@
-# Walk Animation 
+# Walk Animation
 
-A walk cycle animation consists of a few or several different frames of the movements involved in walking. For a 2-legged human, there may be 2 frames of the right leg moving forward as the left leg moves further back. With different sprites that may have more legs or none at all, you may have to get creative with a walking animation! 
+A walk cycle animation consists of a few or several different frames of the movements involved in walking. For a 2-legged human, there may be 2 frames of the right leg moving forward as the left leg moves further back. With different sprites that may have more legs or none at all, you may have to get creative with a walking animation!
 
 Here's an example of a simple cat walking:
 
@@ -33,7 +33,7 @@ thumby.display.setFPS(8)
 
 while(True):
     thumby.display.fill(1) # Fill canvas to white
-    
+
     # Display the sprite frames & increase the frame counter
     catSpr.setFrame(catSprCtr)
     thumby.display.drawSprite(catSpr)
@@ -43,7 +43,7 @@ while(True):
 
 ## Moving Background
 
-With just the walking animation, it doesn't look like the cat is actually walking anywhere. With a moving, or scrolling, background we can add more movement to the scene. Here's a scrolling background:
+With just the walking animation, it doesn't look like the cat is actually walking anywhere. With a moving, or scrolling, background we can add more movement to the scene. Here's a scrolling background that uses two full length screen Sprites (Thumby's screen is 72 pixels wide) that are displayed next to each other to look like one long background:
 
 <center>
 ![scrolling background](/images/scrolling-background.gif)
@@ -72,7 +72,7 @@ bg2Spr = thumby.Sprite(72, 30, bg2)
 bgSpr.x = 0
 bg2Spr.x = 72
 
-# Set the FPS 
+# Set the FPS
 thumby.display.setFPS(60)
 
 # Used to keep track of loops and timing when the backgrounds should scroll
@@ -80,24 +80,23 @@ scrollCtr = 0
 
 while(True):
     thumby.display.fill(1) # Fill canvas to white
-    
+
     # Scrolling background
     scrollCtr += 1
     if(scrollCtr % 8 == 0):
         bgSpr.x -= 1
         bg2Spr.x -= 1
-    
+
     # Re-place the x coordinate of backgrounds when they're unseen
     if (bg2Spr.x == 0):
         bgSpr.x = 72
     if (bg2Spr.x == -72):
         bg2Spr.x = 72
-    
+
     thumby.display.drawSprite(bgSpr)
     thumby.display.drawSprite(bg2Spr)
     thumby.display.update()
 ```
-
 
 ## Walking Animation On Moving Background
 
@@ -147,24 +146,24 @@ bg2Spr.x = 72
 # Set the FPS (without this call, the default fps is 30)
 thumby.display.setFPS(60)
 
-# You can set the FPS lower, or you can alter the timing of the animations 
+# You can set the FPS lower, or you can alter the timing of the animations
 # and movement using simple counters and the modulo operator
 scrollCtr = 0
 catSprCtr = 0
 
 while(True):
     thumby.display.fill(1) # Fill canvas to white
-    
+
     # Scrolling background
     scrollCtr += 1
     if(scrollCtr % 8 == 0): # Move the background every 8 loops
         bgSpr.x -= 1
         bg2Spr.x -= 1
-        
+
         catSprCtr += 1
         if(catSprCtr >= 5): # There are 6 frames in the list, in the placement 0-5
             catSprCtr = 0
-            
+
     # Re-place the x coordinate of backgrounds when they're unseen
     if (bg2Spr.x == 0):
         bgSpr.x = 72
@@ -178,5 +177,3 @@ while(True):
     thumby.display.drawSprite(catSpr)
     thumby.display.update()
 ```
-
-
