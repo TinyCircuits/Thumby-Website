@@ -54,7 +54,9 @@ while(True):
 
 * `color`
     * type: int
-    * values: 0 or 1 (nothing/black or white)
+    * values: 0 or 1 -- where 0 is black or an unlit pixel, and 1 is white or a lit pixel
+
+***Note: where*** `color` ***is mentioned in the Thumby API docs,*** `color` ***refers to 0 being a black (unlit) pixel, and the value 1 refers to a white (lit) pixel.***
 
 #### Fill Screen Example
 

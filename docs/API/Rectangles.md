@@ -36,7 +36,7 @@
   - values: 0 ~ 39
 - `color`
   - type: int
-  - values: 0 or 1
+  - values: 0 or 1 -- where 0 is black or an unlit pixel, and 1 is white or a lit pixel
 
 ---
 

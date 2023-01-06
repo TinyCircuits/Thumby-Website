@@ -14,7 +14,7 @@ Setting and getting the state of pixels can be useful for effects like snow, rai
     * values: 0 (top) ~ 39 (bottom)
 * `color`
     * type: int
-    * values: 0 or 1
+    * values: 0 or 1 -- where 0 is black or an unlit pixel, and 1 is white or a lit pixel
 
 `thumby.display.getPixel(x, y)` | gets value of pixel at `x` and `y`. Returns int (0 or 1), all parameters required.
 

@@ -16,7 +16,7 @@
     * values: 0 (top) ~ 39 (bottom)
 * `color`
     * type: int
-    * values: 0 or 1
+    * values: 0 or 1 -- where 0 is black or an unlit pixel, and 1 is white or a lit pixel
 
 ---
 

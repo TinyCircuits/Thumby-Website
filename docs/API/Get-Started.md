@@ -12,6 +12,9 @@ import thumby
     * type: string
     * values: 1.0 ~ limitless (increased for changes to library)
 
+---
+
+***Note: where*** `color` ***is mentioned in the Thumby API docs,*** `color` ***refers to 0 being a black (unlit) pixel, and the value 1 refers to a white (lit) pixel.***
 
 ---
 
