@@ -100,6 +100,23 @@ Navigate to the [**Code Editor documentation**](/Code-Editor/Get-Started/) to le
 
 ---
 
+<h2>Play & program using Blockly</h2>
+
+<section>
+
+<p>
+If you are new to programming and want to get started without touching a line of code, the Code Editor comes with <a href="https://developers.google.com/blockly/" target="_blank" alt="Blockly Documentation"><b>Blockly</b></a> mode, which lets you program visually with interlocking blocks! It couldn't be easier to get started programming games on the Thumby using the same kind of programming interface from <a href="https://hourofcode.com/" target="_blank" alt="Hour of Code site"><b>Hour of Code</b></a> and <a href="https://scratch.mit.edu/" target="_blank" alt="Scratch site"><b>Scratch</b></a>! You can even publish the games you make to the Thumby Arcade, just like with MicroPython!
+
+</p>
+
+<center><img src="images/Blockly-hello.png" style="width:100%" alt="Thumby blockly image"></center>
+
+</section>
+
+Navigate to the [**Thumby Blockly tutorials**](Blockly/The-Basics/) to learn more.
+
+---
+
 ## Play & program using Arduino C/C++
 
 Check out our [**documentation for the Arduino C/C++ library**](/CCPP/API-Reference/) created for use with Thumby. 

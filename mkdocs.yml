@@ -32,6 +32,14 @@ nav:
       - Bounded Sprite: Education/Bounded-ball.md
       - Customize Thumby Logos: Education/Change-Thumby-Start-Logo.md
       - Video Animation: Education/Play-Video.md
+  - Blockly Tutorials:
+      - The Basics: Blockly/The-Basics.md
+      - The Simplest Game: Blockly/Simplest-Game.md
+      - Making Sprites: Blockly/Making-Sprites.md
+      - Drawing and Dynamics: Blockly/Drawing-And-Dynamics.md
+      - Working with Fonts: Blockly/Working-With-Fonts.md
+      - Saving High Scores: Blockly/Saving-High-Scores.md
+      - Publish Your Game: Blockly/Publish-Your-Game.md
   - Thumby Arduino C/C++:
       - Setting up environment: CCPP/Environment-Setup.md
       - Uploading sketches: CCPP/Uploading-Sketches.md
