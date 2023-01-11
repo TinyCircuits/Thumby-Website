@@ -2,6 +2,8 @@
 
 There are 6 total individual buttons available to use as input for Thumby. 4 directional buttons for up, down, left, and right, and there are two action buttons. Multiple buttons can be combined to add more button actions to gameplay.
 
+Use the `.pressed()` functions to detect if a button is actively being pressed - this function will detect the button press continuously. Use the `.justPressed()` functions for a single button press and not continuously - for example, when navigating a menu you want the menu to move once per button click.
+
 ### Objects
 
 * `thumby.buttonA` | for accessing A button (right red button)

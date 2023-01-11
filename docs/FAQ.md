@@ -4,6 +4,22 @@ If one of the below options doesn't answer your question(s), you can post on the
 
 ---
 
+### Grayscale on Thumby
+
+**Why are/is the grayscale games/library malfunctioning on my Thumby?**
+
+> *Disclaimer: This library is not currently maintained nor guaranteed by the TinyCircuits team, use it as an external resource at your own discretion.*
+
+The <a href="https://github.com/Timendus/thumby-grayscale" target="_blank" alt="Thumby grayscale library by Timendus, Doogle, Fuglaro">**Thumby Grayscale library**</a> uses a timing hack with the SSD1306 chip to create a grayscale effect, but this displayability is not guaranteed on all Thumby OLED screens. Some screens may need further individual calibration to work with the grayscale library and games, but this is still undergoing inspection and testing by community members with no guarantee of a full solution in the future. 
+
+To report issues, or report findings or fixes, please use the <a href="https://github.com/Timendus/thumby-grayscale" target="_blank" alt="Thumby grayscale library by Timendus, Doogle, Fuglaro">**GitHub repository Issues and Pull Requests**</a>. For more information on current status or updates, refer to previous <a href="https://discord.gg/3nmqb37bJ8" target="_blank" alt="Thumby grayscale discussions on discord">**Discord**</a> discussions before asking questions that may have already been addressed previously in the server.
+
+
+
+This is an ongoing community effort so we appreciate your continued patience and the dedication of the ***Grayscale Brain Titans*** working on bringing grayscale functionality to all Thumbys!
+
+---
+
 ### Code Editor Connection
 
 **Why is my Thumby not connecting to the Web Code Editor?**
