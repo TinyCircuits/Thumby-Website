@@ -77,6 +77,7 @@ while(True):
     # draw the d-pad sprite first so the text is placed over it
     thumby.display.drawSprite(dpadSpr)
     
+    # If the action buttons or the D-pad buttons are held, say so
     if thumby.isPressed(thumby.buttonMaskA | thumby.buttonMaskB):
         thumby.display.drawText("Action", 33, 32, 1)
     if thumby.isPressed(thumby.buttonMaskU | thumby.buttonMaskD | thumby.buttonMaskL | thumby.buttonMaskR):
