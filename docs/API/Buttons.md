@@ -12,6 +12,12 @@ Use the `.pressed()` functions to detect if a button is actively being pressed -
 * `thumby.buttonD` | for accessing Down direction on d-pad
 * `thumby.buttonL` | for accessing Left direction on d-pad
 * `thumby.buttonR` | for accessing Right direction on d-pad
+* `thumby.buttonMaskA` | binary mask for the A button (literal 32)
+* `thumby.buttonMaskB` | binary mask for the B button (literal 16)
+* `thumby.buttonMaskU` | binary mask for the Up direction (literal 4)
+* `thumby.buttonMaskD` | binary mask for the Down direction (literal 8)
+* `thumby.buttonMaskL` | binary mask for the Left direction (literal 1)
+* `thumby.buttonMaskR` | binary mask for the Right direction (literal 2)
 
 ### Methods
 * `thumby.buttonX.pressed()` 
@@ -32,6 +38,10 @@ Use the `.pressed()` functions to detect if a button is actively being pressed -
     * Returns true if either action button is pressed on the thumby.
 * `actionJustPressed()`
     * Returns true if either action button was just pressed on the thumby.
+* `isPressed(mask)`
+    * Returns true if any of the buttons in the binary mask are currently pressed on the thumby.
+* `isJustPressed(mask)`
+    * Returns true if any of the buttons in the binary mask were just pressed on the thumby.
 
 
 ---
@@ -49,6 +59,7 @@ This example uses an instance of a Sprite object and some rectangles to create t
 
 ```py
 # Written by: Laveréna Wienclaw, Feb 2022
+# Updated by Mason Watmough, Jan 2023
 import thumby
 
 # BITMAP: width: 21, height: 21
@@ -64,7 +75,12 @@ while(True):
     thumby.display.fill(0) # Fill canvas to black
     
     # draw the d-pad sprite first so the text is placed over it
-    thumby.display.drawSprite(dpadSpr) 
+    thumby.display.drawSprite(dpadSpr)
+    
+    if thumby.isPressed(thumby.buttonMaskA | thumby.buttonMaskB):
+        thumby.display.drawText("Action", 33, 32, 1)
+    if thumby.isPressed(thumby.buttonMaskU | thumby.buttonMaskD | thumby.buttonMaskL | thumby.buttonMaskR):
+        thumby.display.drawText("D-pad", 1, 32, 1)
     
     # Up, down, left, right, and action a, and b button movement logic
     if thumby.buttonU.pressed():
