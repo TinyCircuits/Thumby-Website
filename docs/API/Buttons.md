@@ -24,24 +24,24 @@ Use the `.pressed()` functions to detect if a button is actively being pressed -
     * Returns True if `thumby.buttonX` is currently pressed
     * Returns False otherwise (replace `buttonX` by any of the above button objects)
 * `thumby.buttonX.justPressed()`
-    * Returns True if the last button pressed was `thumby.buttonX`
+    * Returns True if buttonX was newly pressed on the thumby in the current frame update.
     * Returns False otherwise (replace `buttonX` by any of the above button objects)
 * `inputPressed()`
     * Returns true if any buttons are currently pressed on the thumby.
 * `inputJustPressed()`
-    * Returns true if any buttons were just pressed on the thumby.
+    * Returns true if any buttons were newly pressed on the thumby in the current frame update.
 * `dpadPressed()`
     * Returns true if any d-pad buttons are currently pressed on the thumby.
 * `dpadJustPressed()`
-    * Returns true if any d-pad buttons were just pressed on the thumby.
+    * Returns true if any d-pad buttons were newly pressed on the thumby in the current frame update.
 * `actionPressed()`
     * Returns true if either action button is pressed on the thumby.
 * `actionJustPressed()`
-    * Returns true if either action button was just pressed on the thumby.
+    * Returns true if either action button was newly pressed on the thumby in the current frame update.
 * `isPressed(mask)`
     * Returns true if any of the buttons in the binary mask are currently pressed on the thumby.
 * `isJustPressed(mask)`
-    * Returns true if any of the buttons in the binary mask were just pressed on the thumby.
+    * Returns true if any of the buttons in the binary mask were newly pressed on the thumby in the current frame update.
 
 
 ---
