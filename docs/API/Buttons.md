@@ -24,7 +24,7 @@ Use the `.pressed()` functions to detect if a button is actively being pressed -
     * Returns True if `thumby.buttonX` is currently pressed
     * Returns False otherwise (replace `buttonX` by any of the above button objects)
 * `thumby.buttonX.justPressed()`
-    * Returns True if buttonX was newly pressed on the thumby in the current frame update.
+    * Returns True if `buttonX` was newly pressed on the thumby in the current frame update.
     * Returns False otherwise (replace `buttonX` by any of the above button objects)
 * `inputPressed()`
     * Returns true if any buttons are currently pressed on the thumby.
