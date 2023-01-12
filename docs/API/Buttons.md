@@ -12,12 +12,12 @@ Use the `.pressed()` functions to detect if a button is actively being pressed -
 * `thumby.buttonD` | for accessing Down direction on d-pad
 * `thumby.buttonL` | for accessing Left direction on d-pad
 * `thumby.buttonR` | for accessing Right direction on d-pad
-* `thumby.buttonMaskA` | binary mask for the A button (literal 32)
-* `thumby.buttonMaskB` | binary mask for the B button (literal 16)
-* `thumby.buttonMaskU` | binary mask for the Up direction (literal 4)
-* `thumby.buttonMaskD` | binary mask for the Down direction (literal 8)
-* `thumby.buttonMaskL` | binary mask for the Left direction (literal 1)
-* `thumby.buttonMaskR` | binary mask for the Right direction (literal 2)
+* `thumby.buttonMaskA` | button mask for the A button (literally the integer 32)
+* `thumby.buttonMaskB` | button mask for the B button (literally the integer  16)
+* `thumby.buttonMaskU` | button mask for the Up direction (literally the integer  4)
+* `thumby.buttonMaskD` | button mask for the Down direction (literally the integer  8)
+* `thumby.buttonMaskL` | button mask for the Left direction (literally the integer 1)
+* `thumby.buttonMaskR` | button mask for the Right direction (literally the integer 2)
 
 ### Methods
 * `thumby.buttonX.pressed()` 
@@ -29,19 +29,19 @@ Use the `.pressed()` functions to detect if a button is actively being pressed -
 * `inputPressed()`
     * Returns true if any buttons are currently pressed on the thumby.
 * `inputJustPressed()`
-    * Returns true if any buttons were newly pressed on the thumby in the current frame update.
+    * Returns true if any buttons were newly pressed on the thumby since `thumby.display.update()` was last called.
 * `dpadPressed()`
     * Returns true if any d-pad buttons are currently pressed on the thumby.
 * `dpadJustPressed()`
-    * Returns true if any d-pad buttons were newly pressed on the thumby in the current frame update.
+    * Returns true if any d-pad buttons were newly pressed on the thumby since `thumby.display.update()` was last called.
 * `actionPressed()`
     * Returns true if either action button is pressed on the thumby.
 * `actionJustPressed()`
-    * Returns true if either action button was newly pressed on the thumby in the current frame update.
+    * Returns true if either action button was newly pressed on the thumby since `thumby.display.update()` was last called.
 * `isPressed(mask)`
-    * Returns true if any of the buttons in the binary mask are currently pressed on the thumby.
+    * Returns true if any of the buttons in the button mask are currently pressed on the thumby.
 * `isJustPressed(mask)`
-    * Returns true if any of the buttons in the binary mask were newly pressed on the thumby in the current frame update.
+    * Returns true if any of the buttons in the button mask were newly pressed on the thumby since `thumby.display.update()` was last called.
 
 
 ---
@@ -105,4 +105,3 @@ while(True):
     thumby.display.update()
 
 ```
-
