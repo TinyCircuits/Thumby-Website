@@ -44,7 +44,7 @@ This image could be improved by resizing it with photo editing software to maint
 
 ## Save .bin Image to Thumby filesystem
 
-For this step, please make sure your Thumby is connected to the Code Editor. If you are not sure what that means, please go through the [**Getting Started tutorial**](https://thumby.us/Code-Editor/Get-Started/) for the Thumby Code Editor.
+For this step, please make sure your Thumby is connected to the Code Editor. If you are not sure what that means, please go through the [**Getting Started with Thumby tutorial**](/Code-Editor/Get-Started/ "Thumby getting started tutorial") for the Thumby Code Editor.
 
 You will need to save the .bin file you have created to the Thumby filesystem. Press _File_ and then _Save as to Thumby_.
 

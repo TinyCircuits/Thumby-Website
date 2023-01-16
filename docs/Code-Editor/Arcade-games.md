@@ -2,7 +2,7 @@
 
 This tutorial will show you how to download and add games to your Thumby hardware from the Arcade in the [**Thumby Editor Code Editor**](https://code.thumby.us/ "Thumby Editor")! 
 
-*Go through the [**Getting Started with Thumby Tutorial**](https://tinycircuits.com/blogs/learn/thumby-getting-started-tutorial "Thumby getting started tutorial") before continuing with this tutorial so that you are familiar with how to emulate games and how to connect your Thumby to the Code Editor.*
+*Go through the [**Getting Started with Thumby tutorial**](/Code-Editor/Get-Started/ "Thumby getting started tutorial") before continuing with this tutorial so that you are familiar with how to emulate games and how to connect your Thumby to the Code Editor.*
 
 
 ---
@@ -22,13 +22,13 @@ A few mentions of awesome game developers:
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/dEVXW3sdPtM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 <center>*Caution: This one has some mature language that may not be suited for all ages*</center>
 
-Play all the games you want - be sure to check back occasionally to see new games that get added to the Arcade! [_**Learn how to submit your own**_](https://tinycircuits.com/blogs/learn/thumby-tutorial-submitting-a-game "How to submit thumby games using GitHub tutorial").
+Play all the games you want - be sure to check back occasionally to see new games that get added to the Arcade! [_**Learn how to submit your own**_](https://thumby.us/Code-Editor/Submit-Game/ "How to submit thumby games using GitHub tutorial").
 
 ---
 
 ## Download Games to Thumby Hardware
 
-If you are unsure on how to connect your Thumby to the Web Code Editor, please go through the **[Getting Started tutorial](https://tinycircuits.com/blogs/learn/thumby-getting-started-tutorial "thumby getting started tutorial")** to learn or refresh your memory. 
+If you are unsure on how to connect your Thumby to the Web Code Editor, please go through the **[Getting Started tutorial](https://thumby.us/Code-Editor/Get-Started/ "thumby getting started tutorial")** to learn or refresh your memory. 
 
 ![connect thumby to web code editor button screenshot](/images/editor-connect-thumby.jpg)
 

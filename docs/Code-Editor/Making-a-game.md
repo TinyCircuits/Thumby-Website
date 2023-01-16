@@ -2,7 +2,7 @@
 
  This tutorial will show you how to make a game to the in the [**Thumby Code Editor**](https://code.thumby.us/ "Thumby Editor")!
 
-To get some background on the features of the Thumby Code Editor, please go through the **[Thumby Getting Started Tutorial](https://tinycircuits.com/blogs/thumby/building-a-game-with-the-thumby-ide?_pos=3&_sid=e70ee7a2a&_ss=r "Thumby getting started with the Code Editor tutorial")**. The rest of this tutorial assumes you are familiar with the tool!
+To get some background on the features of the Thumby Code Editor, please go through the [**Getting Started with Thumby tutorial**](/Code-Editor/Get-Started/ "Thumby getting started tutorial"). The rest of this tutorial assumes you are familiar with the tool!
 
 ---
 
