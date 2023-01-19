@@ -22,7 +22,7 @@ As an example, let's use the name "**HelloBlockly**".
 
 To properly name your game, you must set the path of the Blockly file so that it matches a specific convention.
 
-The path must follow the convention: `/Games/MyGameName/MyGameName.py`
+The path must follow the convention: `/Games/MyGameName/MyGameName.blocks`
 
 **⚠ Note**: *Your game name should not have any spaces in it. Please use underscores (`_`) instead of spaces*
 
@@ -32,9 +32,9 @@ The path must follow the convention: `/Games/MyGameName/MyGameName.py`
 
 Try changing the **Game Name** below to see what you should put for the **Set Path**:
 
-**Game Name:** <input type="text" value="HelloBlockly" style="border:solid" onkeyup="document.getElementById('pathResult').innerHTML = ('/Games/'+this.value+'/'+this.value+'.py').replace(/ /g, '')">
+**Game Name:** <input type="text" value="HelloBlockly" style="border:solid" onkeyup="document.getElementById('pathResult').innerHTML = ('/Games/'+this.value+'/'+this.value+'.blocks').replace(/ /g, '')">
 <br>
-**Set Path:** <code class="md-typeset code" id="pathResult">/Games/HelloBlockly/HelloBlockly.py</code>
+**Set Path:** <code class="md-typeset code" id="pathResult">/Games/HelloBlockly/HelloBlockly.blocks</code>
 
 ---
 

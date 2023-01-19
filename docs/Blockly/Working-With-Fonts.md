@@ -129,7 +129,7 @@ You can see both switching the default fonts, and working with custom fonts in t
 ![Thumby TinyCalc](../images/editor-blockly-tiny-calc.png)
 </center>
 
-Try this yourself by downloading these [**blocks here**](../TinyCalc-blocks.py) and using **IMPORT FROM PC**!
+Try this yourself by downloading these [**blocks here**](../TinyCalc.blocks) and using **IMPORT FROM PC**!
 
 As a challenge, try to add wider font spacing gaps between the selectable keypad keys to make them easier to read!
 

@@ -665,7 +665,7 @@ Here are all the blocks for all of these things combined together:
 ![Editor blockly geo blits bird blocks](../images/editor-blockly-geo-blits-all-bird-blocks.png)
 ![Editor blockly geo blits bullet blocks](../images/editor-blockly-geo-blits-all-bullet-blocks.png)
 
-You can download all these [**blocks here**](../GeoBlitz-blocks.py).
+You can download all these [**blocks here**](../GeoBlitz.blocks).
 
 ---
 
