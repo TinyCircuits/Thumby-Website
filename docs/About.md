@@ -1,4 +1,4 @@
-# About Us
+## About Us
 
 We are <a href="https://tinycircuits.com/" target="_blank" alt="TinyCircuits homepage">**TinyCircuits**</a>, and we specialize in making small electronics for makers and hobbyists. 
 
@@ -11,7 +11,7 @@ We are <a href="https://tinycircuits.com/" target="_blank" alt="TinyCircuits hom
 *TinyCircuits' tiny & mighty team*
 </center>
 
-We house our own manufacturing operation in Akron, OH, where we assemble, test, and ship all of our products. 
+We house our own manufacturing operation in Akron, OH, where we assemble, test, and ship all our products. 
 
 TinyCircuits is a supporter of open-source hardware and software and believes collaboration leads to faster innovation. Our products are all open-source and released under the Creative Commons Share-Alike 3.0 License. We are a proud supporter of the Open Source Hardware Association and have helped sponsor the Open Hardware Summit since 2013.
 
@@ -19,7 +19,7 @@ Our mission is to make cool stuff!
 
 <a href="https://www.youtube.com/watch?v=-kd26o7dds8" target="_blank" alt="TinyCircuits Thumby Article Blog"><b>*Learn more about our company and space with this short video tour of our office by the YouTube channel HackMakeMod.*</b></a>
 
-<!-- If you want to help us build open source software, feel free to submit pull requests to any of our repositories on GitHub. If you want to update information or add tutorials to this website, you can submit tutorials and changes at the Thumby Documentation site GitHub Repository. -->
+To help us build open source software, submit pull requests to any of our repositories on <a href="https://github.com/TinyCircuits" target="_blank" alt="TinyCircuits Github account source code"><b>GitHub</b></a>. If you want to update information or add tutorials to this website, you can submit tutorials and changes at the <a href="https://github.com/TinyCircuits/Thumby-Website" target="_blank" alt="TinyCircuits Thumby Documentation site source code"><b>Thumby Documentation site GitHub Repository</b></a>.
 
 ----
 
