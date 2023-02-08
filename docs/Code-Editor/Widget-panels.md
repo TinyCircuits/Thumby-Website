@@ -63,7 +63,7 @@ A simple drawing interface to create and edit code bitmaps. Left click to draw b
 ---
 ## Code Editor
 
-Where code is written and displayed. By default, the editor will have a Thumby sprite animation program preloaded in it. If you have several editor tabs open, the little green arrow on the top right of the Editor window will display any hidden editors when clicked. 
+Where code is made and displayed. By default, the editor will have a Thumby sprite animation program preloaded in it. The editor comes in two flavors, MicroPython (the default) for text based coding, and Blockly for visual block programming. If you have several editor tabs open, the little green arrow on the top right of the Editor window will display any hidden editors when clicked.
 
 * FILE:
 
@@ -72,9 +72,12 @@ Where code is written and displayed. By default, the editor will have a Thumby s
     * SAVE TO THUMBY: upload your file to the Thumby filesystem to the current path (set path via SET PATH). 
     * SAVE AS TO THUMBY: choose a new path/location on the Thumby filesystem to save the file to, then upload your file to the Thumby filesystem. You can also rename your file this way. 
     * SET PATH: User can set desired Thumby filesystem path to save the file to. You can also rename your file this way. 
-    * To create a new Code Editor file, use UTILITIES-> MAKE NEW GAME.
+    * NEW TAB: Open a new empty editor tab for MicroPython coding.
+    * NEW BLOCKLY TAB: Open a new empty editor tab for Blockly programming.
+    * You can also create new Code Editor MicroPython file, using UTILITIES-> MAKE NEW GAME.
 
-* VIEW: Change display of Editor. Adjust and reset font size. Toggle live autocomplete.
+* VIEW: Change display of Editor. Adjust and reset font size. Toggle live autocomplete (MicroPython only).
+* OPEN PYTHON: Open a new editor tab with the contents of the Blockly program converted to MicroPython (Blockly only).
 * FAST EXECUTE: When pressed, will execute a single file at the root level of a connected Thumby device. 
 * EMULATION: Click both the white and red checkbox to test the file in the Emulator. The white box uploads the file (script) to the emulator’s filesystem. The red box designates a script as the main script to run. Because of how Thumby works, only 1 file (main script, red checkbox) can be executed at a time. However, users may want to include other files that are not the main script during emulation (e.g. binary sprite files or other modules). Check the white box for those supplementary files. 
 
