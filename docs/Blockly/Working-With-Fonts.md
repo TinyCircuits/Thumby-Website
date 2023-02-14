@@ -10,7 +10,7 @@ To switch between the default fonts, you can use the following block from the **
 
 <img src="../../images/editor-blockly-set-font-block.png" alt="[set font]" style="height:2.0em">
 
-Any <img src="../../images/editor-blockly-draw-text-block.png" alt="[draw text]" style="height:3.6em"> block that runs after that one, will show with the selected font.
+Any <img src="../../images/editor-blockly-draw-text-block.png" alt="[draw text]" style="height:3.6em"> block that runs after that one, will display with the selected font.
 
 See it in action below:
 
@@ -23,11 +23,11 @@ See it in action below:
 
 ## Font Spacing
 
-Fonts come with gaps between each letter so it is easier to read. These have a default width of 1 pixel. You can change the following block, which can be found in the **Graphics** category.
+Fonts come with gaps between each letter so they are easier to read. These have a default width of 1 pixel. You can change the following block, which can be found in the **Graphics** category to alter the font gap:
 
 <img src="../../images/editor-blockly-setFont-gap-block.png" alt="[set font gap]" style="height:2.0em">
 
-Just like with the <img src="../../images/editor-blockly-set-font-block.png" alt="[set font]" style="height:2.0em"> block, any <img src="../../images/editor-blockly-draw-text-block.png" alt="[draw text]" style="height:3.6em"> block that runs after that one, will show with the specified font gap width.
+Just like with the <img src="../../images/editor-blockly-set-font-block.png" alt="[set font]" style="height:2.0em"> block, any <img src="../../images/editor-blockly-draw-text-block.png" alt="[draw text]" style="height:3.6em"> block that runs after the font gap block, will display with the specified font gap width.
 
 See it in action below:
 
@@ -40,27 +40,27 @@ See it in action below:
 
 ## Making Custom Fonts
 
-You can make your own Fonts using Sprites made in the Bitmap Builder. See the [Making Sprites Tutorial](../Making-Sprites) to see how to make and load Sprites.
+You can make your own fonts using sprites made in the **Bitmap Builder**. See the [**Making Sprites Tutorial**](../Making-Sprites/) to see how to make and load sprites.
 
-Font Sprites are just Sprites that are arranged in a specific way.
+Font sprites are just sprites that are arranged in a specific way.
 
-Here is an example of a Font Sprite loaded in the Bitmap Builder:
+Here is an example of a font sprite loaded in the **Bitmap Builder**:
 
 <center>
-![Thumby Bitmap Builder With Font](../images/editor-bitmap-builder-font-dark.jpg)
+![Thumby Bitmap Builder With Font loaded](../images/editor-bitmap-builder-font-dark.jpg)
 </center>
 
 ---
 
-To use a Sprite as a Font, first you make sure it is loaded into a <img src="../../images/editor-blockly-sprite-block.png" alt="[load sprite]" style="height:2.4em"> block using the **EXPORT** button.
+To use a sprite as a font, first you make sure it is loaded into a <img src="../../images/editor-blockly-sprite-block.png" alt="[load sprite]" style="height:2.4em"> block, by selecting the block with your cursor and clicking the **EXPORT** button in the **Bitmap Builder**.
 
 Then you can apply it as the active font using the following block which can be found in the **Graphics** category:
 
 <img src="../../images/editor-blockly-set-font-with-sprite-block.png" alt="[set font with sprite]" style="height:2.0em">
 
-You have to tell that block the width and height of the characters (not of the whole image) in the font, otherwise the Thumby won't know how to extract out the letters, numbers, and symbols correctly! Make sure to **update** the **width x height** details where it says **5 x 7**.
+You have to tell that block the width and height of the characters (not of the whole image) in the font, otherwise the Thumby won't know how to extract out the letters, numbers, and symbols correctly! Make sure to **update** the **"width x height"** details where it says **"5 x 7"**.
 
-**⚠ Note**: *If you don't set the width and height of the font characters correctly then the text will come out all garbled!*
+**⚠ Note**: *If you don't set the width and height of the font characters correctly, the text will come out all garbled!*
 
 See it in action below:
 
@@ -122,14 +122,14 @@ Don't forget to load it back onto your <img src="../../images/editor-blockly-spr
 
 ## TinyCalc Example
 
-You can see both switching the default fonts, and working with custom fonts in the TinyCalc program from the Arcade. The full set of blocks can be seen below.
+You can see both examples for switching the default fonts and working with custom fonts in the TinyCalc program from the <a href="https://arcade.thumby.us/" target="_blank" alt="Thumby code editor arcade"**Thumby Arcade**></a> . The full set of blocks can be seen below:
 
 <center>
 ![Thumby TinyCalc blocks](../images/editor-blockly-tiny-calc-blocks.png)
 ![Thumby TinyCalc](../images/editor-blockly-tiny-calc.png)
 </center>
 
-Try this yourself by downloading these [**blocks here**](../TinyCalc.blocks) and using **IMPORT FROM PC**!
+Try out TinyCalc yourself by [**downloading the blocks here**](../TinyCalc.blocks) and using **IMPORT FROM PC** to select the downloaded file!
 
 As a challenge, try to add wider font spacing gaps between the selectable keypad keys to make them easier to read!
 

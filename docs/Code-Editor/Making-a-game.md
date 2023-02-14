@@ -390,7 +390,7 @@ At this point, you have a functional game that can be submitted to the Thumby Ar
 
 After adding everything else, this is arguably the simplest step, but it adds a lot to the gaming experience! You can choose to compose an entire backtrack song that plays for the course of your game, or you can just add a few key sound effects where interactions happen. 
 
-Using the Thumby API function _thumby.audio.play(freq, duration, duty)_ you can play a tone at a frequency between 20Hz - 20,000Hz at a duration in milliseconds. You could technically play frequencies up to 125,000,000Hz, but humans can only hear sounds between around 20Hz and 20,000Hz - any higher than that and perhaps a dog or bat will be able to hear the sound effects, but not you! To get an idea on what some Hz values may sound like, you can find many YouTube videos that feature the spectrum of sounds:
+Using the Thumby API function _thumby.audio.play(freq, duration, duty)_ you can play a tone at a frequency between 20Hz - 20,000Hz at a duration in milliseconds. You could technically play frequencies up to 125,000,000Hz, but humans can only hear sounds between around 20Hz and 20,000Hz - any higher than that and perhaps a dog or bat will be able to hear the sound effects, but not you! To get an idea of what some Hz values may sound like, you can find many YouTube videos that feature the spectrum of sounds:
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/qNf9nzvnd1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 

@@ -14,7 +14,7 @@ This tutorial will get you stared with visual block programming in the Thumby Co
 ![Thumby blockly selection screenshot](../images/editor-blockly-selection-dark.jpg)
 </center>
 
-* You should now have an editor with some example blocks shown. Don't worry if you missed this, you can still open a new one with UTILITIES -> WIDGETS -> + BLOCKLY EDITOR:
+* You should now have an editor with some example blocks shown. Don't worry if you missed this, you can still open a new one with **UTILITIES** -> **WIDGETS** -> + **BLOCKLY EDITOR**:
 
 <center>
 ![Thumby hello blockly screenshot](../images/editor-hello-blockly-dark.jpg)
@@ -131,7 +131,11 @@ Nice! Now we are ready to start adding our own blocks!
 
 To add blocks to the workspace, we need to get the blocks from somewhere! In Blockly, all the blocks are neatly organized inside the *toolbox*.
 
-**Links:** *If you would like to learn more about some of the blocks in Blockly, there is great interactive tutorial here:* [**Learn Block Coding**](https://learnblockcoding.com/) *which explains all about the blocks in the toolbox categories Logic, Loops, Maths, Text, Lists, Variables, and Functions. There are also some fun interactive tutorials here:* [**Blockly Games**](https://blockly.games/turtle) *which let's you get familiar with connecting blocks together with some different blocks that do some fun things.*
+**Links:** *If you would like to learn more about some of the blocks in Blockly, there is great interactive tutorial here:* <a href="https://learnblockcoding.com/" target="_blank" alt="Block programming tutorials">**Learn Block Coding**</a> *which explains all about the blocks in the toolbox categories Logic, Loops, Maths, Text, Lists, Variables, and Functions. There are also some fun interactive tutorials here:* <a href="https://blockly.games/turtle" target="_blank" alt="Interactive progress game tutorial using blockly">**Blockly Games**</a> *which let's you get familiar with connecting blocks together with some different blocks that do some fun things.*
+
+
+
+
 
 You can see the toolbox here:
 
@@ -243,8 +247,6 @@ Connecting blocks like this underneath each other makes a *do something* block r
 
 **Hint:** *Blockly supports shortcuts to help make and arrange blocks quickly. Here are some useful ones:*
 
----
-
 * *Copy selected block:* **Ctrl**+**c**
 * *Paste copied block:* **Ctrl**+**v**
 * *Undo last change:* **Ctrl**+**z**
@@ -274,13 +276,13 @@ The emulator is super helpful for quickly testing your programs but it is even m
 
 * Turn your Thumby on (switch the top power switch to the right when looking at the screen), and connect it to your PC using a Micro USB Cable.
 
-* Click **'CONNECT THUMBY'** at the top:
+* Click **CONNECT THUMBY** at the top:
 
 <center>
 ![Connecting thumby on web browser Code Editor](../images/editor-blockly-connect-thumby.jpg)
 </center>
 
-* Select the device in the pop-up menu, and then click 'Connect':
+* Select the device in the pop-up menu, and then click **Connect**:
 
 <center>
 ![Selecting thumby device using the web browser Code Editor](../images/editor-blockly-connect-thumby-serial.jpg)
@@ -300,10 +302,10 @@ We can now test the program on it!
 
 ### Testing
 
-* Click the **'↻ FAST EXECUTE'** button just above the Blockly workspace:
+* Click the **↻ FAST EXECUTE** button just above the Blockly workspace:
 
 <center>
-![Thumby Fast Execute Screengrab](../images/editor-blockly-fast-execute-shell.jpg)
+![Thumby Fast Execute Screen capture](../images/editor-blockly-fast-execute-shell.jpg)
 </center>
 
 If all goes well, you should very briefly see the "Thumby says: Hello Blockly!" message showing on the display! Your Thumby automatically resets at the end of your program.
@@ -330,8 +332,6 @@ If you would like to see the message for longer, try snapping a <img src="../../
 
 Any code written in the Code Editor is saved to your local web storage, so refreshing or closing the Code Editor webpage won't erase your saved work.
 
----
-
 **⚠ Note**: *Please avoid the few ways you could lose your work unless you have saved:*
 
 * **DON'T**: Hard reset the page (UTILITIES -> HARD RESET PAGE)
@@ -346,7 +346,7 @@ You can save your work by saving blockly files to your PC. Use **FILE -> EXPORT 
 ![Thumby export to pc dark mode screenshot](../images/editor-export-to-pc-blockly-dark.jpg)
 </center>
 
-You can load it again later from the same menu by opening a new Blockly tab with **'NEW BLOCKLY TAB'**, and then clicking **'IMPORT FROM PC'**
+You can load it again later from the same menu by opening a new Blockly tab with **NEW BLOCKLY TAB**, and then clicking **IMPORT FROM PC**
 
 ---
 
@@ -354,14 +354,18 @@ You can load it again later from the same menu by opening a new Blockly tab with
 
 Most of the Code Editor interface works the same for MicroPython and Blockly, so you can learn more about it all here: [**Code Editor Docs: Getting Started - First Program**](../../Code-Editor/Get-Started/).
 
-**⚠ Note**: *The* **'IMPORT SPRITE'** *button at the top of the Code Editor isn't usable for Blockly. We will show the way to make Sprites for Blockly in the next tutorial.*
+**⚠ Note**: *The* **IMPORT SPRITE** *button at the top of the Code Editor isn't usable for Blockly. We will show the way to make Sprites for Blockly in the next tutorial.*
 
 ---
 
-If you get stuck, you can always ask for some help from the Thumby Discord community channel found here: **[TinyCircuits Discord](https://discord.gg/vzf3wQXVvm "Link to join the TinyCircuits Discord")**.
+If you get stuck, you can always ask for some help from the Thumby Discord community channel found here: <a href="https://discord.gg/vzf3wQXVvm" target="_blank" alt="Link to join the TinyCircuits Discord">**TinyCircuits Discord**</a>, post on the TinyCircuits forum, or get in touch with TinyCircuits customer support.
+
+You can post on the <a href="http://forum.tinycircuits.com/" target="_blank" alt="Tinycircuits forum">**TinyCircuits Forum**</a>, or get in touch with <a href="https://tinycircuits.com/pages/contact-us" target="_blank" alt="Send a message to tinycircuits support on this page">**TinyCircuits Customer Support**</a> for product, order, or technical questions.
+
+If you want to chat about making new games or ask some new pals to test your game, the <a href="https://discord.gg/vzf3wQXVvm" target="_blank" alt="Tinycircuits Discord">**TinyCircuits Discord**</a> is a great place for real time conversations about Thumby and other TinyCircuits products! TinyCircuits Admins are available on the Discord, but please ask individual questions through our customer support portal so we can best assist you. 😊
 
 ---
 
 When you are ready, head on over to the next tutorial to start with the basics for making games!
 
-[**Next Tutorial: The Simplest Game**](../Simplest-Game/)
+[**Next Tutorial: The Simplest Game**](../Simplest-Game/ "Thumby Blockly Tutorial for making a game")

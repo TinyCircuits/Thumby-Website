@@ -1,4 +1,4 @@
-## Sprite
+# Sprites
 
 
 `thumby.Sprite(width, height, bitmapData, x, y, key, mirrorX, mirrorY)` | initialize sprite object with fixed frame `width` and `height` for frames in `bitmapData`, positioned at `x` and `y`, and rendered to screen mirrored depending on, `mirrorX` and `mirrorY`. Transparent pixels are defined by `key` (e.g. `key = 0` means black pixels are not drawn/are transparent). Returns Sprite.
@@ -50,7 +50,7 @@ The Thumby API has a builtin function for drawing rectangles, but there's nothin
 ![Bouncing ball](/images/lots-of-Sprites.jpg)
 </center>
 <center>
-*Background, and small Sprite examples!*
+*Background, and small sprite examples!*
 </center>
 
 ```py

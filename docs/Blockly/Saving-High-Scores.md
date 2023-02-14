@@ -1,11 +1,11 @@
 
 # Saving High Scores
 
-In this tutorial we will show you how to save persistent data on your Thumby, so you can store information like high scores and save games for the next time you play.
+In this tutorial we will show you how to save persistent data on your Thumby, so you can store information like high scores and save game progress for the next time you play.
 
 ---
 
-You may have noticed that whenever you restart a game, all the variables and data is reset to their original values. It can be useful to be able to save data that persists even after you restart the Thumby device.
+You may have noticed that whenever you restart a game, all the variables and data is reset to their original values. It can be useful to be able to save data that persists even after you power off or restart the Thumby device.
 
 Take a look at the **Saves** category in the Blockly toolbox. In there, you will find blocks that help you save data for things like high scores and save games.
 
@@ -17,7 +17,7 @@ Here are some of the blocks you can use:
 
 * <img src="../../images/editor-blockly-is-save-set-block.png" alt="[is save set]" style="height:1.6em"> - A conditional which checks if there was a previous data save.
 * <img src="../../images/editor-blockly-get-save-block.png" alt="[get save]" style="height:1.6em"> - Retrieve the previous data save.
-* <img src="../../images/editor-blockly-save-block.png" alt="[save]" style="height:2.0em"> - Save some data.
+* <img src="../../images/editor-blockly-save-block.png" alt="[save]" style="height:1.8em"> - Save some data.
 
 ---
 
@@ -29,7 +29,7 @@ You will notice that all these blocks default to saving a "*high score*" save. T
 
 Data that you save with the <img src="../../images/editor-blockly-save-block.png" alt="[save]" style="height:2.0em"> block will be retrievable by any <img src="../../images/editor-blockly-get-save-block.png" alt="[get save]" style="height:1.6em"> block with a matching save name. It will still be there even after the game restarts!
 
-**⚠ Note**: *Save data won't persist after a restart when running in the Emulator. Save data only persists after restart when running on a real Thumby device, like with FAST EXECUTE.*
+**⚠ Note**: *Save data won't persist after a restart when running in the Emulator. Save data only persists after restart when running on a real Thumby device, like with **FAST EXECUTE**.*
 
 ---
 
@@ -60,13 +60,13 @@ It doesn't check if the saved data exists the second time that it gets the saved
 The first time that you run it, you will see the default 0 value for one second...
 
 <center>
-![Thumby blockly zero screen](../images/editor-blockly-zero-screen.png)
+<img src="/images/editor-blockly-zero-screen.png" width="50%" height="50%" alt="Thumby blockly zero screen"  />
 </center>
 
 ... and then the saved 99 "high score" data.
 
 <center>
-![Thumby blockly 99 screen](../images/editor-blockly-99-screen.png)
+<img width="50%" height="50%" alt="Thumby blockly 99 screen" src="/images/editor-blockly-99-screen.png" />
 </center>
 
 ### Second Run
@@ -74,7 +74,7 @@ The first time that you run it, you will see the default 0 value for one second.
 The second time that you run it (if you are running it on a real Thumby device), you will see the saved 99 "high score" data right from the start!
 
 <center>
-![Thumby blockly 99 screen](../images/editor-blockly-99-screen.png)
+<img width="50%" height="50%" alt="Thumby blockly 99 screen" src="/images/editor-blockly-99-screen.png" />
 </center>
 
 ---

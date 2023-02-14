@@ -1,6 +1,6 @@
 # Import Spritesheet
 
-Animations are important for gameplay and aesthetic appearance. One of the best ways to animate a Sprite or graphic is to use a spritesheet with all the different frames of animation in one place.
+Animations are important for gameplay and aesthetic appearance. One of the best ways to animate a sprite or graphic is to use a spritesheet with all the different frames of animation in one place.
 
 ---
 
