@@ -9,6 +9,7 @@ nav:
       - Import Sprite(sheet): Code-Editor/Spritesheet.md
       - Making a Game: Code-Editor/Making-a-game.md
       - Submitting a Game to the Arcade: Code-Editor/Submit-Game.md
+      - Share Games: Code-Editor/Share-Games.md
   - MicroPython API:
       - Getting started: API/Get-Started.md
       - Display Basics: API/Graphics.md

@@ -45,7 +45,7 @@ For every game folder, there should be a main python script to run that is the s
 
 To add your game to Thumby, place the game file in */Games/MyNewGame/MyNewGame.py* to add it to the playable Thumby 'GAMES' list. Make sure your python file has the exact same name as the game: i.e. if the game is called *TinyBlocks*, the source file is named *TinyBlocks.py*. The title is case sensitive, so *tinyblocks.py* would not work.
 
-> For more information, check out this page: [**Submitting a Game to the Thumby Arcade**](/Code-Editor/Submit-Game.md)
+> For more information, check out this page: [**Submitting a Game to the Thumby Arcade**](../Code-Editor/Submit-Game.md)
 
 ---
 ## Bitmap Builder
@@ -104,7 +104,7 @@ To upload a file to the emulator, check the white and red checkboxes in the Code
 * 📷: Captures a snapshot of the emulation screen to your computer. 
 * 🎥: Captures a .webm video of the emulation screen to your computer. Press the button to start recording - the button will turn red. Press again to stop. 
 
-*Speed Note: Your code will run faster on the Thumby hardware than on the Emulator. To standardize game speed, make sure to set the [**FPS**](/API/Graphics.md) value in your program.*
+*Speed Note: Your code will run faster on the Thumby hardware than on the Emulator. To standardize game speed, make sure to set the [**FPS**](../API/Graphics.md) value in your program.*
 
 ---
 ## Resizing Widgets
