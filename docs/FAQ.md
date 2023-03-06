@@ -34,7 +34,7 @@ This is an ongoing community effort so we appreciate your continued patience and
     * If Linux or Mac, Save any open documents, then hold the computers' power button down for +3 seconds to turn off, then again to turn it back on.  
 * **Windows 7** users will need to change or install a serial driver in order to connect to Thumby:
     1. Plug the Thumby in and turn it on
-    2. Download the latest .exe from this <a href="https://github.com/pbatard/libwdi/releases" target="_blank" alt="install new serial driver for windows 7 operating system">release page</a> and run it
+    2. Download the latest .exe from this <a href="https://github.com/pbatard/libwdi/releases" target="_blank" alt="install new serial driver for windows 7 operating system">**release page**</a> and run it
     3. Select the Thumby in the top most drop-down
     4. Using the little up/down arrows, switch the driver to 'USB Serial (CDC)'
     5. Click 'Install Driver'

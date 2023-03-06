@@ -17,6 +17,10 @@ Head on over to the [**Play Emulator page**](https://code.thumby.us/play.html), 
 
 If you submitted a game to the [**Thumby Arcade**](https://arcade.thumby.us/), your game will be loaded onto the Play Emulator list of games. And you can share a special link that will load just one game to the online Thumby using the following convention that involves editing the hyperlink:
 
+**Game Name:** <input type="text" value="put_game_title_here" style="border:solid;background-color:#8a8a8a " onkeyup="document.getElementById('pathResult').innerHTML = ('https://code.thumby.us/play.html?game='+this.value)">
+<br>
+**Share link:** <code class="md-typeset code" id="pathResult"> https://code.thumby.us/play.html?game=put_game_title_here</code>
+
 ```
  https://code.thumby.us/play.html?game=put_game_title_here
 ```
