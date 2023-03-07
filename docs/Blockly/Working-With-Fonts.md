@@ -129,7 +129,7 @@ You can see both examples for switching the default fonts and working with custo
 ![Thumby TinyCalc](../images/editor-blockly-tiny-calc.png)
 </center>
 
-Try out TinyCalc yourself by [**downloading the blocks here**](../TinyCalc.blocks) and using **IMPORT FROM PC** to select the downloaded file!
+Try out TinyCalc yourself by [**downloading the TinyCalc example blocks here**](TinyCalc.blocks) and using **IMPORT FROM PC** to select the downloaded file!
 
 As a challenge, try to add wider font spacing gaps between the selectable keypad keys to make them easier to read!
 

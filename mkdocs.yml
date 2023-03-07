@@ -83,10 +83,18 @@ theme:
   features:
     - header.autohide
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top # 'Back to top' button when scrolling up a page
   name: material
+  custom_dir: docs/overrides/
   # icon repo for 'GitHub' repo - but it's actually the Thumby Code Editor
   icon:
     repo: octicons/link-external-16
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 
 # This sheet just has color changes
 extra_css:
@@ -95,26 +103,6 @@ extra_css:
 # Use the github repo feature to link to the Thumby Code Editor
 repo_url: https://code.thumby.us/
 repo_name: Thumby Code Editor
-
-# analytics
-# extra:
-#   analytics:
-#     provider: google
-#     property: UA-118275183-3
-#     # feedback: # this feature is not available yet
-#     #   title: Was this page helpful?
-#     #   ratings:
-#     #     - icon: material/emoticon-happy-outline
-#     #       name: This page was helpful
-#     #       data: 1
-#     #       note: >-
-#     #         Thanks for your feedback!
-#     #     - icon: material/emoticon-sad-outline
-#     #       name: This page could be improved
-#     #       data: 0
-#     #       note: >-
-#     #         Thanks for your feedback! Help us improve this page by
-#     #         using our <a href="https://tinycircuits.com/pages/contact-us" target=_blank>feedback form</a>.
 
 # social footer icons and links
 extra:

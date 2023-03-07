@@ -78,7 +78,7 @@ Where code is made and displayed. By default, the editor will have a Thumby spri
 
 * VIEW: Change display of Editor. Adjust and reset font size. Toggle live autocomplete (MicroPython only).
 * OPEN PYTHON: Open a new editor tab with the contents of the Blockly program converted to MicroPython (Viewable in Blockly Editor only).
-* FAST EXECUTE: When pressed, will execute a single file at the root level of a connected Thumby device. 
+* FAST EXECUTE: When pressed, will execute a file at the root level of a connected Thumby device. This will avoid loading the main game screen menu.
 * EMULATION: Click both the white and red checkbox to test the file in the Emulator. The white box uploads the file (script) to the emulator’s filesystem. The red box designates a script as the main script to run. Because of how Thumby works, only 1 file (main script, red checkbox) can be executed at a time. However, users may want to include other files that are not the main script during emulation (e.g. binary sprite files or other modules). Check the white box for those supplementary files. 
 
 ---
