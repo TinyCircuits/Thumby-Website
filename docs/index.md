@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 <style>
 .button {
   text-align: center;
@@ -106,6 +111,10 @@ Navigate to the [**Code Editor documentation**](/Code-Editor/Get-Started/) to le
 
 <p>
 If you are new to programming and want to get started without touching a line of code, the Code Editor comes with <a href="https://developers.google.com/blockly/" target="_blank" alt="Blockly Documentation"><b>Blockly</b></a> mode, which lets you program visually with interlocking blocks! It couldn't be easier to get started programming games on the Thumby using the same kind of programming interface from <a href="https://hourofcode.com/" target="_blank" alt="Hour of Code site"><b>Hour of Code</b></a> and <a href="https://scratch.mit.edu/" target="_blank" alt="Scratch site"><b>Scratch</b></a>! You can even publish the games you make to the Thumby Arcade, just like with MicroPython!
+</p>
+
+<p>
+Navigate to the <a href="Blockly/The-Basics" alt="Hour of Code site"><b>Thumby Blockly tutorials</b></a> to learn more.
 
 </p>
 
@@ -113,7 +122,7 @@ If you are new to programming and want to get started without touching a line of
 
 </section>
 
-Navigate to the [**Thumby Blockly tutorials**](Blockly/The-Basics/) to learn more.
+
 
 ---
 
@@ -135,7 +144,7 @@ Check out our [**documentation for the Arduino C/C++ library**](/CCPP/API-Refere
   <li><b>Power</b> Power switch, 40mAh Rechargeable LiPo Battery, ~2 hours of gameplay</li>
   <li><b>Dimensions</b> 1.2 × 0.7 × 0.3" (29.5 × 18 × 8.5mm) - Sturdy polycarbonate plastic case with a built-in rechargeable battery and buzzer</li>
   <li><b>Programming</b> MicroPython using the Thumby Code Editor or Arduino Code Editor - create your own games! </li>
-  <li>Multiplayer support via <b>Thumby Link cable</b></li>
+  <li>Multiplayer support via <a href="https://tinycircuits.com/products/thumby-link-cable" target="_blank" alt="cable product page"><b>Thumby Link cable</b></a></li>
 </ul>
 
 ---

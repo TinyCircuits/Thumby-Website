@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+---
+
+
 # Frequently Asked Questions
 
 If one of the below options doesn't answer your question(s), you can post on the <a href="http://forum.tinycircuits.com/" target="_blank" alt="Thumby Tinycircuits forum">**Thumby section of our forum**</a>, or get in touch with <a href="https://tinycircuits.com/pages/contact-us" target="_blank" alt="Send a message to tinycircuits support on this page">**customer support**</a>.
@@ -15,8 +21,23 @@ The <a href="https://github.com/Timendus/thumby-grayscale" target="_blank" alt="
 To report issues, or report findings or fixes, please use the <a href="https://github.com/Timendus/thumby-grayscale" target="_blank" alt="Thumby grayscale library by Timendus, Doogle, Fuglaro">**GitHub repository Issues and Pull Requests**</a>. For more information on current status or updates, refer to previous <a href="https://discord.gg/3nmqb37bJ8" target="_blank" alt="Thumby grayscale discussions on discord">**Discord**</a> discussions before asking questions that may have already been addressed previously in the server.
 
 
-
 This is an ongoing community effort so we appreciate your continued patience and the dedication of the ***Grayscale Brain Titans*** working on bringing grayscale functionality to all Thumbys!
+
+---
+
+### Add More Storage to Thumby
+
+For now, Thumby is limited to 2 MB in storage since the memory chip is built into the hardware. The games are easy to swap in and out and the save files will remain on the Thumby so that you can take games that have saved data off the Thumby without losing high scores or other saved game variables. 
+
+It's possible to remove games from a Thumby to free up storage space by connecting it to the <a href="https://code.thumby.us/" target="_blank" alt="Thumby Code Editor online IDE for chromium browsers"><b>Thumby Code Editor</b></a>  and then right-clicking the game name in the Filesystem panel and then pressing the DELETE option. Then you <a href="/Code-Editor/Arcade-games/" target="_blank" alt="tutorial for adding games to Thumby, including a reference to connecting Thumby to the Code Editor">**can add more games**</a> with the space you've made. 
+
+<center>
+![TinyCircuits Thumby Code Editor Filesystem for Thumby](/images/Delete-game-from-filesystem-screenshot.jpg)
+</center>
+<center>
+*<a href="https://code.thumby.us/" target="_blank" alt="Thumby Code Editor online IDE for chromium browsers"><b>Thumby Code Editor</b></a> Filesystem for Thumby Screenshot with DELETE option*
+</center>
+
 
 ---
 
