@@ -98,7 +98,10 @@ Try re-opening the MicroPython code when you make changes to your blocks to see 
 
 If you make a game, or other Thumby utility/animation/etc., what better thing to do than to share it!
 
-There are a number of ways to share your work, including recording a demo video, sending friends the code to try themselves, getting feedback from the Thumby community on the [**TInyCircuits Discord**](https://discord.gg/vzf3wQXVvm "Link to join the TinyCircuits Discord"), to upload your game to the [**Thumby Arcade**](https://arcade.thumby.us/)! If you get it added to the [**Arcade**](https://arcade.thumby.us/), you can even share it with friends with the [**Online Emulator**](https://code.thumby.us/play.html) - they will be able to emulate and play your game directly on their phone, web editor, or upload it to their own Thumby!
+There are a number of ways to share your work, including recording a demo video, sending friends the code to try themselves, getting feedback from the Thumby community on the [**TInyCircuits Discord**](https://discord.gg/vzf3wQXVvm "Link to join the TinyCircuits Discord"), to upload your game to the [**Thumby Arcade**](https://arcade.thumby.us/)! If you get it added to the [**Arcade**](https://arcade.thumby.us/), you can even share it with friends with the [**Online Emulator**](https://code.thumby.us/play.html) - they will be able to emulate and <a href="/Code-Editor/Share-Games/" target="_blank" alt="PLay any Thumby games on an in-browser emulator">**play your game directly on their phone, web editor**</a>, or upload it to their own Thumby!
+
+
+
 
 ---
 
