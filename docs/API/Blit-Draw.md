@@ -32,7 +32,7 @@
 
 ## Masked bitmaps
 
-`thumby.display.blitWithMask(bitmapData, x, y, width, height, key, mirrorX, mirrorY, maskBitmapData)` | draws pixels defined in `bitmapData` array at `x` and `y` provided the bitmap's `width` and `height` with transparent pixels defined by `key` (e.g. `key = 0` means black pixels are not drawn/are transparent) with possibility of mirroring using `mirrorX` (across x-axis) and `mirrorY` (across y-axis). On conjunction with `key`, use `maskBitmapData` to specify pixels to be transparent (provides per-pixel transparency). Returns None, all parameters required.
+`thumby.display.blitWithMask(bitmapData, x, y, width, height, key, mirrorX, mirrorY, maskBitmapData)` | draws pixels defined in `bitmapData` array at `x` and `y` provided the bitmap's `width` and `height` with transparent pixels defined by black pixels that are transparent and white pixels that are not drawn with possibility of mirroring using `mirrorX` (across x-axis) and `mirrorY` (across y-axis). Use `maskBitmapData` to specify pixels (in black pixels) to be transparent (provides per-pixel transparency). Returns None, all parameters required. Note: `key` is not used, enter 0 for this value when calling the `blitWithMask()` function.
 
 * `bitmapData`
     * type: bytearray
@@ -51,7 +51,7 @@
     * values: 0 ~ 39
 * `key`
     * type: int
-    * values: 0 or 1 (default: -1, both black and white pixels drawn)
+    * values: 0 - this variable is not used, enter 0 as an argument
 * `mirrorX`
     * type: int
     * values: 0 (do not mirror) or 1 (do mirror)
@@ -88,7 +88,7 @@ The resulting graphic with the below code:
 <img src="../../images/blitWithMask-animation.gif" alt="16 by 16 bitmap grid displaying a white circle with black corners shaping the round edges, with a nose in the center of the white circle drawn in black" style="width:30%;border:1px solid black">
 </center>
 
-In this example, using key value `0`, the original bitmap of a square black pixel smiley face is changed to be a round smiley face with a nose by using a mask bitmap to make some of the original bitmap's pixels transparent. 
+The original bitmap of a square black pixel smiley face is changed to be a round smiley face with a nose by using a mask bitmap to make some of the original bitmap's pixels transparent. 
 
 ```py 
 import thumby
