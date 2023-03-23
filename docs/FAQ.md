@@ -40,7 +40,7 @@ sys.path += ['/Games/MyGame']
 from thumbyGrayscale import display
 ```
 
-Once you have thumbyGrayscale.py loaded in a tab in the IDE, you should be able to open the Grayscale Bitmap Builder for convenient creation and editing of grayscale Sprites by selecting **Utilities** -> **Widgets** -> **Grayscale Builder**. The builder looks like this:
+Once you have thumbyGrayscale.py loaded in a tab in the Code Editor, you should be able to open the Grayscale Bitmap Builder for convenient creation and editing of grayscale Sprites by selecting **Utilities** -> **Widgets** -> **Grayscale Builder**. The builder looks like this:
 
 <center>
 ![Grayscale Bitmap Editor displaying an 8x8 pixel grid with lines of black, dark gray, gray, and white repeated twice to fill all 8 lines](/images/Grayscale-Bitmap-builder.JPG)
