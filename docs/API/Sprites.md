@@ -94,3 +94,64 @@ thumby.display.drawSprite(grassSpr)
 
 thumby.display.update()
 ```
+
+---
+
+### Tasty Get and Set Frames Animation example
+
+To animate a sprite, or display different frames of a sprite, you can make a sprite object that includes all the frames and then set the frames as you wish to display them!
+
+<center>
+![Animation of a cooking graphic being bitten and fully eaten with a frame counter for each progressive bite](/images/cookie-bite-frames.gif)
+</center>
+<center>
+*Animating sprites never tasted so good!*
+</center>
+
+```py
+import thumby
+
+# BITMAP: width: 16, height: 16
+# Cookie being eaten!
+cookieWhole = bytearray([240,124,124,254,255,127,63,255,243,241,255,255,126,126,252,240,
+            15,30,62,127,127,255,199,207,255,255,255,111,110,62,63,15])
+cookieBite1 = bytearray([240,124,124,254,255,127,63,255,243,241,255,225,64,0,0,0,
+            15,30,62,127,127,255,199,207,255,255,255,111,110,62,63,15])
+cookieBite2 = bytearray([240,124,112,240,224,64,0,128,128,192,192,192,64,0,0,0,
+            15,30,62,127,127,255,199,207,255,255,255,111,110,62,63,15])
+cookieBite3 = bytearray([0,0,0,0,0,0,0,128,128,192,192,192,64,0,0,0,
+            0,16,48,112,120,248,196,207,255,255,255,111,110,62,63,15])
+cookieBite4 = bytearray([0,0,0,0,0,0,0,0,128,192,192,192,64,0,0,0,
+            0,0,0,0,0,0,0,0,1,31,255,111,110,62,63,15])
+cookieBite5 = bytearray([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+            0,0,0,0,0,0,0,0,0,24,248,104,96,48,48,8])
+cookieGone = bytearray([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+            0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
+            
+      
+# Make a sprite object including all the sprite frames
+cookieSpr = thumby.Sprite(16, 16, cookieWhole+cookieBite1+cookieBite2+cookieBite3+cookieBite4+cookieBite5+cookieGone, 28, 10)
+
+# Counter that will be used to index different frames
+frameCtr = 0
+
+# Set the FPS (without this call, the default fps is 30)
+thumby.display.setFPS(2)
+
+while(True):
+    thumby.display.fill(0) # Fill display with black pixels
+
+    # Display the sprite frames & increase the frame counter
+    cookieSpr.setFrame(frameCtr)
+    thumby.display.drawSprite(cookieSpr)
+    frameCtr += 1 # No need to reset this counter, it will overflow and the setFrame() function will know how to handle it!
+    
+    # Get the frame number and display it
+    frameNum = cookieSpr.getFrame()
+    frameStr = str(frameNum)
+    thumby.display.drawText("Frame:"+frameStr, 14, 31, 1)
+    
+    thumby.display.update()
+
+```
+
