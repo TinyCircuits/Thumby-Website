@@ -28,6 +28,47 @@ This is an ongoing community effort so we appreciate your continued patience and
 
 ---
 
+**How do I start working with grayscale in my game?**
+
+> *Note: You should be comfortable with the <a href="https://thumby.us/API/Get-Started/" alt="Thumby API documentation pages" target="blank">**Thumby MicroPython API**</a> before using grayscale, as much of the grayscale library assumes an intermediate level of knowledge.*
+
+Setting up grayscale involves importing thumbyGrayscale.py, much like thumbyGraphics (you can take the thumbyGrayscale file from the RocketCup game available in the Thumby Arcade and import it from the same folder using the convention):
+
+```py
+import sys
+sys.path += ['/Games/MyGame']
+from thumbyGrayscale import display
+```
+
+Once you have thumbyGrayscale.py loaded in a tab in the IDE, you should be able to open the Grayscale Bitmap Builder for convenient creation and editing of grayscale Sprites by selecting **Utilities** -> **Widgets** -> **Grayscale Builder**. The builder looks like this:
+
+<center>
+![Grayscale Bitmap Editor displaying an 8x8 pixel grid with lines of black, dark gray, gray, and white repeated twice to fill all 8 lines](/images/Grayscale-Bitmap-builder.JPG)
+</center>
+
+This makes dual bitmaps including a normal black and white bitmap, and also a shading bitmap, which can be loaded into a Sprite or blit by passing them in a tuple: (bitmapBW, bitmapSHD). Here is what the above bitmap generates when pressing **Export**.
+
+```py
+# BITMAP: width: 8, height: 8
+bitmap0 = bytearray([204,204,204,204,204,204,204,204])
+bitmap0SHD = bytearray([102,102,102,102,102,102,102,102])
+```
+
+All other drawing functions are the same as in thumbyGraphics() except the color argument in all the functions accept additional values:
+
+* 0 - Black
+* 1 - White
+* 2 - Dark Gray
+* 3 - Light Gray
+
+---
+
+**Is grayscale available in Blockly?**
+
+For now, there are no current plans for grayscale to be adapted into Blockly. But luckily, you can convert Blockly to MicroPython and then add grayscale from there!
+
+---
+
 ### Add More Storage to Thumby
 
 For now, Thumby is limited to 2 MB in storage since the memory chip is built into the hardware. The games are easy to swap in and out and the save files will remain on the Thumby so that you can take games that have saved data off the Thumby without losing high scores or other saved game variables. 
@@ -73,6 +114,8 @@ It's possible to remove games from a Thumby to free up storage space by connecti
     6.	Drag and drop the **ThumbyFirmware.uf2** file to the 'RPI-RP2' device (WARNING: this will delete all Thumby files)
     7.	Turn the Thumby off and on
 
+---
+
 **The Thumby hardware freezes when it connects to the Code Editor, is it broken?**
 
 Not at all! This is natural behavior. The Thumby hardware appears to stop working when you connect it since you can no longer access the game menu, but everything is fine! The screen should display "Thumby Code Editor" when connected as of March 9th, 2022.
@@ -111,6 +154,9 @@ Kickstarter backers that selected a Special Edition Thumby were able to submit o
 Turn on the Thumby and once the "Start" text displays below the Thumby logo, you can scroll down to see the list of games downloaded to the Thumby. There are 5+ games preloaded onto the Thumby.
 
 Select any game with a red action button to start playing. When you want to stop playing or play a different game, turn the Thumby off and back on with the power switch. Thumby will remember the last game you played. When the Thumby is first powered on and the 'Start' text is selected, you can press a red action button to start playing the last game played.
+
+---
+
 
 **How do I add more games?**
 
@@ -154,6 +200,8 @@ Not every game has sound effects, but some of the preloaded games do. You can te
 Thumby takes around 1 hour to completely charge. An indicator LED will turn on from inside the Thumby case to show that the battery is being charged. The LED will turn off when the battery is fully charged. The LED is located to the left of the micro USB connector.
 
 *Note: The charging LED may be difficult to see through opaque plastic cases. Try turning off the lights in the room you are in if you are having difficulty seeing the LED while charging.*
+
+---
 
 **How long can I play Thumby on a full charge?**
 
