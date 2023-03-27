@@ -83,16 +83,18 @@ while(True):
 
 * `brightness`
     * type: int
-    * values: 0 (off) ~ 127 (max brightness)
+    * values: 1 (lowest brightness) ~ 127 (max brightness)
+
+> Note: The brightness values in the settings menu for Low, Mid, Hi are 1, 28, 127, respectively. 
 
 #### Brightness Example
 
-When uploaded on the Thumby hardware, this example will cycle through the full range of the brightness variable values, 0-127. 
+When uploaded on the Thumby hardware, this example will cycle through the full range of the brightness variable values, 1-127. 
 
 ```py
 import thumby
 
-brightness = 0
+brightness = 1
 thumby.display.setFPS(30)
 thumby.display.fill(1) # fill screen with white pixels
 
@@ -101,5 +103,5 @@ while(True):
     thumby.display.update()
     brightness += 1
     if brightness >= 127:
-        brightness = 0
+        brightness = 1
 ```
