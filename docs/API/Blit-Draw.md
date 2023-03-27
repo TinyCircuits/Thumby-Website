@@ -8,16 +8,16 @@
     * values: each byte consisting of VLSB aligned data where each bit being 1 (white) or 0 (black)
 * `x`
     * type: int
-    * values: 0 (left) ~ 71 (right)
+    * values: *0 (left) ~ 71 (right)
 * `y`
     * type: int
-    * values: 0 (top) ~ 39 (bottom)
+    * values: *0 (top) ~ 39 (bottom)
 * `width`
     * type: int
-    * values: 0 ~ 71
+    * values: *0 ~ 71
 * `height`
     * type: int
-    * values: 0 ~ 39
+    * values: *0 ~ 39
 * `key`
     * type: int
     * values: 0 or 1 (default: -1, both black and white pixels drawn)
@@ -27,6 +27,8 @@
 * `mirrorY`
     * type: int
     * values: 0 (do not mirror) or 1 (do mirror)
+
+> *Note: Width, height, x, and y arguments may be negative or larger than the prescribed values to display graphics either partially or fully off-screen. The above values are meant to reference the on-screen and viewable limits of graphic placement.
 
 --- 
 
@@ -39,16 +41,16 @@
     * values: each byte consisting of VLSB aligned data where each bit being 1 (white) or 0 (black)
 * `x`
     * type: int
-    * values: 0 (left) ~ 71 (right)
+    * values: *0 (left) ~ 71 (right)
 * `y`
     * type: int
-    * values: 0 (top) ~ 39 (bottom)
+    * values: *0 (top) ~ 39 (bottom)
 * `width`
     * type: int
-    * values: 0 ~ 71
+    * values: *0 ~ 71
 * `height`
     * type: int
-    * values: 0 ~ 39
+    * values: *0 ~ 39
 * `key`
     * type: int
     * values: 0 - this variable is not used, enter 0 as an argument
@@ -61,6 +63,7 @@
 * `maskBitmapData`
     * type: bytearray
     * values: each byte consisting of VLSB aligned data where each bit being 1 (transparent) or 0 (not-drawn)
+
 
 
 ### blitWithMask Example

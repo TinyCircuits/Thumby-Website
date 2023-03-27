@@ -5,19 +5,19 @@
 
 * `width`
     * type: int
-    * values: 0 ~ integer max
+    * values: *0 ~ integer max
 * `height`
     * type: int
-    * values: 0 ~ integer max
+    * values: *0 ~ integer max
 * `bitmapData`
     * type: list or string
     * values: bytearray of VLSB data or string (128 ASCII character at max 256 characters long) pointing to binary file location of pixel data
 * `x`
     * type: int
-    * values: 0 (left) ~ 71 (right) (default: 0)
+    * values: *0 (left) ~ 71 (right) (default: 0)
 * `y`
     * type: int
-    * values: 0 (top) ~ 39 (bottom) (default: 0)
+    * values: *0 (top) ~ 39 (bottom) (default: 0)
 * `key`
     * type: int
     * values: 0 or 1 (default: -1, both black and white pixels drawn)
@@ -27,6 +27,8 @@
 * `mirrorY`
     * type: int
     * values: 0 (do not mirror) or 1 (do mirror) (default: 0)
+
+> *Note: Width, height, x, and y arguments may be negative or larger than the prescribed values to display graphics either partially or fully off-screen. The above values are meant to reference the on-screen and viewable limits of graphic placement.
 
 ---
 
