@@ -1,5 +1,7 @@
 # Thumby Code Editor Documentation
 
+Thumby comes loaded with games, you can turn Thumby on and press the down button on the directional-button-pad to see all the games already on the Thumby. You can <a href="Code-Editor/Arcade-games/" alt="download more free games to thumby">**add more games**</a>, or make your own!
+
 This tutorial will show you how to build a basic project, emulate it, and upload it to your Thumby using our online Code Editor!
 
 Any code written in the Code Editor is saved to your local web storage, so refreshing or closing the Code Editor webpage won't erase your saved work. Use Ctrl+S (or Command+S) to save your programs in the Code Editor. These are the only ways you can lose your progress (*avoid doing these!*):
