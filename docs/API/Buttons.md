@@ -12,26 +12,36 @@ Use the `.pressed()` functions to detect if a button is actively being pressed -
 * `thumby.buttonD` | for accessing Down direction on d-pad
 * `thumby.buttonL` | for accessing Left direction on d-pad
 * `thumby.buttonR` | for accessing Right direction on d-pad
+* `thumby.buttonMaskA` | button mask for the A button (literally the integer 32)
+* `thumby.buttonMaskB` | button mask for the B button (literally the integer  16)
+* `thumby.buttonMaskU` | button mask for the Up direction (literally the integer  4)
+* `thumby.buttonMaskD` | button mask for the Down direction (literally the integer  8)
+* `thumby.buttonMaskL` | button mask for the Left direction (literally the integer 1)
+* `thumby.buttonMaskR` | button mask for the Right direction (literally the integer 2)
 
 ### Methods
 * `thumby.buttonX.pressed()` 
     * Returns True if `thumby.buttonX` is currently pressed
     * Returns False otherwise (replace `buttonX` by any of the above button objects)
 * `thumby.buttonX.justPressed()`
-    * Returns True if the last button pressed was `thumby.buttonX`
+    * Returns True if `buttonX` was newly pressed on the thumby in the current frame update.
     * Returns False otherwise (replace `buttonX` by any of the above button objects)
 * `inputPressed()`
     * Returns true if any buttons are currently pressed on the thumby.
 * `inputJustPressed()`
-    * Returns true if any buttons were just pressed on the thumby.
+    * Returns true if any buttons were newly pressed on the thumby since `thumby.display.update()` was last called.
 * `dpadPressed()`
     * Returns true if any d-pad buttons are currently pressed on the thumby.
 * `dpadJustPressed()`
-    * Returns true if any d-pad buttons were just pressed on the thumby.
+    * Returns true if any d-pad buttons were newly pressed on the thumby since `thumby.display.update()` was last called.
 * `actionPressed()`
     * Returns true if either action button is pressed on the thumby.
 * `actionJustPressed()`
-    * Returns true if either action button was just pressed on the thumby.
+    * Returns true if either action button was newly pressed on the thumby since `thumby.display.update()` was last called.
+* `isPressed(mask)`
+    * Returns true if any of the buttons in the button mask are currently pressed on the thumby.
+* `isJustPressed(mask)`
+    * Returns true if any of the buttons in the button mask were newly pressed on the thumby since `thumby.display.update()` was last called.
 
 
 ---
@@ -49,6 +59,7 @@ This example uses an instance of a Sprite object and some rectangles to create t
 
 ```py
 # Written by: Laveréna Wienclaw, Feb 2022
+# Updated by Mason Watmough, Jan 2023
 import thumby
 
 # BITMAP: width: 21, height: 21
@@ -64,7 +75,13 @@ while(True):
     thumby.display.fill(0) # Fill canvas to black
     
     # draw the d-pad sprite first so the text is placed over it
-    thumby.display.drawSprite(dpadSpr) 
+    thumby.display.drawSprite(dpadSpr)
+    
+    # If the action buttons or the D-pad buttons are held, say so
+    if thumby.isPressed(thumby.buttonMaskA | thumby.buttonMaskB):
+        thumby.display.drawText("Action", 33, 32, 1)
+    if thumby.isPressed(thumby.buttonMaskU | thumby.buttonMaskD | thumby.buttonMaskL | thumby.buttonMaskR):
+        thumby.display.drawText("D-pad", 1, 32, 1)
     
     # Up, down, left, right, and action a, and b button movement logic
     if thumby.buttonU.pressed():
@@ -88,4 +105,3 @@ while(True):
     thumby.display.update()
 
 ```
-
