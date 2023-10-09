@@ -179,3 +179,21 @@ You can use the **IMAGE** button to open files from your computer. They will be 
 ---
 
 [**Next Tutorial: Drawing and Dynamics**](../Drawing-And-Dynamics/)
+
+---
+
+### Drawing animated sprites
+
+Drag and drop the <img src="../../images/editor-blockly-animated-sprite-block.png" alt="[load animated sprite]" style="height:2.4em"> block wherever you like and load a bitmap containing multiple frames into it using the Bitmap Builder like before. Change the width and height to the size of the frames in the bitmap. The number of frames will be determined automatically.
+
+For example, here's a bitmap that is 24px wide and 8px tall:
+<center>
+![Thumby blockly animated sprite bitmap](../../images/editor-blockly-animated-bitmap-24x8.png)
+</center>
+
+Each frame in the above bitmap is 8x8px and so the block ends up looking like:
+<center>
+![Thumby blockly animated sprite bitmap](../../images/editor-blockly-animated-bitmap-24x8-block.png)
+</center>
+
+This can be combined with the 'set frame number to' block and the rest of the drawing blocks mentioned throughout this tutorial to draw animated sprites!
